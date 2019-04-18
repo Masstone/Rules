@@ -155,13 +155,13 @@ use-keyword-filter = false
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
 🏃 Auto = select, 🏠 SSID, 🐦 VIP Auto
 🛴 Fallback = select, 🐤 VIP HK, 🐤 VIP JP
-🛥 Select = select, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇨🇳 China, 🚀 Direct
+🛥 Select = select, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
 
-🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval=300
-🏠 SSID = ssid, default = 🐦 VIP Auto, cellular = 🐦 VIP Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
+
 
 #代理策略
 🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select
+📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 📘 HBO = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
 📙 Hulu = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
 🎬 Netflix = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
@@ -187,27 +187,34 @@ use-keyword-filter = false
 ☁️ Final = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
 🚀 Direct= select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Direct.list,update-interval=300
 🚦 Ad-Block = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/AD-Block.list,update-interval=300
-
-📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
+🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval=300
+🏠 SSID = ssid, default = 🐦 VIP Auto, cellular = 🐦 VIP Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
 
 # 代理节点 Dler Cloud 
 🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
-🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver
-🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
+🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media
+🐦 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🐤 VIP HK = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 🐤 VIP JP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
-🐦 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=kr,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=ru,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
+
+#🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+
+
+
+
+
+
 
 
 
