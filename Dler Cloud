@@ -184,7 +184,7 @@ use-keyword-filter = false
 🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
 #代理策略
-🚀 Direct= select, 🛶 Direct = direct, ⛵️ Direct = direct, 🚤 Direct = direct
+🚀 Direct= select, policy-path = https://github.com/Masstone/Rules/raw/master/Lists/Direct.list
 🔰 Proxy = select, 🏠 Scene Auto, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🌟 VIP Node, 🐧 Node, 🇪🇺 Europe, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America, 🇨🇳 China，🚀 Direct
 📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 📺 YouTube = select, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
@@ -210,7 +210,7 @@ use-keyword-filter = false
 🎮 Steam = select, 🚀 Direct, 🔰 Proxy
 💠 Domestic = select, 🚀 Direct, 🔰 Proxy
 ☁️ Final = select, 🔰 Proxy, 🚀 Direct
-🚦 Ad-Block = select, 🈚️ Ad-Gif = reject-tinygif, 🈲 Ad-Block = reject, 🈯️ Ad-Pass = direct
+🚦 Ad-Block = select, policy-path = https://github.com/Masstone/Rules/raw/master/Lists/AD-Block.list
 🤖️ Clash = select, policy-path=clash.list,update-interval=300                                      
 🏠 Scene Auto = ssid, default = 🔰 Proxy, cellular = 🔰 Proxy, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
 
