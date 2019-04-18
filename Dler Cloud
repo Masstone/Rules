@@ -193,7 +193,7 @@ use-keyword-filter = false
 # 代理节点 Dler Cloud 
 🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
 🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media
-🐦 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&isp=bgp+azure+gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🐦 VIP Auto = fallback,香港BGP,香港中继,香港GIA,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🐤 VIP HK = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 🐤 VIP JP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
@@ -210,9 +210,9 @@ use-keyword-filter = false
 
 #🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
-
-
-
+香港BGP = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+香港中继 = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+香港GIA = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
 
 #===============================================================================
