@@ -168,34 +168,25 @@ use-keyword-filter = false
 🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 
+🚀 Direct= select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Direct.list,update-interval=300
+🚦 Ad-Block = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/AD-Block.list,update-interval=300
 
-# ssid: 具体哪个子策略将被使用, 根据 Wi-FI 的 SSID 决定
-🏠 SSID = ssid, default = 🐤 VIP HK, cellular = 🐤 VIP HK, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
-
-# 需搭配Clash使用，Clash配置中开启 allow-lan: true
-🤖️ Clash = select, policy-path=https://github.com/Masstone/Rules/raw/master/Lists/Clash.list,update-interval=300
-
-
-🚀 Direct= select, policy-path = https://github.com/Masstone/Rules/raw/master/Lists/Direct.list,update-interval=300
+🏠 SSID = ssid, default = 🐦 VIP Auto, cellular = 🐦 VIP Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
+🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval=300
 
 # url-test: 具体哪个子策略将被使用, 通过测试到具体 URL 的访问速度选择
-🏃 Auto = select, 🏠 SSID, 🐤 VIP HK, 🐤 VIP JP
-#// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
-
+🏃 Auto = select, 🏠 SSID, 🐦 VIP Auto
 # fallback: 具体哪个子策略将被使用, 通过测试到具体 URL 的可用性决定
 🛴 Fallback = select, 🐤 VIP HK, 🐤 VIP JP
-#// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
-
-# select: 具体哪个子策略将被使用, 由用户界面上进行选择
 🛥 Select = select, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇨🇳 China, 🚀 Direct
+#// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
 
-📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🌟 VIP Node, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 
 #代理策略
 🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select
-🚦 Ad-Block = select, policy-path = https://github.com/Masstone/Rules/raw/master/Lists/AD-Block.list,update-interval=300
 📘 HBO = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
 📙 Hulu = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
 🎬 Netflix = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
