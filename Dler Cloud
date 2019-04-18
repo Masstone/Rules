@@ -185,7 +185,7 @@ use-keyword-filter = false
 
 #代理策略
 🚀 Direct= select, policy-path = https://github.com/Masstone/Rules/raw/master/Lists/Direct.list
-🔰 Proxy = select, 🏠 Scene Auto, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🌟 VIP Node, 🐧 Node, 🇪🇺 Europe, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America, 🇨🇳 China，🚀 Direct
+🔰 Proxy = select, 🏠 Scene Auto, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🌟 VIP Node, 🐧 Node, 🇪🇺 Europe, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America, 🇨🇳 China, 🚀 Direct
 📺 Streaming = select, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 📺 YouTube = select, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 🎬 Netflix = select, 🐤 VIP HK, 🐤 VIP JP, 🐦 VIP Auto, 🐧 Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
