@@ -1,4 +1,5 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/ydzydzydz/Rules/master/conf/zhuangzhuang/zhuangzhuang.conf interval=86400
+#!MANAGED-CONFIG https://raw.githubusercontent.com/Masstone/Rules/master/Dler%20Cloud interval=86400
+
 
 
 
@@ -9,6 +10,7 @@
 # 初次导入本地list无效的解决办法：删掉Surge后台，再重新打开
 # 如果无法打开 GitHub，删掉主机名 github.com
 #===============================================================================
+
 
 
 
@@ -34,7 +36,6 @@ external-controller-access = Masstone@0.0.0.0:12345
 allow-wifi-access = true
 
 
-
 // macOS
 interface = 0.0.0.0
 socks-interface = 0.0.0.0
@@ -49,14 +50,12 @@ enhanced-mode-by-rule = false
 show-error-page-for-reject = true
 
 
-
 // iOS
 # HTTP 代理服务端口 (默认值: 6152)   (iOS版)
 wifi-access-http-port = 8888
 
 # SOCKS5 代理服务端口 (默认值: 6152) (iOS版)
 wifi-access-socks5-port = 8889
-
 
 
 // Auto
@@ -85,9 +84,6 @@ test-timeout = 5
 
 
 
-
-
-
 #===============================================================================
 
 # 该段定义抓取流量的过滤
@@ -104,13 +100,6 @@ hide-udp = false
 
 # 使用关键词过滤器（默认值: false）
 use-keyword-filter = false
-
-
-
-
-
-
-
 
 
 
@@ -190,67 +179,43 @@ use-keyword-filter = false
 👽 Hijacking = select, policy-path=https://git.io/fjqkh
 ☁️ Final = select, 🔰 Proxy, 🚀 Direct
 
-
-
 🚀 Direct= select, policy-path=https://raw.githubusercontent.com/ydzydzydz/Rules/master/conf/zhuangzhuang/proxy/direct.list,update-interval=300
-
 # url-test: 具体哪个子策略将被使用, 通过测试到具体 URL 的访问速度选择
 #🏃 Auto = url-test, policy-path=auto.list, url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 #// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
-
 # fallback: 具体哪个子策略将被使用, 通过测试到具体 URL 的可用性决定
 #🛴 Fallback = fallback, policy-path=auto.list, url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 #// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
-
 # select: 具体哪个子策略将被使用, 由用户界面上进行选择
 #🛥 Select = select, policy-path=all.list,update-interval=300
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
-
 # ssid: 具体哪个子策略将被使用, 根据 Wi-FI 的 SSID 决定
 🏠 Scene Auto = ssid, default = 🔰 Proxy, cellular = 🔰 Proxy, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
-
 # 需搭配Clash使用，Clash配置中开启 allow-lan: true
 🤖️ Clash = select, policy-path=clash.list,update-interval=300
 #// clash.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/clash.list
 
 
 # Dler Cloud
-
 🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver
-
 🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
-
 🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
-
 # Auto VIP
 🐦 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 # Fallback HK VIP
 🐤 VIP HK = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204,timeout = 2
-
 # Fallback JP VIP
 🐤 VIP JP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204,timeout = 2
-
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=kr,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=ru,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
 🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
 
@@ -258,16 +223,13 @@ use-keyword-filter = false
 
 #===============================================================================
 
-# 规则定义部分
+# 规则
 [Rule]
 
 # 进入壮壮博客提醒
 DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
 # 从GitHub更新规则集提醒
 AND,((DOMAIN,raw.githubusercontent.com), (USER-AGENT,Surge*)),🚀 Direct,notification-text="规则集更新",notification-interval=3        // 规则更新提醒
-
-
-
 
 # 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mydirect.list,🚀 Direct,update-interval=300                                        // 自定义规则
@@ -398,9 +360,6 @@ RULE-SET,SYSTEM,🚀 Direct                                                     
 RULE-SET,LAN,🚀 Direct                                                                                                                      // 局域网
 GEOIP,CN,💠 Domestic                                                                                                                        // 国内IP
 FINAL,☁️ Final,dns-failed                                                                                                                   // DNS 查询失败走 Final 规则
-
-
-
 
 
 
