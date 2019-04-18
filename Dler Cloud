@@ -210,9 +210,9 @@ use-keyword-filter = false
 
 #🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
-香港BGP = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-香港中继 = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-香港GIA = url-test, policy-path = https://dler.cloud/link/QWERTYUIOP?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+香港BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+香港中继 = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+香港GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
 
 #===============================================================================
