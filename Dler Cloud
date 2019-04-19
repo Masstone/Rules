@@ -239,7 +239,11 @@ DOMAIN,analyticsinsights-pa.googleapis.com,🔰 Proxy
 DOMAIN,analyticsreporting.googleapis.com,🔰 Proxy
 //DOMAIN-SUFFIX,googleapis.cn,🔰 Proxy
 DOMAIN-SUFFIX,vd.l.qq.com,🚀 Direct
-
+# > Apple News
+DOMAIN,gspe1-ssl.ls.apple.com,PROXY
+PROCESS-NAME,News,PROXY
+USER-AGENT,AppleNews*,PROXY
+USER-AGENT,com.apple.news*,PROXY // 可选
 
 # 进入壮壮博客提醒
 DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
@@ -253,8 +257,8 @@ RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myreject.
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mytingif.list,🚦 Ad-Block,update-interval=300                                       // 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myproxy.list,🔰 Proxy,update-interval=300                                          // 自定义规则
 # 特殊代理
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews-region.list,📡 AppleNews,update-interval=300                          // AppleNews 地区限制
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews.list,📰 AppleNews,update-interval=300                                  // AppleNews
+# RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews-region.list,📡 AppleNews,update-interval=300                          // AppleNews 地区限制
+# RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews.list,📰 AppleNews,update-interval=300                                  // AppleNews
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/telegram.list,🛩 Telegram,update-interval=300                                    // Telegram
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/twitter.list,🐦 Twitter,update-interval=300                                     // Twitter
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/facebook.list,👥 Facebook,update-interval=300                                   // Facebook
