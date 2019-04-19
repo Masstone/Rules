@@ -240,39 +240,6 @@ DOMAIN,analyticsreporting.googleapis.com,🔰 Proxy
 //DOMAIN-SUFFIX,googleapis.cn,🔰 Proxy
 DOMAIN-SUFFIX,vd.l.qq.com,🚀 Direct
 
-# 自定义多区域媒体应用
-//FOXPlus
-RULE-SET,https://git.io/fjYwT,📗 FOXPlus
-//HBO
-RULE-SET,https://git.io/fjYwI,📘 HBO
-//Hulu
-RULE-SET,https://git.io/fjYwk,📙 Hulu
-//Bahamut
-RULE-SET,https://git.io/fjYwf,🇨🇳 Taiwan
-//BBC
-RULE-SET,https://git.io/fjYVj,🇬🇧 England
-//Now E
-RULE-SET,https://git.io/fjYw3,🇭🇰 Hong Kong
-//Viu
-RULE-SET,https://git.io/fjYwC,🇭🇰 Hong Kong
-# 海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
-RULE-SET,https://git.io/fjYwe,📺 Streaming
-# 国内流媒体服务加速规则（适用于爱奇艺、哔哩哔哩、动画疯）
-//Biliili
-RULE-SET,https://git.io/fjYwU,👗 Bilibili
-//IQIYI
-RULE-SET,https://git.io/fjYwt,👗 Bilibili
-# Global 全球加速规则
-RULE-SET,https://git.io/fjqkS,🔰 Proxy
-RULE-SET,https://git.io/fjqk9,🛩 Telegram
-# Apple News 服务加速
-RULE-SET,https://git.io/fjYVh,📰 AppleNews
-# Apple 部分服务加速（App Store、Movies、Music）
-RULE-SET,https://git.io/fjqkN,🍎 Apple
-# China 中国直连规则
-RULE-SET,https://git.io/fjqkH,💠 Domestic
-
-
 
 # 进入壮壮博客提醒
 DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
@@ -280,15 +247,11 @@ DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, noti
 AND,((DOMAIN,raw.githubusercontent.com), (USER-AGENT,Surge*)),🚀 Direct,notification-text="规则集更新",notification-interval=3        // 规则更新提醒
 
 
-
-# 自定义规则
+# 壮壮规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mydirect.list,🚀 Direct,update-interval=300                                        // 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myreject.list,🚦 Ad-Block,update-interval=300                                       // 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mytingif.list,🚦 Ad-Block,update-interval=300                                       // 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myproxy.list,🔰 Proxy,update-interval=300                                          // 自定义规则
-
-
-
 # 特殊代理
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews-region.list,📡 AppleNews,update-interval=300                          // AppleNews 地区限制
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews.list,📰 AppleNews,update-interval=300                                  // AppleNews
@@ -307,6 +270,27 @@ RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/unspla
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/soundcloud.list,🎶 SoundCloud,update-interval=300                               // SoundCloud
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/bilibili.list,👗 Bilibili,update-interval=300                                   // Bilibili
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/steam.list,🎮 Steam,update-interval=300                                         // Steam
+
+
+
+# JO2EY规则 
+# 自定义多区域媒体应用
+RULE-SET,https://git.io/fjYwT,📗 FOXPlus                                                                        //FOXPlus
+RULE-SET,https://git.io/fjYwI,📘 HBO                                                                            //HBO
+RULE-SET,https://git.io/fjYwk,📙 Hulu                                                                           //Hulu
+RULE-SET,https://git.io/fjYwf,🇨🇳 Taiwan                                                                         //Bahamut
+RULE-SET,https://git.io/fjYVj,🇬🇧 England                                                                        //BBC
+RULE-SET,https://git.io/fjYw3,🇭🇰 Hong Kong                                                                      //Now E
+RULE-SET,https://git.io/fjYwC,🇭🇰 Hong Kong                                                                      //Viu
+RULE-SET,https://git.io/fjYwe,📺 Streaming                                                                      //海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
+# 国内流媒体服务加速规则（适用于爱奇艺、哔哩哔哩、动画疯）
+RULE-SET,https://git.io/fjYwU,👗 Bilibili                                                                       //Biliili 
+RULE-SET,https://git.io/fjYwt,👗 Bilibili                                                                       //IQIYI
+RULE-SET,https://git.io/fjqkS,🔰 Proxy                                                                          //Global 全球加速规则
+RULE-SET,https://git.io/fjqk9,🛩 Telegram
+RULE-SET,https://git.io/fjYVh,📰 AppleNews                                                                      //Apple News 服务加速
+RULE-SET,https://git.io/fjqkN,🍎 Apple                                                                          //Apple 部分服务加速（App Store、Movies、Music）
+RULE-SET,https://git.io/fjqkH,💠 Domestic                                                                       //China 中国直连规则
 
 
 
@@ -1185,7 +1169,6 @@ ip6-loopback = ::1
 #===============================================================================
 
 [SSID Setting]
-
 # 连接到WiFi名为“wifi-name”时停止Surge
 "wifi-name" suspend=true
 
@@ -1217,11 +1200,8 @@ skip-server-cert-verify = true
 # 是否用于TCP连接
 tcp-connection = false
 
-
 # 主机名
 hostname = googlevideo.com, *.googlevideo.com, shimo.im, *.cnbetacdn.com, *.doubanio.com, *.iydsj.com, *.pstatp.com, *.ydstatic.com, *.youtube.com, 101.201.62.22, 113.105.222.132, 113.96.109.*, 118.178.214.118, 121.14.89.216, 121.9.212.178, 14.21.76.30, 183.232.237.194, 183.232.246.225, 183.60.159.227, 59.37.96.220, 789.kakamobi.cn, a.applovin.com, aarkissltrial.secure2.footprint.net, acs.m.taobao.com, activity2.api.ofo.com, adm.10jqka.com.cn, adproxy.autohome.com.cn, afd.baidu.com, api.app.vhall.com, api.chelaile.net.cn, api.douban.com, api.feng.com, api.fengshows.com, api.gotokeep.com, api.huomao.com, api.jr.mi.com, api.k.sohu.com, api.kkmh.com, api.laifeng.com, api.m.jd.com, api.m.mi.com, api.mddcloud.com.cn, api.smzdm.com, api.tv.sohu.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api5.futunn.com, api-mifit.huami.com, api-mifit-cn.huami.com, app.10086.cn, app.m.zj.chinamobile.com, app.wy.guahao.com, app2.autoimg.cn, appsdk.soku.com, atrace.chelaile.net.cn, c.m.163.com, capi.douyucdn.cn, capi.mwee.cn, cdn.kuaidi100.com, cdn.moji.com, classbox2.kechenggezi.com, client.mail.163.com, connect.facebook.net, consumer.fcbox.com, creatives.ftimg.net, d.1qianbao.com, daoyu.sdo.com, dapis.mting.info, dl.app.gtja.com, dongfeng.alicdn.com, dsp-impr2.youdao.com, e.dangdang.com, erebor.douban.com, fm.fenqile.com, frodo.douban.com, fuss10.elemecdn.com, g1.163.com, gorgon.youdao.com, hm.xiaomi.com, hui.sohu.com, huichuan.sm.cn, i1.hoopchina.com.cn, iface.iqiyi.com, iface2.iqiyi.com, img.jiemian.com, img.zuoyebang.cc, img01.10101111cdn.com, img1.126.net, img1.doubanio.com, img3.doubanio.com, impservice.dictapp.youdao.com, impservice.youdao.com, interface.music.163.com, ios.wps.cn, kano.guahao.cn, lf.snssdk.com, lives.l.qq.com, m.aty.sohu.com, m.client.10010.com, m.ibuscloud.com, m.yap.yahoo.com, m5.amap.com, ma.ofo.com, mage.if.qidian.com, mapi.appvipshop.com, mbl.56.com, mimg.127.net, mlife.cmbchina.com, mmg.aty.sohu.com, mmgr.gtimg.com, mp.weixin.qq.com, ms.jr.jd.com, nex.163.com, oimagea4.ydstatic.com, oimagec2.ydstatic.com, p.kuaidi100.com, p1.music.126.net, pic.k.sohu.com, pic1.chelaile.net.cn, pic1cdn.cmbchina.com, pic2.zhimg.com, r.inews.qq.com, resource.cmbchina.com, ress.dxpmedia.com, rm.aarki.net, rtbapi.douyucdn.cn, service.4gtv.tv, smkmp.96225.com, sso.ifanr.com, static.api.m.panda.tv, static1.keepcdn.com, staticlive.douyucdn.cn, storage.wax.weibo.com, supportda.ofo.com, ups.youku.com, wapwenku.baidu.com, wenku.baidu.com, www.facebook.com, www.ft.com, www.oschina.net, www.zhihu.com, youtubei.googleapis.com
-
-
 
 enable = true
 
