@@ -272,30 +272,22 @@ RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/bilibi
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/steam.list,🎮 Steam,update-interval=300                                         // Steam
 
 
-
 # JO2EY规则 
-# 自定义多区域媒体应用
-RULE-SET,https://git.io/fjYwT,📗 FOXPlus                                                                        //FOXPlus
-RULE-SET,https://git.io/fjYwI,📘 HBO                                                                            //HBO
-RULE-SET,https://git.io/fjYwk,📙 Hulu                                                                           //Hulu
-RULE-SET,https://git.io/fjYwf,🇨🇳 Taiwan                                                                         //Bahamut
-RULE-SET,https://git.io/fjYVj,🇬🇧 England                                                                        //BBC
-RULE-SET,https://git.io/fjYw3,🇭🇰 Hong Kong                                                                      //Now E
-RULE-SET,https://git.io/fjYwC,🇭🇰 Hong Kong                                                                      //Viu
-RULE-SET,https://git.io/fjYwe,📺 Streaming                                                                      //海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
-# 国内流媒体服务加速规则（适用于爱奇艺、哔哩哔哩、动画疯）
-RULE-SET,https://git.io/fjYwU,👗 Bilibili                                                                       //Biliili 
-RULE-SET,https://git.io/fjYwt,👗 Bilibili                                                                       //IQIYI
-RULE-SET,https://git.io/fjqkS,🔰 Proxy                                                                          //Global 全球加速规则
-RULE-SET,https://git.io/fjqk9,🛩 Telegram
-RULE-SET,https://git.io/fjYVh,📰 AppleNews                                                                      //Apple News 服务加速
-RULE-SET,https://git.io/fjqkN,🍎 Apple                                                                          //Apple 部分服务加速（App Store、Movies、Music）
-RULE-SET,https://git.io/fjqkH,💠 Domestic                                                                       //China 中国直连规则
-
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/FOX.list,📗 FOXPlus                                                              //FOXPlus
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/HBO.list,📘 HBO                                                                  //HBO
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Hulu.list,📙 Hulu                                                                //Hulu
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Bahamut.list,🇨🇳 Taiwan                                                           //Bahamut
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/BBC.list,🇬🇧 England                                                              //BBC
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Now%20E.list,🇭🇰 Hong Kong                                                        //Now E
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Viu.list,🇭🇰 Hong Kong                                                            //Viu
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Streaming.list,📺 Streaming                                                      //海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Bilibili.list ,👗 Bilibili                                                       //Biliili 
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/IQIYI.list,👗 Bilibili                                                           //IQIYI
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Apple%20News.list,📰 AppleNews                                                   //Apple News 服务加速
 
 
 # lhie1规则
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/reject.list,🚦 Ad-Block,update-interval=300                                              // 广告
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/reject.list,🚦 Ad-Block,update-interval=300                                             // 广告
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/apple.list,🍎 Apple,update-interval=300                                                 // 苹果
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/domestic.list,💠 Domestic,update-interval=300                                           // TeamViewer，Steam，12306。。。
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/asiantv.list,💠 Domestic,update-interval=300                                            // Bilibili，IQIYI，letv。。。
@@ -303,10 +295,9 @@ RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/globaltv.li
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge3/proxy.list,🔰 Proxy,update-interval=300                                                 // Line，Microsoft，Amazon。。。
 
 
-
 # Scomper规则
-RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list,🚦 Ad-Block,update-interval=300                                             // 广告
-RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/reject.list,🚦 Ad-Block,update-interval=300                                              // 广告
+RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list,🚦 Ad-Block,update-interval=300                                            // 广告
+RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/reject.list,🚦 Ad-Block,update-interval=300                                             // 广告
 RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/apple.list,🍎 Apple,update-interval=300                                                 // 苹果
 RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/cn.list,💠 Domestic,update-interval=300                                                 // 微信，QQ，淘宝，优酷。。。
 RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/video.list,🔰 Proxy,update-interval=300                                                 // Netflix，YouTube。。。
@@ -314,16 +305,15 @@ RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/blocked.lis
 RULE-SET,https://raw.githubusercontent.com/scomper/surge-list/master/telegram.list,🔰 Proxy,update-interval=300                                              // Telegram
 
 
-
 # ConnersHua规则
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Advertising.list,🚦 Ad-Block,update-interval=300                           // 去广告以及隐私追踪保护
-RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list,🚦 Ad-Block,update-interval=300                             // 反运营商及臭名昭著的应用劫持保护
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Advertising.list,🚦 Ad-Block,update-interval=300                          // 去广告以及隐私追踪保护
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Hijacking.list,🚦 Ad-Block,update-interval=300                            // 反运营商及臭名昭著的应用劫持保护
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/ForeignMedia.list,🔰 Proxy,update-interval=300                            // Youtube、Netflix、HBO、Hulu、BBC iPlayer。。。
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/DomesticMedia.list, 💠 Domestic,update-interval=300                       // 媒体应用（愛奇藝台灣站）
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Global.list,🔰 Proxy,update-interval=300                                  // 海外加速规则
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Apple.list,🍎 Apple,update-interval=300                                   // 部分服务加速 App Store、Movies、Music、News 及海外版 Maps。。。
+RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Telegram.list,🛩 Telegram,update-interval=300                             // 海内直连规则
 RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/China.list,💠 Domestic,update-interval=300                                // 海内直连规则
-
 
 
 # Surge规则
