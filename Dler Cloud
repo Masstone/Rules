@@ -284,7 +284,7 @@ RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Viu
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Streaming.list,📺 Streaming                                                      //海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Bilibili.list ,👗 Bilibili                                                       //Biliili 
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/IQIYI.list,👗 Bilibili                                                           //IQIYI
-RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Apple%20News.list,📰 AppleNews                                                   //Apple News 服务加速
+# RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Apple%20News.list,📰 AppleNews                                                   //Apple News 服务加速
 
 
 # lhie1规则
