@@ -1011,11 +1011,11 @@ ip6-loopback = ::1
 ^https?:\/\/api\d?\.tiktokv\.com\/api\/ad\/ - reject
 ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ - reject
 
-//TikTok&抖音去水印
+// TikTok&抖音去水印
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 (.*id=\w{32})(.*mark=)(.*)$1 302 302
 
-//TikTok默认国家
+// TikTok默认国家
 (?<=(carrier|account|sys)_region=)CN JP 307
 
 
