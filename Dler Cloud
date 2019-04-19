@@ -109,6 +109,7 @@ use-keyword-filter = false
 # 该段定义可用的代理策略
 [Proxy]
 
+
 # 别名策略
 # 当请求为 HTTP 请求时返回一个极小的 GIF
 # 🈚️ 替换 = reject-tinygif
@@ -141,7 +142,7 @@ use-keyword-filter = false
 
 # 代理类型：Shadowsocks (新版写法)
 # ProxyF = ss, [SERVER ADDRESS], [GENERATED PORT], encrypt-method = [ENCRYPT METHOD], password = [PASSWORD]
-
+美国Netflix = ss, 67.230.190.87, 14172, encrypt-method = chacha20, password = dMUm53KWTUyW
 
 
 
