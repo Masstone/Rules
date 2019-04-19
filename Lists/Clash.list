@@ -1,5 +1,6 @@
 # 需搭配Clash使用，Clash配置中开启 allow-lan: true
 ⏸ OFF = direct
+▶️ ON = socks5, 192.168.88.1, 7891
 # 填写好对应的IP和端口
-▶️ HTTP = http, [SERVER ADDRESS], [GENERATED PORT]
-▶️ SOCKS5 = socks5, [SERVER ADDRESS], [GENERATED PORT]
+# ▶️ HTTP = http, [SERVER ADDRESS], [GENERATED PORT]
+# ▶️ SOCKS5 = socks5, [SERVER ADDRESS], [GENERATED PORT]
