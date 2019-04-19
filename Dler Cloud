@@ -153,14 +153,12 @@ use-keyword-filter = false
 # fallback: 具体哪个子策略将被使用, 通过测试到具体 URL 的可用性决定
 #// auto.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/auto.list
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
-🏃 Auto = select, 🏠 SSID, 🐦 VIP Auto
-🛴 Fallback = select, 🐤 VIP HK, 🐤 VIP JP
-🛥 Select = select, 🐧 Node, 🌟 VIP Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
-
-
 
 #代理策略
 🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select
+🏃 Auto = select, 🏠 SSID, 🐦 VIP Auto
+🛴 Fallback = select, 🐤 VIP HK, 🐤 VIP JP
+🛥 Select = select, 🐧 Node, 🌟 VIP Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
 📺 Streaming = select, 🐧 Node, 🌟 VIP Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
 📘 HBO = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
 📙 Hulu = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
@@ -193,9 +191,12 @@ use-keyword-filter = false
 # 代理节点 Dler Cloud 
 🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
 🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media
-🐦 VIP Auto = fallback,🇭🇰 香港BGP,🇭🇰 香港中继,🇭🇰 香港GIA,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🐦 VIP Auto = fallback,🇭🇰 HK BGP,🇭🇰 HK Azure,🇭🇰 HK GIA,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🐤 VIP HK = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
 🐤 VIP JP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
+🇭🇰 HK BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🇭🇰 HK Azure = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🇭🇰 HK GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
@@ -207,12 +208,7 @@ use-keyword-filter = false
 🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
-
 #🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-
-🇭🇰 香港BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇭🇰 香港中继 = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇭🇰 香港GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
 
 
 #===============================================================================
