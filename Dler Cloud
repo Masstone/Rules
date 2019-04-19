@@ -240,10 +240,10 @@ DOMAIN,analyticsreporting.googleapis.com,🔰 Proxy
 //DOMAIN-SUFFIX,googleapis.cn,🔰 Proxy
 DOMAIN-SUFFIX,vd.l.qq.com,🚀 Direct
 # > Apple News
-DOMAIN,gspe1-ssl.ls.apple.com,PROXY
-PROCESS-NAME,News,PROXY
-USER-AGENT,AppleNews*,PROXY
-USER-AGENT,com.apple.news*,PROXY // 可选
+DOMAIN,gspe1-ssl.ls.apple.com,📡 AppleNews
+PROCESS-NAME,News,📡 AppleNews
+USER-AGENT,AppleNews*,📡 AppleNews
+USER-AGENT,com.apple.news*,📡 AppleNews // 可选
 
 # 进入壮壮博客提醒
 DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
