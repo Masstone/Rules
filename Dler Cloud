@@ -271,6 +271,7 @@ RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/unspla
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/soundcloud.list,🎶 SoundCloud,update-interval=300                               // SoundCloud
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/bilibili.list,👗 Bilibili,update-interval=300                                   // Bilibili
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/steam.list,🎮 Steam,update-interval=300                                         // Steam
+RULE-SET,https://raw.githubusercontent.com/s1othfu1/Rules/master/Surge/Spark.list,🔍 Google,update-interval=300                                         // Steam
 
 
 # JO2EY规则 
