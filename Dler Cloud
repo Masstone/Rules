@@ -25,13 +25,10 @@ loglevel = notify
 
 # 强制使用特定的DNS服务器
 dns-server = system,1.1.1.1,1.0.0.1,1.2.4.8,223.5.5.5,223.6.6.6,114.114.114.114,119.29.29.29,117.50.10.10
-
 # 跳过某个域名或者IP段
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,*.crashlytics.com
-
 # 允许外部控制器访问Surge
 external-controller-access = Masstone@0.0.0.0:12345
-
 # Surge 作为 HTTP/SOCKS5 代理服务器向 Wi-Fi 网络下的其他设备提供服务器
 allow-wifi-access = true
 
@@ -42,10 +39,8 @@ socks-interface = 0.0.0.0
 
 # HTTP 代理服务端口 (默认值: 6152)   (Mac版)
 port = 8888
-
 # SOCKS5 代理服务端口 (默认值: 6153) (Mac版)
 socks-port = 8889
-
 enhanced-mode-by-rule = false
 show-error-page-for-reject = true
 
@@ -53,7 +48,6 @@ show-error-page-for-reject = true
 // iOS
 # HTTP 代理服务端口 (默认值: 6152)   (iOS版)
 wifi-access-http-port = 8888
-
 # SOCKS5 代理服务端口 (默认值: 6152) (iOS版)
 wifi-access-socks5-port = 8889
 
@@ -61,23 +55,17 @@ wifi-access-socks5-port = 8889
 // Auto
 # 兼容模式：禁用、Proxy with Loopback Address、Proxy Only、TUN Only（0、1、2、3）
 compatibility-mode = 0
-
 # 不包括简单主机名
 exclude-simple-hostnames = true
-
 # 是否启动完整的 IPv6 支持 (默认值: false)
 ipv6 = true
-
 replica = false
 # 是否启动Network.framework (默认值: false)
 network-framework = false
-
 # INTERNET 测试 URL (使用网络诊断功能时访问的 URL)
 internet-test-url = http://bing.com/
-
 # 代理测速 URL (测试代理策略时的 URL)
 proxy-test-url = http://bing.com/
-
 # 测速超时 (秒)
 test-timeout = 5
 
@@ -91,13 +79,10 @@ test-timeout = 5
 
 # 隐藏所有发往 *.Apple.com 和 *.icloud.com 的请求（该选项只是在抓取结果中隐藏了请求）
 hide-apple-request = true
-
 # 隐藏Crashlytics请求
 hide-crashlytics-request = true
-
 # 隐藏UDP会话（默认值: false）
 hide-udp = false
-
 # 使用关键词过滤器（默认值: false）
 use-keyword-filter = false
 
@@ -111,12 +96,11 @@ use-keyword-filter = false
 
 
 # 别名策略
+
 # 当请求为 HTTP 请求时返回一个极小的 GIF
 # 🈚️ 替换 = reject-tinygif
-
 # 阻止请求
 # 🈲 拦截 = reject
-
 # 不使用代理，直接连接
 # 🈯️ 放行 = direct
 
@@ -124,25 +108,20 @@ use-keyword-filter = false
 # 代理服务器 (tcp = true,udp-relay = true,mptcp = true)
 # 代理类型：HTTP
 # ProxyA = http, [SERVER ADDRESS], [GENERATED PORT], username = [USERNAME], password = [PASSWORD]
-
 # 代理类型：HTTPS
 # ProxyHTTPS = https, [SERVER ADDRESS], [GENERATED PORT], username = [USERNAME], password = [PASSWORD]
-
 # 代理类型：SOCKS5
 # ProxyB = socks5, [SERVER ADDRESS], [GENERATED PORT], username = [USERNAME], password = [PASSWORD]
-
 # 代理类型：SOCKS5 over TLS
 # ProxyC = socks5-tls, [SERVER ADDRESS], [GENERATED PORT], username = [USERNAME], password = [PASSWORD], skip-common-name-verify=true
-
 # 代理类型：Snell
 # ProxyD = snell, [SERVER ADDRESS], [GENERATED PORT], psk=[GENERATED PSK], obfs=http
-
 # 代理类型：Shadowsocks (旧版写法)
 # ProxyE = custom, [SERVER ADDRESS], [GENERATED PORT], [ENCRYPT METHOD], [PASSWORD], https://raw.githubusercontent.com/ydzydzydz/Rules/master/SSEncrypt/SSEncrypt.module
-
 # 代理类型：Shadowsocks (新版写法)
 # ProxyF = ss, [SERVER ADDRESS], [GENERATED PORT], encrypt-method = [ENCRYPT METHOD], password = [PASSWORD]
-美国Netflix = ss, 67.230.190.87, 14172, encrypt-method = chacha20, password = dMUm53KWTUyW
+
+🇺🇸 美国 Netflix = ss, 67.230.190.87, 14172, encrypt-method = chacha20, password = dMUm53KWTUyW
 
 
 
@@ -156,16 +135,17 @@ use-keyword-filter = false
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
 
 #代理策略
-🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select
-🏃 Auto = select, 🏠 SSID, 🐦 VIP Auto
-🛴 Fallback = select, 🐤 VIP HK, 🐤 VIP JP
-🛥 Select = select, 🐧 Node, 🌟 VIP Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
-📺 Streaming = select, 🐧 Node, 🌟 VIP Node, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇩🇪 Germany, 🇬🇧 England, 🇺🇸 America
-📘 HBO = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
-📙 Hulu = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
-🎬 Netflix = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
-📺 YouTube = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
-📗 FOXPlus = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
+🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select, 🚀 Direct
+🏃 Auto = select, 🏠 SSID, 🐦 Web Auto, 🐤 Web VIP, 🚀 Direct
+🛴 Fallback = select, 🐤 Web VIP, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA, 🇭🇰 HK VIP, 🚀 Direct
+🛥 Select = select, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
+📺 Streaming = select, 🐧 Media, 🌟 Media VIP, 👉 Media Manul, 🇺🇸 美国 Netflix, 🚀 Direct
+👉 Media Manul= select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
+📘 HBO = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
+📙 Hulu = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
+🎬 Netflix = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
+📺 YouTube = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
+📗 FOXPlus = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
 📡 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
 📰 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
 📻 BBC = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇬🇧 England, 🇩🇪 Germany, 🇪🇺 Europe
@@ -176,7 +156,7 @@ use-keyword-filter = false
 🎶 SoundCloud = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
 🌁 Unsplash = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
 💳 PayPal = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🔍 Google = select, 🛴 Fallback, 🔰 Proxy, 🛥 Select, 🚀 Direct
+🔍 Google = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
 🛒 Amazon = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
 🖥 Microsoft = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
 🍎 Apple = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
@@ -184,32 +164,32 @@ use-keyword-filter = false
 🎮 Steam = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
 💠 Domestic = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
 ☁️ Final = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-🚀 Direct= select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Direct.list,update-interval=300
-🚦 Ad-Block = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/AD-Block.list,update-interval=300
-🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval=300
-🏠 SSID = ssid, default = 🐦 VIP Auto, cellular = 🐦 VIP Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
+🚀 Direct= select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Direct.list,update-interval = 300
+🚦 Ad-Block = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/AD-Block.list,update-interval = 300
+🏠 SSID = ssid, default = 🐦 Web Auto, cellular = 🐦 Web Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
+🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval = 300
 
 # 代理节点 Dler Cloud 
-🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
-🌟 VIP Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media
-🐦 VIP Auto = fallback,🇭🇰 HK BGP,🇭🇰 HK Azure,🇭🇰 HK GIA,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🐤 VIP HK = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
-🐤 VIP JP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204, interval = 60,update-interval=300
-🇭🇰 HK BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇭🇰 HK Azure = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇭🇰 HK GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=kr,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=ru,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
-🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🌟 Media VIP= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1,url = http://www.gstatic.com/generate_204
+🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.gstatic.com/generate_204
+🇭🇰 HK BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇭🇰 HK Azure = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇭🇰 HK GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇭🇰 HK VIP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=kr,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=ru,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
-#🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 300,timeout = 5
+#🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout =  5
 
 
 #===============================================================================
@@ -244,6 +224,24 @@ DOMAIN,gspe1-ssl.ls.apple.com,📡 AppleNews
 PROCESS-NAME,News,📡 AppleNews
 USER-AGENT,AppleNews*,📡 AppleNews
 USER-AGENT,com.apple.news*,📡 AppleNews // 可选
+# > Dler Cloud
+USER-AGENT,AppStore*,🍎 Apple
+USER-AGENT,com.apple.appstored*,🍎 Apple
+USER-AGENT,TestFlight*,🍎 Apple
+DOMAIN-SUFFIX,apple.com,🍎 Apple
+DOMAIN-SUFFIX,icloud.com,🍎 Apple
+DOMAIN-SUFFIX,itunes.com,🍎 Apple
+DOMAIN-SUFFIX,me.com,🍎 Apple
+DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
+
+DOMAIN-KEYWORD,announce,🚀 Direct
+DOMAIN-KEYWORD,torrent,🚀 Direct
+DOMAIN-KEYWORD,tracker,🚀 Direct
+DOMAIN-SUFFIX,smtp,🚀 Direct
+URL-REGEX,(Subject|HELO|SMTP),🚀 Direct
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com,🚀 Direct
+URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com),🚀 Direct
+URL-REGEX,(.+\.)?(torrent|announce\.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(\..+)?,🚀 Direct
 
 # 进入壮壮博客提醒
 DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
@@ -253,13 +251,13 @@ AND,((DOMAIN,raw.githubusercontent.com), (USER-AGENT,Surge*)),🚀 Direct,notifi
 
 # 壮壮规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mydirect.list,🚀 Direct,update-interval=300                                        // 自定义规则
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myreject.list,🚦 Ad-Block,update-interval=300                                       // 自定义规则
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mytingif.list,🚦 Ad-Block,update-interval=300                                       // 自定义规则
+RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myreject.list,🚦 Ad-Block,update-interval=300                                      // 自定义规则
+RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/mytingif.list,🚦 Ad-Block,update-interval=300                                      // 自定义规则
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/rule/myproxy.list,🔰 Proxy,update-interval=300                                          // 自定义规则
 # 特殊代理
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews-region.list,📡 AppleNews,update-interval=300                          // AppleNews 地区限制
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews.list,📰 AppleNews,update-interval=300                                  // AppleNews
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/telegram.list,🛩 Telegram,update-interval=300                                    // Telegram
+RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/applenews.list,📰 AppleNews,update-interval=300                                 // AppleNews
+RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/telegram.list,🛩 Telegram,update-interval=300                                   // Telegram
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/twitter.list,🐦 Twitter,update-interval=300                                     // Twitter
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/facebook.list,👥 Facebook,update-interval=300                                   // Facebook
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/netflix.list,🎬 Netflix,update-interval=300                                     // Netflix
@@ -267,14 +265,14 @@ RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/youtub
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/spotify.list,🎧 Spotify,update-interval=300                                     // Spotify
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/bbc.list,📻 BBC,update-interval=300                                             // BBC
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/paypal.list,💳 PayPal,update-interval=300                                       // PayPal
-RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/microsoft.list,🖥 Microsoft,update-interval=300                                  // Microsoft
+RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/microsoft.list,🖥 Microsoft,update-interval=300                                 // Microsoft
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/google.list,🔍 Google,update-interval=300                                       // Google
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/amazon.list,🛒 Amazon,update-interval=300                                       // Amazon
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/unsplash.list,🌁 Unsplash,update-interval=300                                   // Unsplash
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/soundcloud.list,🎶 SoundCloud,update-interval=300                               // SoundCloud
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/bilibili.list,👗 Bilibili,update-interval=300                                   // Bilibili
 RULE-SET,https://raw.githubusercontent.com/ydzydzydz/Rules/master/special/steam.list,🎮 Steam,update-interval=300                                         // Steam
-RULE-SET,https://raw.githubusercontent.com/s1othfu1/Rules/master/Surge/Spark.list,🔍 Google,update-interval=300                                         // Steam
+RULE-SET,https://raw.githubusercontent.com/s1othfu1/Rules/master/Surge/Spark.list,🔍 Google,update-interval=300                                           // Steam
 
 
 # JO2EY规则 
@@ -322,7 +320,7 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Rule
 
 
 # Surge规则
-RULE-SET,SYSTEM,🚀 Direct                                                                                                                   // system
+RULE-SET,SYSTEM,🍎 Apple                                                                                                                   // system
 RULE-SET,LAN,🚀 Direct                                                                                                                      // 局域网
 GEOIP,CN,💠 Domestic                                                                                                                        // 国内IP
 FINAL,☁️ Final,dns-failed                                                                                                                   // DNS 查询失败走 Final 规则
