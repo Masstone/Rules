@@ -172,8 +172,8 @@ use-keyword-filter = false
 # 代理节点 Dler Cloud 
 🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🌟 Media VIP= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1,url = http://www.gstatic.com/generate_204
-🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.gstatic.com/generate_204
+🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1,url = http://www.goole.com.hk
+🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.goole.com.hk
 🇭🇰 HK BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇭🇰 HK Azure = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇭🇰 HK GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
