@@ -136,16 +136,15 @@ use-keyword-filter = false
 
 #代理策略
 🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select, 🚀 Direct
-🏃 Auto = select, 🏠 SSID, 🐦 Web Auto, 🐤 Web VIP, 🚀 Direct
-🛴 Fallback = select, 🐤 Web VIP, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA, 🇭🇰 HK VIP, 🚀 Direct
-🛥 Select = select, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
-📺 Streaming = select, 🐧 Media, 🌟 Media VIP, 👉 Media Manul, 🇺🇸 美国 Netflix, 🚀 Direct
-👉 Media Manul= select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
-📘 HBO = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
-📙 Hulu = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
-🎬 Netflix = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
-📺 YouTube = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
-📗 FOXPlus = select, 🔰 Proxy, 📺 Streaming, 🛥 Select, 🚀 Direct
+🏃 Auto = select, 🏠 SSID, 🌟 BGP, 🐦 Web Auto, 🐤 Web VIP, 🚀 Direct
+🛴 Fallback = select, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA,  🇭🇰 HK VIP, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP Azure, 🇸🇬 SG Azure, 🇺🇸 US Azure, 🚀 Direct
+🛥 Select = select, 🇺🇸 美国 Netflix, 🐧 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
+📺 Streaming = select, 🌟 Media VIP, 🐧 Media, 👉 Media Manul, 🇺🇸 美国 Netflix, 🚀 Direct
+📘 HBO = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
+📙 Hulu = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
+🎬 Netflix = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
+📺 YouTube = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
+📗 FOXPlus = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
 📡 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
 📰 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
 📻 BBC = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇬🇧 England, 🇩🇪 Germany, 🇪🇺 Europe
@@ -170,14 +169,26 @@ use-keyword-filter = false
 🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval = 300
 
 # 代理节点 Dler Cloud 
+# Web
+🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&noisp=back
+🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&noisp=back,url = http://www.gstatic.com/generate_204
+🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&noisp=back,url = http://www.gstatic.com/generate_204
+🌟 BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+# Media
+👉 Media Manul= select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
 🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🌟 Media VIP= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1,url = http://www.goole.com.hk
-🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver,url = http://www.goole.com.hk
-🇭🇰 HK BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇭🇰 HK Azure = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇭🇰 HK GIA = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇭🇰 HK VIP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+# Fallback
+🇭🇰 HK BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204
+🇭🇰 HK Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204
+🇭🇰 HK GIA = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204
+🇭🇰 HK VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204
+🇲🇴 MA BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo&isp=bgp,url = http://www.gstatic.com/generate_204
+🇯🇵 JP BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=bgp,url = http://www.gstatic.com/generate_204
+🇯🇵 JP Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=azure,url = http://www.gstatic.com/generate_204
+🇸🇬 SG Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg&isp=azure,url = http://www.gstatic.com/generate_204
+🇺🇸 US Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us&isp=azure,url = http://www.gstatic.com/generate_204
+# Area
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
@@ -189,7 +200,7 @@ use-keyword-filter = false
 🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
-#🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout =  5
+🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout =  5
 
 
 #===============================================================================
