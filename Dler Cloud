@@ -139,7 +139,7 @@ use-keyword-filter = false
 🌟 Auto = select, 🚁 VIP Auto, 🏠 SSID, 🚀 Direct
 🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP Azure, 🇸🇬 SG Azure, 🇺🇸 US Azure, 🚀 Direct
 🚗 Select = select, 🇺🇸 美国 Netflix, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
-📺 Streaming = select, 🔰 Proxy, 🌟 Media VIP, 🐧 Media, 👉 Media Manul, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
+📺 Streaming = select, 🔰 Proxy, 🌟 VIP Media, 🐧 Media, 👉 Media, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
 📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America, 🇺🇸 美国 Netflix
 🎬 Netflix = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America, 🇺🇸 美国 Netflix
 📘 HBO = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
@@ -175,7 +175,7 @@ use-keyword-filter = false
 👉 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=auto
 🚁 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=auto,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 # Media
-👉 Media Manul= select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
+👉 Media = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
 🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🌟 VIP Media= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 # Fallback
