@@ -38,18 +38,18 @@ interface = 0.0.0.0
 socks-interface = 0.0.0.0
 
 # HTTP 代理服务端口 (默认值: 6152)   (Mac版)
-port = 8888
+port = 7890
 # SOCKS5 代理服务端口 (默认值: 6153) (Mac版)
-socks-port = 8889
+socks-port = 7891
 enhanced-mode-by-rule = false
 show-error-page-for-reject = true
 
 
 // iOS
 # HTTP 代理服务端口 (默认值: 6152)   (iOS版)
-wifi-access-http-port = 8888
+wifi-access-http-port = 7890
 # SOCKS5 代理服务端口 (默认值: 6152) (iOS版)
-wifi-access-socks5-port = 8889
+wifi-access-socks5-port = 7891
 
 
 // Auto
