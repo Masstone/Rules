@@ -137,7 +137,7 @@ use-keyword-filter = false
 #代理策略
 🔰 Proxy = select, 🌟 Auto, 🚄 Fallback, 🚗 Select, 🚀 Direct
 🌟 Auto = select, 🚁 VIP Auto, 🏠 SSID, 🚀 Direct
-🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP Azure, 🇸🇬 SG Azure, 🇺🇸 US Azure, 🚀 Direct
+🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK VIP, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP VIP, 🇸🇬 SG VIP, 🇺🇸 US VIP, 🚀 Direct
 🚗 Select = select, 🇺🇸 美国 Netflix, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
 📺 Streaming = select, 🔰 Proxy, 🌟 VIP Media, 🐧 Media, 👉 Media, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
 📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America, 🇺🇸 美国 Netflix
@@ -181,13 +181,12 @@ use-keyword-filter = false
 # Fallback
 🌟 BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&isp=bgp,url = http://www.gstatic.com/generate_204
 🇭🇰 HK BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204
-🇭🇰 HK Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204
-🇭🇰 HK GIA = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204
+🇭🇰 HK VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204
 🇲🇴 MA BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo&isp=bgp,url = http://www.gstatic.com/generate_204
 🇯🇵 JP BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=bgp,url = http://www.gstatic.com/generate_204
-🇯🇵 JP Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=azure,url = http://www.gstatic.com/generate_204
-🇸🇬 SG Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg&isp=azure,url = http://www.gstatic.com/generate_204
-🇺🇸 US Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us&isp=azure,url = http://www.gstatic.com/generate_204
+🇯🇵 JP VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204
+🇸🇬 SG VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg&class=silver,url = http://www.gstatic.com/generate_204
+🇺🇸 US VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us&&class=silver,url = http://www.gstatic.com/generate_204
 # Area
 🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
@@ -243,7 +242,6 @@ DOMAIN-SUFFIX,icloud.com,🍎 Apple
 DOMAIN-SUFFIX,itunes.com,🍎 Apple
 DOMAIN-SUFFIX,me.com,🍎 Apple
 DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
-
 DOMAIN-KEYWORD,announce,🚀 Direct
 DOMAIN-KEYWORD,torrent,🚀 Direct
 DOMAIN-KEYWORD,tracker,🚀 Direct
@@ -330,7 +328,7 @@ RULE-SET,https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Rule
 
 
 # Surge规则
-RULE-SET,SYSTEM,🍎 Apple                                                                                                                   // system
+RULE-SET,SYSTEM,🍎 Apple                                                                                                                    // system
 RULE-SET,LAN,🚀 Direct                                                                                                                      // 局域网
 GEOIP,CN,💠 Domestic                                                                                                                        // 国内IP
 FINAL,☁️ Final,dns-failed                                                                                                                   // DNS 查询失败走 Final 规则
