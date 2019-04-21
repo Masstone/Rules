@@ -135,54 +135,54 @@ use-keyword-filter = false
 #// all.list示例地址：https://raw.githubusercontent.com/ydzydzydz/Rules/master/proxy/all.list
 
 #代理策略
-🔰 Proxy = select, 🏃 Auto, 🛴 Fallback, 🛥 Select, 🚀 Direct
-🏃 Auto = select, 🏠 SSID, 🌟 BGP, 🐦 Web Auto, 🐤 Web VIP, 🚀 Direct
-🛴 Fallback = select, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA,  🇭🇰 HK VIP, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP Azure, 🇸🇬 SG Azure, 🇺🇸 US Azure, 🚀 Direct
-🛥 Select = select, 🇺🇸 美国 Netflix, 🐧 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇪🇺 Europe, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🚀 Direct
-📺 Streaming = select, 🌟 Media VIP, 🐧 Media, 👉 Media Manul, 🇺🇸 美国 Netflix, 🚀 Direct
-📘 HBO = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
-📙 Hulu = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🎬 Netflix = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
-📺 YouTube = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
-📗 FOXPlus = select, 📺 Streaming, 🔰 Proxy, 🛥 Select, 🚀 Direct
-📡 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
-📰 AppleNews = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇺🇸 America
-📻 BBC = select, 🔰 Proxy, 🛥 Select, 🚀 Direct, 🇬🇧 England, 🇩🇪 Germany, 🇪🇺 Europe
-🛩 Telegram = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🐦 Twitter = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-👥 Facebook = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🎧 Spotify = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🎶 SoundCloud = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🌁 Unsplash = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-💳 PayPal = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🔍 Google = select, 🔰 Proxy, 🛥 Select, 🚀 Direct
-🛒 Amazon = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-🖥 Microsoft = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-🍎 Apple = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-👗 Bilibili = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-🎮 Steam = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-💠 Domestic = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
-☁️ Final = select, 🚀 Direct, 🛥 Select, 🔰 Proxy
+🔰 Proxy = select, 🌟 Auto, 🚄 Fallback, 🚗 Select, 🚀 Direct
+🌟 Auto = select, 🚁 VIP Auto, 🏠 SSID, 🚀 Direct
+🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK Azure, 🇭🇰 HK GIA, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP Azure, 🇸🇬 SG Azure, 🇺🇸 US Azure, 🚀 Direct
+🚗 Select = select, 🇺🇸 美国 Netflix, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
+📺 Streaming = select, 🔰 Proxy, 🌟 Media VIP, 🐧 Media, 👉 Media Manul, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
+📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America, 🇺🇸 美国 Netflix
+🎬 Netflix = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America, 🇺🇸 美国 Netflix
+📘 HBO = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
+📙 Hulu = select, 📺 Streaming, 🇯🇵 Japan, 🇺🇸 America
+📗 FOXPlus = select, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇸🇬 Singapore
+
+
+📡 AppleNews = select, 🔰 Proxy, 🚗 Select, 🚀 Direct, 🇺🇸 America
+📰 AppleNews = select, 🔰 Proxy, 🚗 Select, 🚀 Direct, 🇺🇸 America
+📻 BBC = select, 🔰 Proxy, 🚗 Select, 🚀 Direct, 🇬🇧 England, 🇩🇪 Germany, 🇪🇺 Europe
+🛩 Telegram = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🐦 Twitter = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+👥 Facebook = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🎧 Spotify = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🎶 SoundCloud = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🌁 Unsplash = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+💳 PayPal = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🔍 Google = select, 🔰 Proxy, 🚗 Select, 🚀 Direct
+🛒 Amazon = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+🖥 Microsoft = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+🍎 Apple = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+👗 Bilibili = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+🎮 Steam = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+💠 Domestic = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
+☁️ Final = select, 🚀 Direct, 🚗 Select, 🔰 Proxy
 🚀 Direct= select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Direct.list,update-interval = 300
 🚦 Ad-Block = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/AD-Block.list,update-interval = 300
-🏠 SSID = ssid, default = 🐦 Web Auto, cellular = 🐦 Web Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
+🏠 SSID = ssid, default = 🚁 VIP Auto, cellular = 🚁 VIP Auto, "MASSOHO" = 🤖️ Clash, "MASSOHO_5G" = 🤖️ Clash, "MID" = 🚀 Direct, "MID-Mesh" = 🚀 Direct
 🤖️ Clash = select, policy-path = https://raw.githubusercontent.com/Masstone/Rules/master/Lists/Clash.list,update-interval = 300
 
 # 代理节点 Dler Cloud 
 # Web
-🐧 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&noisp=back
-🐦 Web Auto = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&noisp=back,url = http://www.gstatic.com/generate_204
-🐤 Web VIP  = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&noisp=back,url = http://www.gstatic.com/generate_204
-🌟 BGP = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&isp=bgp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+👉 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=auto
+🚁 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=auto,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 # Media
 👉 Media Manul= select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
 🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🌟 Media VIP= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🌟 VIP Media= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
 # Fallback
+🌟 BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&isp=bgp,url = http://www.gstatic.com/generate_204
 🇭🇰 HK BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204
 🇭🇰 HK Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=azure,url = http://www.gstatic.com/generate_204
 🇭🇰 HK GIA = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=gia%20cn2,url = http://www.gstatic.com/generate_204
-🇭🇰 HK VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204
 🇲🇴 MA BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo&isp=bgp,url = http://www.gstatic.com/generate_204
 🇯🇵 JP BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=bgp,url = http://www.gstatic.com/generate_204
 🇯🇵 JP Azure = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=azure,url = http://www.gstatic.com/generate_204
@@ -207,7 +207,6 @@ use-keyword-filter = false
 
 # 规则
 [Rule]
-
 
 # Client
 # > Proxy
@@ -297,7 +296,7 @@ RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Viu
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Streaming.list,📺 Streaming                                                      //海外流媒体服务加速规则（适用于 YouTube、Netflix、Amazon Prime Video、AbemaTV、Spotify 等海外流媒体服务）
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Bilibili.list ,👗 Bilibili                                                       //Biliili 
 RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/IQIYI.list,👗 Bilibili                                                           //IQIYI
-# RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Apple%20News.list,📰 AppleNews                                                   //Apple News 服务加速
+RULE-SET,https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/RULE-SET/Apple%20News.list,📰 AppleNews                                                   //Apple News 服务加速
 
 
 # lhie1规则
