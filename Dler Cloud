@@ -1,5 +1,4 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/Masstone/Rules/master/Dler%20Cloud interval=86400
-
+# #!MANAGED-CONFIG https://raw.githubusercontent.com/Masstone/Rules/master/Dler%20Cloud interval=86400
 
 
 
@@ -139,10 +138,12 @@ use-keyword-filter = false
 🌟 Auto = select, 🚁 VIP Auto, 🏠 SSID, 🚀 Direct
 🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK VIP, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP VIP, 🇸🇬 SG VIP, 🇺🇸 US VIP, 🚀 Direct
 🚗 Select = select, 🇺🇸 美国 Netflix, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
+👉 Node = select, policy-path = https://dler.cloud/link/token?list=1&type=auto
 📺 Streaming = select, 🔰 Proxy, 🌟 VIP Media, 🐧 Media, 👉 Media, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
+👉 Media = select, policy-path = https://dler.cloud/link/token?list=1&type=media
 📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America, 🇺🇸 美国 Netflix
-🎬 Netflix = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America, 🇺🇸 美国 Netflix
-📘 HBO = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
+🎬 Netflix = select, 🇺🇸 美国 Netflix, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
+📘 HBO = select, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 📺 Streaming, 🇺🇸 America
 📙 Hulu = select, 📺 Streaming, 🇯🇵 Japan, 🇺🇸 America
 📗 FOXPlus = select, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇸🇬 Singapore
 
@@ -172,34 +173,33 @@ use-keyword-filter = false
 
 # 代理节点 Dler Cloud 
 # Web
-👉 Node = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=auto
-🚁 VIP Auto = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=auto,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+
+🚁 VIP Auto = url-test, policy-path = https://dler.cloud/link/token?list=1&class=silver&type=auto, url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
 # Media
-👉 Media = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media
-🐧 Media = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🌟 VIP Media= url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&class=silver&type=media,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
+🐧 Media = url-test, policy-path = https://dler.cloud/link/token?list=1&type=media,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🌟 VIP Media= url-test, policy-path = https://dler.cloud/link/token?list=1&class=silver&type=media,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
 # Fallback
-🌟 BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=relay,url = http://www.gstatic.com/generate_204
-🇭🇰 HK BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&isp=bgp,url = http://www.gstatic.com/generate_204
-🇭🇰 HK VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk&class=silver,url = http://www.gstatic.com/generate_204
-🇲🇴 MA BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo&isp=bgp,url = http://www.gstatic.com/generate_204
-🇯🇵 JP BGP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&isp=bgp,url = http://www.gstatic.com/generate_204
-🇯🇵 JP VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp&class=silver,url = http://www.gstatic.com/generate_204
-🇸🇬 SG VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg&class=silver,url = http://www.gstatic.com/generate_204
-🇺🇸 US VIP = fallback, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us&&class=silver,url = http://www.gstatic.com/generate_204
+🌟 BGP = fallback, policy-path = https://dler.cloud/link/token?list=1&type=relay,url = http://captive.apple.com
+🇭🇰 HK BGP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=hk&isp=bgp,url = http://captive.apple.com
+🇭🇰 HK VIP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=hk&class=silver,url = http://captive.apple.com
+🇲🇴 MA BGP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=mo&isp=bgp,url = http://captive.apple.com
+🇯🇵 JP BGP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=jp&isp=bgp,url = http://captive.apple.com
+🇯🇵 JP VIP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=jp&class=silver,url = http://captive.apple.com
+🇸🇬 SG VIP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=sg&class=silver,url = http://captive.apple.com
+🇺🇸 US VIP = fallback, policy-path = https://dler.cloud/link/token?list=1&area=us&&class=silver,url = http://captive.apple.com
 # Area
-🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=hk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=mo,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=tw,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=jp,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=kr,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=sg,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇺🇸 America = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=us,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=ru,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇬🇧 England = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=uk,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout = 5
-🇪🇺 Europe = select, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&area=de+uk+ie+fr+fi+pl+nl
-🇨🇳 China = url-test, policy-path = https://dler.cloud/link/PW3ZjkdpiN2527Zv?list=1&type=back,url = http://www.gstatic.com/generate_204,interval = 1200,tolerance = 200,timeout =  5
+🇭🇰 Hong Kong = url-test, policy-path = https://dler.cloud/link/token?list=1&area=hk,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇲🇴 Macao = url-test, policy-path = https://dler.cloud/link/token?list=1&area=mo,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇨🇳 Taiwan = url-test, policy-path = https://dler.cloud/link/token?list=1&area=tw,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇯🇵 Japan = url-test, policy-path = https://dler.cloud/link/token?list=1&area=jp,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇰🇷 Korea = url-test, policy-path = https://dler.cloud/link/token?list=1&area=kr,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇸🇬 Singapore = url-test, policy-path = https://dler.cloud/link/token?list=1&area=sg,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇺🇸 America = url-test, policy-path = https://dler.cloud/link/token?list=1&area=us,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇷🇺 Russia = url-test, policy-path = https://dler.cloud/link/token?list=1&area=ru,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇩🇪 Germany = url-test, policy-path = https://dler.cloud/link/token?list=1&area=de,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇬🇧 England = url-test, policy-path = https://dler.cloud/link/token?list=1&area=uk,url = http://captive.apple.com, interval = 1200, tolerance = 200, timeout = 5
+🇪🇺 Europe = select, policy-path = https://dler.cloud/link/token?list=1&area=de+uk+ie+fr+fi+pl+nl
+🇨🇳 China = url-test, policy-path = https://dler.cloud/link/token?list=1&type=back,url = http://captive.apple.com,interval = 1200,tolerance = 200,timeout =  5
 
 
 #===============================================================================
