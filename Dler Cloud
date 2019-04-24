@@ -120,8 +120,6 @@ use-keyword-filter = false
 # 代理类型：Shadowsocks (新版写法)
 # ProxyF = ss, [SERVER ADDRESS], [GENERATED PORT], encrypt-method = [ENCRYPT METHOD], password = [PASSWORD]
 
-🇺🇸 美国 Netflix = ss, 67.230.190.87, 14172, encrypt-method = chacha20, password = dMUm53KWTUyW
-
 
 
 #===============================================================================
@@ -137,12 +135,12 @@ use-keyword-filter = false
 🔰 Proxy = select, 🌟 Auto, 🚄 Fallback, 🚗 Select, 🚀 Direct
 🌟 Auto = select, 🚁 VIP Auto, 🏠 SSID, 🚀 Direct
 🚄 Fallback = select, 🌟 BGP, 🇭🇰 HK BGP, 🇭🇰 HK VIP, 🇲🇴 MA BGP, 🇯🇵 JP BGP, 🇯🇵 JP VIP, 🇸🇬 SG VIP, 🇺🇸 US VIP, 🚀 Direct
-🚗 Select = select, 🇺🇸 美国 Netflix, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
+🚗 Select = select, 👉 Node, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America, 🇷🇺 Russia, 🇩🇪 Germany, 🇬🇧 England, 🇪🇺 Europe, 🚀 Direct
 👉 Node = select, policy-path = https://dler.cloud/link/token?list=1&type=auto
-📺 Streaming = select, 🔰 Proxy, 🌟 VIP Media, 🐧 Media, 👉 Media, 🇺🇸 美国 Netflix, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
+📺 Streaming = select, 🔰 Proxy, 🌟 VIP Media, 🐧 Media, 👉 Media, 🇭🇰 Hong Kong, 🇲🇴 Macao, 🇨🇳 Taiwan, 🇯🇵 Japan, 🇰🇷 Korea, 🇸🇬 Singapore, 🇺🇸 America
 👉 Media = select, policy-path = https://dler.cloud/link/token?list=1&type=media
-📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America, 🇺🇸 美国 Netflix
-🎬 Netflix = select, 🇺🇸 美国 Netflix, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
+📺 YouTube = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇯🇵 Japan, 🇸🇬 Singapore, 🇺🇸 America
+🎬 Netflix = select, 📺 Streaming, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 🇺🇸 America
 📘 HBO = select, 🇭🇰 HK BGP, 🇭🇰 Hong Kong, 📺 Streaming, 🇺🇸 America
 📙 Hulu = select, 📺 Streaming, 🇯🇵 Japan, 🇺🇸 America
 📗 FOXPlus = select, 📺 Streaming, 🇭🇰 Hong Kong, 🇨🇳 Taiwan, 🇸🇬 Singapore
@@ -251,8 +249,8 @@ URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shi
 URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com),🚀 Direct
 URL-REGEX,(.+\.)?(torrent|announce\.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(\..+)?,🚀 Direct
 
-# 进入壮壮博客提醒
-DOMAIN-SUFFIX, zhuangzhuang.cf,🚀 Direct, notification-text=ZHUANGZHUANG, notification-interval=10                                   // 进入壮壮博客提醒
+# 进入url提醒
+# DOMAIN-SUFFIX, url,🚀 Direct, notification-text="", notification-interval=10 
 # 从GitHub更新规则集提醒
 AND,((DOMAIN,raw.githubusercontent.com), (USER-AGENT,Surge*)),🚀 Direct,notification-text="规则集更新",notification-interval=3        // 规则更新提醒
 
