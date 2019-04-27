@@ -1,0 +1,15 @@
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+  - 119.29.29.29
+  - tls://dns.rubyfish.cn:853
+  fallback:
+  - tls://1.0.0.1:853
+  - tls://1.1.1.1:853
+  - tcp://1.0.0.1:53
+  - tcp://1.1.1.1:53
+  - tls://dns.google
+  - tls://dns.rubyfish.cn:853
