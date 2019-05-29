@@ -1,0 +1,17 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: debug
+external-controller: 0.0.0.0:6170
+external-ui: /opt/app/clash/ui/
+secret: ""
+dns:
+  enable: true
+  listen: 0.0.0.0:5353
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 127.0.0.1:6053
