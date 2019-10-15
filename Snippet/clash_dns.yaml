@@ -2,9 +2,8 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:53
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   nameserver:
-  - 119.29.29.29
   - tls://dns.rubyfish.cn:853
   fallback:
   - tls://1.0.0.1:853
