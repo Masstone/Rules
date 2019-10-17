@@ -1,3 +1,5 @@
 # >> App Store Preview
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
+# > Tiktok
+DOMAIN,api-h2.tiktokv.com
