@@ -6,3 +6,7 @@ DOMAIN-SUFFIX,contentdirect.tv
 DOMAIN-SUFFIX,sundancenow.com
 DOMAIN-SUFFIX,upsellit.com
 DOMAIN-SUFFIX,outbrain.com
+# SoundCloud
+USER-AGENT,SoundCloud*
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
