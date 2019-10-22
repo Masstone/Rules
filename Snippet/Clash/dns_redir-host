@@ -4,9 +4,9 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: redir-host
   nameserver:
-  - tls://dns.rubyfish.cn:853
+  - tls://118.89.110.78:853
   fallback:
-  - tls://1.1.1.1:853
-  - tcp://1.1.1.1:53
+  - tls://47.96.179.163:853
   - tcp://208.67.222.222:443
-  - tls://dns.google
+  - tls://8.8.8.8:853
+  - tls://1.1.1.1:853
