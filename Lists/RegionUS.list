@@ -2,11 +2,26 @@
 DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,contentdirect.tv
+
 # Sundancenow
 DOMAIN-SUFFIX,sundancenow.com
 DOMAIN-SUFFIX,upsellit.com
 DOMAIN-SUFFIX,outbrain.com
+
 # SoundCloud
 USER-AGENT,SoundCloud*
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sndcdn.com
+
+# Apple News
+DOMAIN,gspe1-ssl.ls.apple.com 
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+#USER-AGENT,News*
+#DOMAIN,gateway.icloud.com
+DOMAIN,news-events.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-client.apple.com
