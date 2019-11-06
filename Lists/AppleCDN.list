@@ -16,3 +16,6 @@ DOMAIN-SUFFIX,mzstatic.com
 PROCESS-NAME,storedownloadd
 # iOS App Store
 USER-AGENT,com.apple.appstored*
+# Apple TV
+DOMAIN-KEYWORD,vod-ap-
+DOMAIN,hls-svod-aoc.itunes.apple.com
