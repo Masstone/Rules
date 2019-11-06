@@ -1,0 +1,13 @@
+# Trailer
+DOMAIN-SUFFIX,hls.itunes.apple.com
+# Movie Stream
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+# iTunes Music Stream
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN,cdn.apple-cloudkit.com
+# Developer
+DOMAIN,devimages-cdn.apple.com
+# Developer
+DOMAIN,devstreaming-cdn.apple.com
+DOMAIN,js-cdn.music.apple.com

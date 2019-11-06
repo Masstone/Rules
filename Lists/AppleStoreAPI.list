@@ -1,0 +1,13 @@
+# 一些 com.apple.appstored* 会连接的 API（优先级高）跟随appleid 区域
+DOMAIN,apps.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,api-edge.apps.apple.com
+DOMAIN,api.apps.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,se.itunes.apple.com
+DOMAIN,se-edge.itunes.apple.com
+DOMAIN,su.itunes.apple.com
+DOMAIN,upp.itunes.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
