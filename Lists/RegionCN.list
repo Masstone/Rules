@@ -1,0 +1,13 @@
+# NeteaseImage —— CDN for ws.acgvideo.com
+DOMAIN-SUFFIX,p1.music.126.net
+DOMAIN-SUFFIX,p2.music.126.net
+DOMAIN-SUFFIX,p3.music.126.net
+DOMAIN-SUFFIX,p4.music.126.net
+DOMAIN-SUFFIX,p5.music.126.net
+DOMAIN-SUFFIX,p1c.music.126.net
+DOMAIN-SUFFIX,p2c.music.126.net
+DOMAIN-SUFFIX,p3c.music.126.net
+DOMAIN-SUFFIX,p4c.music.126.net
+DOMAIN-SUFFIX,p5c.music.126.net
+# NeteaseStream —— CDN for cdnetworks.com
+DOMAIN-SUFFIX,m10.music.126.net
