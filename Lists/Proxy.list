@@ -16,3 +16,5 @@ DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,adobedtm.com
 # Figma
 DOMAIN-SUFFIX,figma.com
+# Notion
+DOMAIN-SUFFIX,notion.so
