@@ -3,6 +3,8 @@
 # DOMAIN,itunes.apple.com
 # Tiktok
 DOMAIN,api-h2.tiktokv.com
+# Inoreader
+DOMAIN,www.inoreader.com
 # Pinterest
 DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,pinimg.com
