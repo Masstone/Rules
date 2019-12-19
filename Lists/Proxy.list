@@ -1,0 +1,14 @@
+# App Store Preview
+# DOMAIN,apps.apple.com
+# DOMAIN,itunes.apple.com
+# Tiktok
+DOMAIN,api-h2.tiktokv.com
+# Pinterest
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+# Behance
+DOMAIN-SUFFIX,behance.net
+DOMAIN,bam.nr-data.net
+# Adobe
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobedtm.com
