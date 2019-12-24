@@ -3,6 +3,8 @@
 # DOMAIN,itunes.apple.com
 # Tiktok
 DOMAIN,api-h2.tiktokv.com
+# Inoreader
+DOMAIN,www.inoreader.com
 # Pinterest
 DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,pinimg.com
@@ -14,3 +16,7 @@ DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,adobedtm.com
 # Figma
 DOMAIN-SUFFIX,figma.com
+# 报橘
+DOMAIN-SUFFIX,buzzorange.com
+# Notion
+DOMAIN-SUFFIX,notion.so
