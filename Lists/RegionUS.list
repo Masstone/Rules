@@ -26,3 +26,7 @@ DOMAIN,news-events.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,webproxy.advp.apple.com
+
+# Myfonts
+DOMAIN-SUFFIX,myfonts.com
+DOMAIN-SUFFIX,myfonts.net
