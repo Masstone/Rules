@@ -30,3 +30,6 @@ DOMAIN,webproxy.advp.apple.com
 # Myfonts
 DOMAIN-SUFFIX,myfonts.com
 DOMAIN-SUFFIX,myfonts.net
+
+# Ebay
+DOMAIN-SUFFIX,ebay.com
