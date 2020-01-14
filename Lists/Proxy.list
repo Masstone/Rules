@@ -20,3 +20,6 @@ DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,notion.so
 # 报橘
 DOMAIN-SUFFIX,buzzorange.com
+# Microsoft
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,xboxlive.com
