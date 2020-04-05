@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
+#DOMAIN-SUFFIX,nflxvideo.net
 #ConnersHua
 DOMAIN-SUFFIX,netflixdnstest0.com
 DOMAIN-SUFFIX,netflixdnstest1.com
@@ -38,11 +38,12 @@ IP-CIDR,185.2.220.0/22,no-resolve
 IP-CIDR,185.9.188.0/22,no-resolve
 IP-CIDR,207.45.72.0/22,no-resolve
 IP-CIDR,208.75.76.0/22,no-resolve
-#hkbn-isp
-IP-CIDR,14.136.135.196/24,no-resolve
+#HKBN-ISP
+# ipv4-c002-hkg001-hkbn-isp.1.oca.nflxvideo.net
 IP-CIDR,14.136.137.68/24,no-resolve
+# ipv4-c003-hkg001-hkbn-isp.1.oca.nflxvideo.net
 IP-CIDR,14.136.139.164/24,no-resolve
-#telxius-isp
-IP-CIDR,190.98.134.130/24,no-resolve
-IP-CIDR,190.98.134.134/24,no-resolve
-IP-CIDR,190.98.134.146/24,no-resolve
+# ipv4-c001-hkg002-hkbn-isp.1.oca.nflxvideo.net
+IP-CIDR,14.136.135.196/24,no-resolve
+# ipv4-c002-hkg002-hkbn-isp.1.oca.nflxvideo.net
+IP-CIDR,14.136.135.180/24,no-resolve

@@ -2,2153 +2,2153 @@
 DOMAIN-SUFFIX,nflxvideo.net
 # Global ISP IP (webvtt.nflxvideo.net's subdomains)
 # ipv4-c001-xsp001-m1-isp.1.oca.nflxvideo.net	2019-12-30
-IP-CIDR,43.245.105.1/24,no-resolve
+IP-CIDR,43.245.105.1 [新加坡]/24,no-resolve
 # ipv6-c001-xsp001-m1-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,43.245.105.1/24,no-resolve
+IP-CIDR,43.245.105.1 [新加坡]/24,no-resolve
 # ipv4-c002-xsp001-m1-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,43.245.105.9/24,no-resolve
+IP-CIDR,43.245.105.9 [新加坡]/24,no-resolve
 # ipv6-c002-xsp001-m1-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,43.245.105.9/24,no-resolve
+IP-CIDR,43.245.105.9 [新加坡]/24,no-resolve
 # ipv4-c003-xsp001-m1-isp.1.oca.nflxvideo.net	2020-03-04
-IP-CIDR,43.245.105.13/24,no-resolve
+IP-CIDR,43.245.105.13 [新加坡]/24,no-resolve
 # ipv4-c001-xsp002-m1-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,43.245.105.129/24,no-resolve
+IP-CIDR,43.245.105.129 [新加坡]/24,no-resolve
 # ipv4-c002-xsp002-m1-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,43.245.105.11/24,no-resolve
+IP-CIDR,43.245.105.11 [新加坡]/24,no-resolve
 # ipv6-c002-xsp002-m1-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,43.245.105.11/24,no-resolve
+IP-CIDR,43.245.105.11 [新加坡]/24,no-resolve
 
 # ipv4-c002-sjo001-cabletica-isp.1.oca.nflxvideo.net	2020-02-15
-IP-CIDR,186.15.229.194/24,no-resolve
+IP-CIDR,186.15.229.194 [哥斯达黎加]/24,no-resolve
 # ipv4-c003-sjo001-cabletica-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,186.15.234.18/24,no-resolve
+IP-CIDR,186.15.234.18 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c020-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.87/24,no-resolve
+IP-CIDR,184.150.15.87 [加拿大 Bell]/24,no-resolve
 # ipv4-c012-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.95/24,no-resolve
+IP-CIDR,184.150.15.95 [加拿大 Bell]/24,no-resolve
 # ipv4-c013-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.85/24,no-resolve
+IP-CIDR,184.150.15.85 [加拿大 Bell]/24,no-resolve
 # ipv4-c014-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.97/24,no-resolve
+IP-CIDR,184.150.15.97 [加拿大 Bell]/24,no-resolve
 # ipv4-c015-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.15.93/24,no-resolve
+IP-CIDR,184.150.15.93 [加拿大 Bell]/24,no-resolve
 # ipv4-c016-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2020-03-06
-IP-CIDR,184.150.15.101/24,no-resolve
+IP-CIDR,184.150.15.101 [加拿大 Bell]/24,no-resolve
 # ipv4-c017-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.89/24,no-resolve
+IP-CIDR,184.150.15.89 [加拿大 Bell]/24,no-resolve
 # ipv4-c018-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.15.91/24,no-resolve
+IP-CIDR,184.150.15.91 [加拿大 Bell]/24,no-resolve
 # ipv4-c019-ymy001-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.15.99/24,no-resolve
+IP-CIDR,184.150.15.99 [加拿大 Bell]/24,no-resolve
 # ipv4-c010-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.19/24,no-resolve
+IP-CIDR,184.150.14.19 [加拿大 Bell]/24,no-resolve
 # ipv4-c020-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.35/24,no-resolve
+IP-CIDR,184.150.14.35 [加拿大 Bell]/24,no-resolve
 # ipv4-c011-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.21/24,no-resolve
+IP-CIDR,184.150.14.21 [加拿大 Bell]/24,no-resolve
 # ipv4-c021-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.37/24,no-resolve
+IP-CIDR,184.150.14.37 [加拿大 Bell]/24,no-resolve
 # ipv4-c002-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.3/24,no-resolve
+IP-CIDR,184.150.14.3 [加拿大 Bell]/24,no-resolve
 # ipv4-c012-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.5/24,no-resolve
+IP-CIDR,184.150.14.5 [加拿大 Bell]/24,no-resolve
 # ipv4-c022-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.39/24,no-resolve
+IP-CIDR,184.150.14.39 [加拿大 Bell]/24,no-resolve
 # ipv4-c004-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.7/24,no-resolve
+IP-CIDR,184.150.14.7 [加拿大 Bell]/24,no-resolve
 # ipv4-c014-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.23/24,no-resolve
+IP-CIDR,184.150.14.23 [加拿大 Bell]/24,no-resolve
 # ipv4-c005-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.9/24,no-resolve
+IP-CIDR,184.150.14.9 [加拿大 Bell]/24,no-resolve
 # ipv4-c015-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.25/24,no-resolve
+IP-CIDR,184.150.14.25 [加拿大 Bell]/24,no-resolve
 # ipv4-c006-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.11/24,no-resolve
+IP-CIDR,184.150.14.11 [加拿大 Bell]/24,no-resolve
 # ipv4-c016-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.27/24,no-resolve
+IP-CIDR,184.150.14.27 [加拿大 Bell]/24,no-resolve
 # ipv4-c007-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.13/24,no-resolve
+IP-CIDR,184.150.14.13 [加拿大 Bell]/24,no-resolve
 # ipv4-c017-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.29/24,no-resolve
+IP-CIDR,184.150.14.29 [加拿大 Bell]/24,no-resolve
 # ipv4-c008-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.15/24,no-resolve
+IP-CIDR,184.150.14.15 [加拿大 Bell]/24,no-resolve
 # ipv4-c018-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.31/24,no-resolve
+IP-CIDR,184.150.14.31 [加拿大 Bell]/24,no-resolve
 # ipv4-c009-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.17/24,no-resolve
+IP-CIDR,184.150.14.17 [加拿大 Bell]/24,no-resolve
 # ipv4-c019-yyz001-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.33/24,no-resolve
+IP-CIDR,184.150.14.33 [加拿大 Bell]/24,no-resolve
 # ipv4-c020-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.29/24,no-resolve
+IP-CIDR,184.150.15.29 [加拿大 Bell]/24,no-resolve
 # ipv4-c001-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.1/24,no-resolve
+IP-CIDR,184.150.15.1 [加拿大 Bell]/24,no-resolve
 # ipv4-c011-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.25/24,no-resolve
+IP-CIDR,184.150.15.25 [加拿大 Bell]/24,no-resolve
 # ipv4-c002-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.3/24,no-resolve
+IP-CIDR,184.150.15.3 [加拿大 Bell]/24,no-resolve
 # ipv4-c012-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.27/24,no-resolve
+IP-CIDR,184.150.15.27 [加拿大 Bell]/24,no-resolve
 # ipv4-c003-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.5/24,no-resolve
+IP-CIDR,184.150.15.5 [加拿大 Bell]/24,no-resolve
 # ipv4-c013-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.23/24,no-resolve
+IP-CIDR,184.150.15.23 [加拿大 Bell]/24,no-resolve
 # ipv4-c004-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.7/24,no-resolve
+IP-CIDR,184.150.15.7 [加拿大 Bell]/24,no-resolve
 # ipv4-c014-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.21/24,no-resolve
+IP-CIDR,184.150.15.21 [加拿大 Bell]/24,no-resolve
 # ipv4-c005-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.9/24,no-resolve
+IP-CIDR,184.150.15.9 [加拿大 Bell]/24,no-resolve
 # ipv4-c015-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.31/24,no-resolve
+IP-CIDR,184.150.15.31 [加拿大 Bell]/24,no-resolve
 # ipv4-c006-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2020-02-20
-IP-CIDR,184.150.15.11/24,no-resolve
+IP-CIDR,184.150.15.11 [加拿大 Bell]/24,no-resolve
 # ipv4-c016-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.35/24,no-resolve
+IP-CIDR,184.150.15.35 [加拿大 Bell]/24,no-resolve
 # ipv4-c007-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.13/24,no-resolve
+IP-CIDR,184.150.15.13 [加拿大 Bell]/24,no-resolve
 # ipv4-c017-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.33/24,no-resolve
+IP-CIDR,184.150.15.33 [加拿大 Bell]/24,no-resolve
 # ipv4-c008-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.15/24,no-resolve
+IP-CIDR,184.150.15.15 [加拿大 Bell]/24,no-resolve
 # ipv4-c018-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.37/24,no-resolve
+IP-CIDR,184.150.15.37 [加拿大 Bell]/24,no-resolve
 # ipv4-c019-ymy002-bellcanada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.150.15.39/24,no-resolve
+IP-CIDR,184.150.15.39 [加拿大 Bell]/24,no-resolve
 # ipv4-c010-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.83/24,no-resolve
+IP-CIDR,184.150.14.83 [加拿大 Bell]/24,no-resolve
 # ipv4-c030-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.93/24,no-resolve
+IP-CIDR,184.150.14.93 [加拿大 Bell]/24,no-resolve
 # ipv4-c001-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.65/24,no-resolve
+IP-CIDR,184.150.14.65 [加拿大 Bell]/24,no-resolve
 # ipv4-c011-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.85/24,no-resolve
+IP-CIDR,184.150.14.85 [加拿大 Bell]/24,no-resolve
 # ipv4-c031-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.77/24,no-resolve
+IP-CIDR,184.150.14.77 [加拿大 Bell]/24,no-resolve
 # ipv4-c002-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.67/24,no-resolve
+IP-CIDR,184.150.14.67 [加拿大 Bell]/24,no-resolve
 # ipv4-c022-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.97/24,no-resolve
+IP-CIDR,184.150.14.97 [加拿大 Bell]/24,no-resolve
 # ipv4-c003-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.69/24,no-resolve
+IP-CIDR,184.150.14.69 [加拿大 Bell]/24,no-resolve
 # ipv4-c023-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.103/24,no-resolve
+IP-CIDR,184.150.14.103 [加拿大 Bell]/24,no-resolve
 # ipv4-c004-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.71/24,no-resolve
+IP-CIDR,184.150.14.71 [加拿大 Bell]/24,no-resolve
 # ipv4-c024-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.95/24,no-resolve
+IP-CIDR,184.150.14.95 [加拿大 Bell]/24,no-resolve
 # ipv4-c005-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.73/24,no-resolve
+IP-CIDR,184.150.14.73 [加拿大 Bell]/24,no-resolve
 # ipv4-c025-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.99/24,no-resolve
+IP-CIDR,184.150.14.99 [加拿大 Bell]/24,no-resolve
 # ipv4-c006-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.75/24,no-resolve
+IP-CIDR,184.150.14.75 [加拿大 Bell]/24,no-resolve
 # ipv4-c026-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.87/24,no-resolve
+IP-CIDR,184.150.14.87 [加拿大 Bell]/24,no-resolve
 # ipv4-c027-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.101/24,no-resolve
+IP-CIDR,184.150.14.101 [加拿大 Bell]/24,no-resolve
 # ipv4-c008-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.79/24,no-resolve
+IP-CIDR,184.150.14.79 [加拿大 Bell]/24,no-resolve
 # ipv4-c028-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.91/24,no-resolve
+IP-CIDR,184.150.14.91 [加拿大 Bell]/24,no-resolve
 # ipv4-c009-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.81/24,no-resolve
+IP-CIDR,184.150.14.81 [加拿大 Bell]/24,no-resolve
 # ipv4-c029-yyz002-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.89/24,no-resolve
+IP-CIDR,184.150.14.89 [加拿大 Bell]/24,no-resolve
 # ipv4-c010-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.147/24,no-resolve
+IP-CIDR,184.150.14.147 [加拿大 Bell]/24,no-resolve
 # ipv4-c001-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.129/24,no-resolve
+IP-CIDR,184.150.14.129 [加拿大 Bell]/24,no-resolve
 # ipv4-c011-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.149/24,no-resolve
+IP-CIDR,184.150.14.149 [加拿大 Bell]/24,no-resolve
 # ipv4-c002-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.131/24,no-resolve
+IP-CIDR,184.150.14.131 [加拿大 Bell]/24,no-resolve
 # ipv4-c012-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.155/24,no-resolve
+IP-CIDR,184.150.14.155 [加拿大 Bell]/24,no-resolve
 # ipv4-c003-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.133/24,no-resolve
+IP-CIDR,184.150.14.133 [加拿大 Bell]/24,no-resolve
 # ipv4-c013-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.159/24,no-resolve
+IP-CIDR,184.150.14.159 [加拿大 Bell]/24,no-resolve
 # ipv4-c004-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.135/24,no-resolve
+IP-CIDR,184.150.14.135 [加拿大 Bell]/24,no-resolve
 # ipv4-c014-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.151/24,no-resolve
+IP-CIDR,184.150.14.151 [加拿大 Bell]/24,no-resolve
 # ipv4-c005-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.137/24,no-resolve
+IP-CIDR,184.150.14.137 [加拿大 Bell]/24,no-resolve
 # ipv4-c015-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.165/24,no-resolve
+IP-CIDR,184.150.14.165 [加拿大 Bell]/24,no-resolve
 # ipv4-c006-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.139/24,no-resolve
+IP-CIDR,184.150.14.139 [加拿大 Bell]/24,no-resolve
 # ipv4-c016-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.153/24,no-resolve
+IP-CIDR,184.150.14.153 [加拿大 Bell]/24,no-resolve
 # ipv4-c007-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.141/24,no-resolve
+IP-CIDR,184.150.14.141 [加拿大 Bell]/24,no-resolve
 # ipv4-c017-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.161/24,no-resolve
+IP-CIDR,184.150.14.161 [加拿大 Bell]/24,no-resolve
 # ipv4-c008-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.143/24,no-resolve
+IP-CIDR,184.150.14.143 [加拿大 Bell]/24,no-resolve
 # ipv4-c018-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.163/24,no-resolve
+IP-CIDR,184.150.14.163 [加拿大 Bell]/24,no-resolve
 # ipv4-c009-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.145/24,no-resolve
+IP-CIDR,184.150.14.145 [加拿大 Bell]/24,no-resolve
 # ipv4-c019-yyz003-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.157/24,no-resolve
+IP-CIDR,184.150.14.157 [加拿大 Bell]/24,no-resolve
 # ipv4-c010-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.211/24,no-resolve
+IP-CIDR,184.150.14.211 [加拿大 Bell]/24,no-resolve
 # ipv4-c001-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.193/24,no-resolve
+IP-CIDR,184.150.14.193 [加拿大 Bell]/24,no-resolve
 # ipv4-c011-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.14.209/24,no-resolve
+IP-CIDR,184.150.14.209 [加拿大 Bell]/24,no-resolve
 # ipv4-c002-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.195/24,no-resolve
+IP-CIDR,184.150.14.195 [加拿大 Bell]/24,no-resolve
 # ipv4-c012-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.215/24,no-resolve
+IP-CIDR,184.150.14.215 [加拿大 Bell]/24,no-resolve
 # ipv4-c003-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.197/24,no-resolve
+IP-CIDR,184.150.14.197 [加拿大 Bell]/24,no-resolve
 # ipv4-c013-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.229/24,no-resolve
+IP-CIDR,184.150.14.229 [加拿大 Bell]/24,no-resolve
 # ipv4-c004-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.14.199/24,no-resolve
+IP-CIDR,184.150.14.199 [加拿大 Bell]/24,no-resolve
 # ipv4-c014-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,184.150.14.227/24,no-resolve
+IP-CIDR,184.150.14.227 [加拿大 Bell]/24,no-resolve
 # ipv4-c005-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.201/24,no-resolve
+IP-CIDR,184.150.14.201 [加拿大 Bell]/24,no-resolve
 # ipv4-c015-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.217/24,no-resolve
+IP-CIDR,184.150.14.217 [加拿大 Bell]/24,no-resolve
 # ipv4-c006-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.203/24,no-resolve
+IP-CIDR,184.150.14.203 [加拿大 Bell]/24,no-resolve
 # ipv4-c016-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.223/24,no-resolve
+IP-CIDR,184.150.14.223 [加拿大 Bell]/24,no-resolve
 # ipv4-c007-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.205/24,no-resolve
+IP-CIDR,184.150.14.205 [加拿大 Bell]/24,no-resolve
 # ipv4-c017-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.221/24,no-resolve
+IP-CIDR,184.150.14.221 [加拿大 Bell]/24,no-resolve
 # ipv4-c008-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.207/24,no-resolve
+IP-CIDR,184.150.14.207 [加拿大 Bell]/24,no-resolve
 # ipv4-c018-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.219/24,no-resolve
+IP-CIDR,184.150.14.219 [加拿大 Bell]/24,no-resolve
 # ipv4-c009-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.213/24,no-resolve
+IP-CIDR,184.150.14.213 [加拿大 Bell]/24,no-resolve
 # ipv4-c019-yyz004-bellcanada-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,184.150.14.225/24,no-resolve
+IP-CIDR,184.150.14.225 [加拿大 Bell]/24,no-resolve
 
 # ipv4-c001-kin001-grenada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,72.252.113.189/24,no-resolve
+IP-CIDR,72.252.113.189 [牙买加]/24,no-resolve
 # ipv4-c001-pos001-grenada-isp.1.oca.nflxvideo.net	2019-10-21
-IP-CIDR,181.188.0.162/24,no-resolve
+IP-CIDR,181.188.0.162 [特立尼达和多巴哥]/24,no-resolve
 # ipv4-c002-pos001-grenada-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.188.0.166/24,no-resolve
+IP-CIDR,181.188.0.166 [特立尼达和多巴哥]/24,no-resolve
 
 # ipv4-c002-ida001-syringa-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.232.66.134/24,no-resolve
+IP-CIDR,66.232.66.134 [美国]/24,no-resolve
 # ipv4-c002-slc001-syringa-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.232.66.154/24,no-resolve
+IP-CIDR,66.232.66.154 [美国]/24,no-resolve
 # ipv4-c002-boi001-syringa-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.232.66.130/24,no-resolve
+IP-CIDR,66.232.66.130 [美国]/24,no-resolve
 
 # ipv4-c010-lee001-virginmedia-isp.1.oca.nflxvideo.net	2019-08-08
-IP-CIDR,62.254.47.132/24,no-resolve
+IP-CIDR,62.254.47.132 [英国]/24,no-resolve
 # ipv4-c001-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.0/24,no-resolve
+IP-CIDR,62.254.47.0 [英国]/24,no-resolve
 # ipv4-c011-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.134/24,no-resolve
+IP-CIDR,62.254.47.134 [英国]/24,no-resolve
 # ipv4-c002-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.2/24,no-resolve
+IP-CIDR,62.254.47.2 [英国]/24,no-resolve
 # ipv4-c012-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.136/24,no-resolve
+IP-CIDR,62.254.47.136 [英国]/24,no-resolve
 # ipv4-c013-lee001-virginmedia-isp.1.oca.nflxvideo.net	2019-10-05
-IP-CIDR,62.254.47.138/24,no-resolve
+IP-CIDR,62.254.47.138 [英国]/24,no-resolve
 # ipv4-c004-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.6/24,no-resolve
+IP-CIDR,62.254.47.6 [英国]/24,no-resolve
 # ipv4-c014-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.140/24,no-resolve
+IP-CIDR,62.254.47.140 [英国]/24,no-resolve
 # ipv4-c005-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.8/24,no-resolve
+IP-CIDR,62.254.47.8 [英国]/24,no-resolve
 # ipv4-c015-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.4/24,no-resolve
+IP-CIDR,62.254.47.4 [英国]/24,no-resolve
 # ipv4-c006-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.10/24,no-resolve
+IP-CIDR,62.254.47.10 [英国]/24,no-resolve
 # ipv4-c007-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.12/24,no-resolve
+IP-CIDR,62.254.47.12 [英国]/24,no-resolve
 # ipv4-c008-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.128/24,no-resolve
+IP-CIDR,62.254.47.128 [英国]/24,no-resolve
 # ipv4-c009-lee001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.254.47.130/24,no-resolve
+IP-CIDR,62.254.47.130 [英国]/24,no-resolve
 # ipv4-c010-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.132/24,no-resolve
+IP-CIDR,62.255.44.132 [英国]/24,no-resolve
 # ipv4-c001-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.0/24,no-resolve
+IP-CIDR,62.255.44.0 [英国]/24,no-resolve
 # ipv4-c011-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.134/24,no-resolve
+IP-CIDR,62.255.44.134 [英国]/24,no-resolve
 # ipv4-c002-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.2/24,no-resolve
+IP-CIDR,62.255.44.2 [英国]/24,no-resolve
 # ipv4-c012-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.136/24,no-resolve
+IP-CIDR,62.255.44.136 [英国]/24,no-resolve
 # ipv4-c003-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.4/24,no-resolve
+IP-CIDR,62.255.44.4 [英国]/24,no-resolve
 # ipv4-c004-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.6/24,no-resolve
+IP-CIDR,62.255.44.6 [英国]/24,no-resolve
 # ipv4-c014-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.140/24,no-resolve
+IP-CIDR,62.255.44.140 [英国]/24,no-resolve
 # ipv4-c005-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.8/24,no-resolve
+IP-CIDR,62.255.44.8 [英国]/24,no-resolve
 # ipv4-c006-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.10/24,no-resolve
+IP-CIDR,62.255.44.10 [英国]/24,no-resolve
 # ipv4-c016-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.138/24,no-resolve
+IP-CIDR,62.255.44.138 [英国]/24,no-resolve
 # ipv4-c007-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.12/24,no-resolve
+IP-CIDR,62.255.44.12 [英国]/24,no-resolve
 # ipv4-c008-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.128/24,no-resolve
+IP-CIDR,62.255.44.128 [英国]/24,no-resolve
 # ipv4-c009-man001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.255.44.130/24,no-resolve
+IP-CIDR,62.255.44.130 [英国]/24,no-resolve
 # ipv4-c010-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,62.253.139.11/24,no-resolve
+IP-CIDR,62.253.139.11 [英国]/24,no-resolve
 # ipv4-c020-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.135/24,no-resolve
+IP-CIDR,62.253.139.135 [英国]/24,no-resolve
 # ipv4-c001-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.0/24,no-resolve
+IP-CIDR,62.253.139.0 [英国]/24,no-resolve
 # ipv4-c011-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,62.253.139.13/24,no-resolve
+IP-CIDR,62.253.139.13 [英国]/24,no-resolve
 # ipv4-c021-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.5/24,no-resolve
+IP-CIDR,62.253.139.5 [英国]/24,no-resolve
 # ipv4-c002-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.3/24,no-resolve
+IP-CIDR,62.253.139.3 [英国]/24,no-resolve
 # ipv4-c012-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.137/24,no-resolve
+IP-CIDR,62.253.139.137 [英国]/24,no-resolve
 # ipv4-c022-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.131/24,no-resolve
+IP-CIDR,62.253.139.131 [英国]/24,no-resolve
 # ipv4-c003-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.5/24,no-resolve
+IP-CIDR,62.253.139.5 [英国]/24,no-resolve
 # ipv4-c013-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.139/24,no-resolve
+IP-CIDR,62.253.139.139 [英国]/24,no-resolve
 # ipv4-c004-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-09-09
-IP-CIDR,62.253.139.7/24,no-resolve
+IP-CIDR,62.253.139.7 [英国]/24,no-resolve
 # ipv4-c014-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.141/24,no-resolve
+IP-CIDR,62.253.139.141 [英国]/24,no-resolve
 # ipv4-c005-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.129/24,no-resolve
+IP-CIDR,62.253.139.129 [英国]/24,no-resolve
 # ipv4-c015-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.0/24,no-resolve
+IP-CIDR,62.253.139.0 [英国]/24,no-resolve
 # ipv4-c006-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.131/24,no-resolve
+IP-CIDR,62.253.139.131 [英国]/24,no-resolve
 # ipv4-c016-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.3/24,no-resolve
+IP-CIDR,62.253.139.3 [英国]/24,no-resolve
 # ipv4-c007-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.133/24,no-resolve
+IP-CIDR,62.253.139.133 [英国]/24,no-resolve
 # ipv4-c017-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.133/24,no-resolve
+IP-CIDR,62.253.139.133 [英国]/24,no-resolve
 # ipv4-c008-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.135/24,no-resolve
+IP-CIDR,62.253.139.135 [英国]/24,no-resolve
 # ipv4-c018-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.129/24,no-resolve
+IP-CIDR,62.253.139.129 [英国]/24,no-resolve
 # ipv4-c009-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,62.253.139.9/24,no-resolve
+IP-CIDR,62.253.139.9 [英国]/24,no-resolve
 # ipv4-c019-lhr001-virginmedia-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,62.253.139.7/24,no-resolve
+IP-CIDR,62.253.139.7 [英国]/24,no-resolve
 # ipv4-c010-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.86/24,no-resolve
+IP-CIDR,62.252.213.86 [英国]/24,no-resolve
 # ipv4-c001-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.70/24,no-resolve
+IP-CIDR,62.252.213.70 [英国]/24,no-resolve
 # ipv4-c011-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.68/24,no-resolve
+IP-CIDR,62.252.213.68 [英国]/24,no-resolve
 # ipv4-c002-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.76/24,no-resolve
+IP-CIDR,62.252.213.76 [英国]/24,no-resolve
 # ipv4-c012-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.64/24,no-resolve
+IP-CIDR,62.252.213.64 [英国]/24,no-resolve
 # ipv4-c003-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.74/24,no-resolve
+IP-CIDR,62.252.213.74 [英国]/24,no-resolve
 # ipv4-c004-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.88/24,no-resolve
+IP-CIDR,62.252.213.88 [英国]/24,no-resolve
 # ipv4-c005-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.78/24,no-resolve
+IP-CIDR,62.252.213.78 [英国]/24,no-resolve
 # ipv4-c007-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-12-01
-IP-CIDR,62.252.213.80/24,no-resolve
+IP-CIDR,62.252.213.80 [英国]/24,no-resolve
 # ipv4-c008-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.84/24,no-resolve
+IP-CIDR,62.252.213.84 [英国]/24,no-resolve
 # ipv4-c009-bhx003-virginmedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.252.213.72/24,no-resolve
+IP-CIDR,62.252.213.72 [英国]/24,no-resolve
 
 # ipv4-c002-bfd001-zitomedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,74.81.99.182/24,no-resolve
+IP-CIDR,74.81.99.182 [美国 加利福尼亚州弗里蒙特市 Hurricane Electric 公司]/24,no-resolve
 # ipv4-c003-bfd001-zitomedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,74.81.99.186/24,no-resolve
+IP-CIDR,74.81.99.186 [美国 加利福尼亚州弗里蒙特市 Hurricane Electric 公司]/24,no-resolve
 # ipv4-c001-cou001-zitomedia-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,74.81.99.178/24,no-resolve
+IP-CIDR,74.81.99.178 [美国 加利福尼亚州弗里蒙特市 Hurricane Electric 公司]/24,no-resolve
 
 # ipv4-c002-cia001-h3gitalia-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,185.97.110.36/24,no-resolve
+IP-CIDR,185.97.110.36 [意大利]/24,no-resolve
 
 # ipv4-c001-cia001-tiscaliitalia-isp.1.oca.nflxvideo.net	2020-01-06
-IP-CIDR,82.85.157.115/24,no-resolve
+IP-CIDR,82.85.157.115 [意大利]/24,no-resolve
 # ipv4-c002-blq001-tiscaliitalia-isp.1.oca.nflxvideo.net	2020-01-06
-IP-CIDR,82.85.41.252/24,no-resolve
+IP-CIDR,82.85.41.252 [意大利]/24,no-resolve
 
 # ipv4-c001-vie001-dreiaustria-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,94.245.201.194/24,no-resolve
+IP-CIDR,94.245.201.194 [奥地利]/24,no-resolve
 # ipv4-c002-vie001-dreiaustria-isp.1.oca.nflxvideo.net	2019-12-13
-IP-CIDR,94.245.201.202/24,no-resolve
+IP-CIDR,94.245.201.202 [奥地利]/24,no-resolve
 # ipv4-c003-vie001-dreiaustria-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,94.245.201.203/24,no-resolve
+IP-CIDR,94.245.201.203 [奥地利]/24,no-resolve
 # ipv4-c006-vie001-dreiaustria-isp.1.oca.nflxvideo.net	2019-09-23
-IP-CIDR,94.245.201.218/24,no-resolve
+IP-CIDR,94.245.201.218 [奥地利]/24,no-resolve
 # ipv4-c001-vie002-dreiaustria-isp.1.oca.nflxvideo.net	2019-12-13
-IP-CIDR,81.3.201.194/24,no-resolve
+IP-CIDR,81.3.201.194 [奥地利]/24,no-resolve
 # ipv4-c002-vie002-dreiaustria-isp.1.oca.nflxvideo.net	2019-12-13
-IP-CIDR,81.3.201.202/24,no-resolve
+IP-CIDR,81.3.201.202 [奥地利]/24,no-resolve
 # ipv4-c003-vie002-dreiaustria-isp.1.oca.nflxvideo.net	2019-12-13
-IP-CIDR,81.3.201.203/24,no-resolve
+IP-CIDR,81.3.201.203 [奥地利]/24,no-resolve
 
 # ipv4-c001-szb001-telekommalaysia-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,58.27.38.199/24,no-resolve
+IP-CIDR,58.27.38.199 [马来西亚]/24,no-resolve
 # ipv4-c002-szb001-telekommalaysia-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,202.188.117.45/24,no-resolve
+IP-CIDR,202.188.117.45 [马来西亚]/24,no-resolve
 # ipv4-c003-kul001-telekommalaysia-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,202.188.117.43/24,no-resolve
+IP-CIDR,202.188.117.43 [马来西亚]/24,no-resolve
 # ipv4-c002-szb002-telekommalaysia-isp.1.oca.nflxvideo.net	2020-01-13
-IP-CIDR,58.27.11.201/24,no-resolve
+IP-CIDR,58.27.11.201 [马来西亚]/24,no-resolve
 # ipv6-c002-szb002-telekommalaysia-isp.1.oca.nflxvideo.net	2020-01-13
-IP-CIDR,58.27.11.201/24,no-resolve
+IP-CIDR,58.27.11.201 [马来西亚]/24,no-resolve
 
 # ipv4-c001-waw001-netia-isp.1.oca.nflxvideo.net	2019-12-27
-IP-CIDR,213.216.64.58/24,no-resolve
+IP-CIDR,213.216.64.58 [波兰]/24,no-resolve
 # ipv4-c002-waw001-netia-isp.1.oca.nflxvideo.net	2019-09-23
-IP-CIDR,213.216.64.26/24,no-resolve
+IP-CIDR,213.216.64.26 [波兰]/24,no-resolve
 # ipv4-c003-waw001-netia-isp.1.oca.nflxvideo.net	2019-09-23
-IP-CIDR,213.216.64.30/24,no-resolve
+IP-CIDR,213.216.64.30 [波兰]/24,no-resolve
 
 # ipv4-c001-vie001-anexia-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,144.208.211.67/24,no-resolve
+IP-CIDR,144.208.211.67 [美国]/24,no-resolve
 
 # ipv4-c005-anc001-acsalaska-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,204.17.140.250/24,no-resolve
+IP-CIDR,204.17.140.250 [美国]/24,no-resolve
 
 # ipv4-c002-rba001-orangema-isp.1.oca.nflxvideo.net	2020-02-19
-IP-CIDR,197.230.237.209/24,no-resolve
+IP-CIDR,197.230.237.209 [摩洛哥]/24,no-resolve
 # ipv4-c001-cmn001-orangema-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,197.230.37.209/24,no-resolve
+IP-CIDR,197.230.37.209 [摩洛哥]/24,no-resolve
 
 # ipv4-c001-jnb001-telkomsa-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,105.187.240.196/24,no-resolve
+IP-CIDR,105.187.240.196 [南非]/24,no-resolve
 # ipv4-c002-jnb001-telkomsa-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,105.187.240.197/24,no-resolve
+IP-CIDR,105.187.240.197 [南非]/24,no-resolve
 # ipv4-c001-jnb002-telkomsa-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,105.187.243.5/24,no-resolve
+IP-CIDR,105.187.243.5 [南非]/24,no-resolve
 # ipv4-c003-jnb002-telkomsa-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,105.187.243.6/24,no-resolve
+IP-CIDR,105.187.243.6 [南非]/24,no-resolve
 
 # ipv4-c001-bna001-enausa-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.4.63.99/24,no-resolve
+IP-CIDR,96.4.63.99 [美国 田纳西州 Nashville 市美国教育网]/24,no-resolve
 
 # ipv4-c001-abe001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.18/24,no-resolve
+IP-CIDR,207.44.123.18 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-abe001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.120.194/24,no-resolve
+IP-CIDR,207.44.120.194 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c001-avp001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.120.214/24,no-resolve
+IP-CIDR,207.44.120.214 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-avp001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.124.234/24,no-resolve
+IP-CIDR,207.44.124.234 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-ewr001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.58/24,no-resolve
+IP-CIDR,207.44.123.58 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c001-mdt001-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.46/24,no-resolve
+IP-CIDR,207.44.123.46 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-abe002-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.42/24,no-resolve
+IP-CIDR,207.44.123.42 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c003-abe002-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.120.198/24,no-resolve
+IP-CIDR,207.44.120.198 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c001-mdt002-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.54/24,no-resolve
+IP-CIDR,207.44.123.54 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-mdt002-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.254/24,no-resolve
+IP-CIDR,207.44.123.254 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c001-abe003-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.50/24,no-resolve
+IP-CIDR,207.44.123.50 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c002-abe004-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.123.62/24,no-resolve
+IP-CIDR,207.44.123.62 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c003-abe004-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.120.202/24,no-resolve
+IP-CIDR,207.44.120.202 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 # ipv4-c001-abe005-penteledata-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.44.120.210/24,no-resolve
+IP-CIDR,207.44.120.210 [美国 宾夕法尼亚州 Palmerton 市]/24,no-resolve
 
 # ipv4-c001-mil001-fastweb-isp.1.oca.nflxvideo.net	2020-02-16
-IP-CIDR,89.96.194.2/24,no-resolve
+IP-CIDR,89.96.194.2 [意大利]/24,no-resolve
 # ipv4-c002-mil001-fastweb-isp.1.oca.nflxvideo.net	2020-02-16
-IP-CIDR,89.96.194.6/24,no-resolve
+IP-CIDR,89.96.194.6 [意大利]/24,no-resolve
 # ipv4-c003-mil001-fastweb-isp.1.oca.nflxvideo.net	2020-03-04
-IP-CIDR,89.96.194.118/24,no-resolve
+IP-CIDR,89.96.194.118 [意大利]/24,no-resolve
 # ipv4-c004-mil001-fastweb-isp.1.oca.nflxvideo.net	2020-03-04
-IP-CIDR,89.96.194.114/24,no-resolve
+IP-CIDR,89.96.194.114 [意大利]/24,no-resolve
 # ipv4-c001-lin001-fastweb-isp.1.oca.nflxvideo.net	2020-02-16
-IP-CIDR,89.96.194.90/24,no-resolve
+IP-CIDR,89.96.194.90 [意大利]/24,no-resolve
 # ipv4-c002-lin001-fastweb-isp.1.oca.nflxvideo.net	2020-02-16
-IP-CIDR,89.96.194.94/24,no-resolve
+IP-CIDR,89.96.194.94 [意大利]/24,no-resolve
 # ipv4-c004-lin001-fastweb-isp.1.oca.nflxvideo.net	2020-03-04
-IP-CIDR,89.96.194.106/24,no-resolve
+IP-CIDR,89.96.194.106 [意大利]/24,no-resolve
 
 # ipv4-c002-bna001-epb-isp.1.oca.nflxvideo.net	2019-06-08
-IP-CIDR,66.18.34.42/24,no-resolve
+IP-CIDR,66.18.34.42 [美国]/24,no-resolve
 # ipv4-c003-bna001-epb-isp.1.oca.nflxvideo.net	2019-04-15
-IP-CIDR,66.18.34.46/24,no-resolve
+IP-CIDR,66.18.34.46 [美国]/24,no-resolve
 # ipv4-c004-bna001-epb-isp.1.oca.nflxvideo.net	2019-04-15
-IP-CIDR,66.18.34.50/24,no-resolve
+IP-CIDR,66.18.34.50 [美国]/24,no-resolve
 # ipv4-c005-bna001-epb-isp.1.oca.nflxvideo.net	2019-04-15
-IP-CIDR,66.18.33.62/24,no-resolve
+IP-CIDR,66.18.33.62 [美国]/24,no-resolve
 
 # ipv4-c001-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.200.130/24,no-resolve
+IP-CIDR,203.116.200.130 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c002-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.200.131/24,no-resolve
+IP-CIDR,203.116.200.131 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c003-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.200.134/24,no-resolve
+IP-CIDR,203.116.200.134 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c003-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.200.134/24,no-resolve
+IP-CIDR,203.116.200.134 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c004-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.200.135/24,no-resolve
+IP-CIDR,203.116.200.135 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c005-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,203.116.200.136/24,no-resolve
+IP-CIDR,203.116.200.136 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c005-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.200.136/24,no-resolve
+IP-CIDR,203.116.200.136 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c006-sin001-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.200.137/24,no-resolve
+IP-CIDR,203.116.200.137 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c001-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.210.132/24,no-resolve
+IP-CIDR,203.116.210.132 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c003-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.210.133/24,no-resolve
+IP-CIDR,203.116.210.133 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c003-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,203.116.210.133/24,no-resolve
+IP-CIDR,203.116.210.133 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c004-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.210.135/24,no-resolve
+IP-CIDR,203.116.210.135 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c005-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.210.134/24,no-resolve
+IP-CIDR,203.116.210.134 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c006-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.210.137/24,no-resolve
+IP-CIDR,203.116.210.137 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c007-xsp002-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.210.136/24,no-resolve
+IP-CIDR,203.116.210.136 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c002-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.210.196/24,no-resolve
+IP-CIDR,203.116.210.196 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c002-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.210.196/24,no-resolve
+IP-CIDR,203.116.210.196 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c004-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-22
-IP-CIDR,203.116.210.197/24,no-resolve
+IP-CIDR,203.116.210.197 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c005-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.210.199/24,no-resolve
+IP-CIDR,203.116.210.199 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c005-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,203.116.210.199/24,no-resolve
+IP-CIDR,203.116.210.199 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c006-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,203.116.210.198/24,no-resolve
+IP-CIDR,203.116.210.198 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c006-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.210.198/24,no-resolve
+IP-CIDR,203.116.210.198 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c007-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.210.201/24,no-resolve
+IP-CIDR,203.116.210.201 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv4-c008-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,203.116.210.200/24,no-resolve
+IP-CIDR,203.116.210.200 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 # ipv6-c008-xsp003-starhub-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,203.116.210.200/24,no-resolve
+IP-CIDR,203.116.210.200 [新加坡 星和电信 (Starhub) 骨干网]/24,no-resolve
 
 # ipv4-c001-oma001-nebdc-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.105.28.250/24,no-resolve
+IP-CIDR,184.105.28.250 [美国 加利福尼亚州弗里蒙特市 Hurricane Electric 公司]/24,no-resolve
 
 # ipv4-c001-syq001-jasec-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,138.94.59.178/24,no-resolve
+IP-CIDR,138.94.59.178 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c001-sna001-cenic-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.189.255.82/24,no-resolve
+IP-CIDR,198.189.255.82 [美国]/24,no-resolve
 # ipv4-c002-sna001-cenic-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.189.255.9/24,no-resolve
+IP-CIDR,198.189.255.9 [美国]/24,no-resolve
 # ipv4-c002-sac001-cenic-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.189.255.2/24,no-resolve
+IP-CIDR,198.189.255.2 [美国]/24,no-resolve
 # ipv4-c003-sac001-cenic-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.189.255.13/24,no-resolve
+IP-CIDR,198.189.255.13 [美国]/24,no-resolve
 # ipv4-c002-san001-cenic-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.189.255.6/24,no-resolve
+IP-CIDR,198.189.255.6 [美国]/24,no-resolve
 # ipv4-c003-den001-cenic-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,192.43.217.202/24,no-resolve
+IP-CIDR,192.43.217.202 [美国]/24,no-resolve
 
 # ipv4-c001-dsm001-upnllc-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,173.244.134.58/24,no-resolve
+IP-CIDR,173.244.134.58 [美国]/24,no-resolve
 
 # ipv4-c001-sjo001-nflxoc-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,45.57.56.130/24,no-resolve
+IP-CIDR,45.57.56.130 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c001-pos001-digicel-trinidad-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,161.0.157.195/24,no-resolve
+IP-CIDR,161.0.157.195 [特立尼达和多巴哥]/24,no-resolve
 # ipv4-c001-pos002-digicel-trinidad-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,161.0.157.73/24,no-resolve
+IP-CIDR,161.0.157.73 [特立尼达和多巴哥]/24,no-resolve
 
 # ipv4-c001-pdx001-lightspeed-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.192.226.245/24,no-resolve
+IP-CIDR,206.192.226.245 [美国]/24,no-resolve
 
 # ipv4-c003-smf001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.30.98.230/24,no-resolve
+IP-CIDR,64.30.98.230 [美国 加州]/24,no-resolve
 # ipv4-c004-smf001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.60.128.46/24,no-resolve
+IP-CIDR,66.60.128.46 [美国]/24,no-resolve
 # ipv4-c005-smf001-consolidated-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,66.60.128.139/24,no-resolve
+IP-CIDR,66.60.128.139 [美国]/24,no-resolve
 # ipv4-c003-mci001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.126.2.110/24,no-resolve
+IP-CIDR,64.126.2.110 [美国 加州]/24,no-resolve
 # ipv4-c004-mci001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.126.2.246/24,no-resolve
+IP-CIDR,64.126.2.246 [美国 加州]/24,no-resolve
 # ipv4-c002-pit001-consolidated-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,72.22.30.34/24,no-resolve
+IP-CIDR,72.22.30.34 [美国 缅因州 / 新罕布什尔州]/24,no-resolve
 # ipv4-c001-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.136.4/24,no-resolve
+IP-CIDR,71.169.136.4 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c002-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.136.5/24,no-resolve
+IP-CIDR,71.169.136.5 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c003-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.137.4/24,no-resolve
+IP-CIDR,71.169.137.4 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c004-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.137.6/24,no-resolve
+IP-CIDR,71.169.137.6 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c005-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.136.7/24,no-resolve
+IP-CIDR,71.169.136.7 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c006-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.136.6/24,no-resolve
+IP-CIDR,71.169.136.6 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c007-btv001-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.169.137.7/24,no-resolve
+IP-CIDR,71.169.137.7 [美国 弗吉尼亚州劳登县阿什本地区 Verizon Online 有限公司]/24,no-resolve
 # ipv4-c002-mhr002-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.30.98.214/24,no-resolve
+IP-CIDR,64.30.98.214 [美国 加州]/24,no-resolve
 # ipv4-c003-mhr002-consolidated-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.30.98.210/24,no-resolve
+IP-CIDR,64.30.98.210 [美国 加州]/24,no-resolve
 
 # ipv4-c001-waw001-t-mobilepoland-isp.1.oca.nflxvideo.net	2020-01-30
-IP-CIDR,213.158.201.180/24,no-resolve
+IP-CIDR,213.158.201.180 [波兰]/24,no-resolve
 
 # ipv4-c002-trn001-wind-isp.1.oca.nflxvideo.net	2020-02-21
-IP-CIDR,151.5.17.19/24,no-resolve
+IP-CIDR,151.5.17.19 [意大利]/24,no-resolve
 # ipv4-c002-blq002-wind-isp.1.oca.nflxvideo.net	2020-02-21
-IP-CIDR,151.5.17.43/24,no-resolve
+IP-CIDR,151.5.17.43 [意大利]/24,no-resolve
 
 # ipv4-c003-mci001-bluebird-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.221.221.31/24,no-resolve
+IP-CIDR,67.221.221.31 [美国 弗吉尼亚州]/24,no-resolve
 # ipv4-c004-mci001-bluebird-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.221.221.29/24,no-resolve
+IP-CIDR,67.221.221.29 [美国 弗吉尼亚州]/24,no-resolve
 # ipv4-c001-stl001-bluebird-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.221.221.17/24,no-resolve
+IP-CIDR,67.221.221.17 [美国 弗吉尼亚州]/24,no-resolve
 # ipv4-c002-stl001-bluebird-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,170.52.52.130/24,no-resolve
+IP-CIDR,170.52.52.130 [美国]/24,no-resolve
 
 # ipv4-c001-ath001-oteglobe-isp.1.oca.nflxvideo.net	2019-08-13
-IP-CIDR,62.75.21.18/24,no-resolve
+IP-CIDR,62.75.21.18 [希腊]/24,no-resolve
 # ipv4-c002-ath001-oteglobe-isp.1.oca.nflxvideo.net	2019-08-13
-IP-CIDR,62.75.21.17/24,no-resolve
+IP-CIDR,62.75.21.17 [希腊]/24,no-resolve
 # ipv4-c003-ath001-oteglobe-isp.1.oca.nflxvideo.net	2020-01-31
-IP-CIDR,62.75.21.19/24,no-resolve
+IP-CIDR,62.75.21.19 [希腊]/24,no-resolve
 # ipv4-c004-ath001-oteglobe-isp.1.oca.nflxvideo.net	2020-01-31
-IP-CIDR,62.75.21.20/24,no-resolve
+IP-CIDR,62.75.21.20 [希腊]/24,no-resolve
 # ipv4-c001-ath002-oteglobe-isp.1.oca.nflxvideo.net	2019-08-12
-IP-CIDR,62.75.21.33/24,no-resolve
+IP-CIDR,62.75.21.33 [希腊]/24,no-resolve
 # ipv4-c003-ath003-oteglobe-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.75.21.4/24,no-resolve
+IP-CIDR,62.75.21.4 [希腊]/24,no-resolve
 # ipv4-c004-ath003-oteglobe-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.75.21.3/24,no-resolve
+IP-CIDR,62.75.21.3 [希腊]/24,no-resolve
 
 # ipv4-c001-obf001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.55/24,no-resolve
+IP-CIDR,145.253.34.55 [德国]/24,no-resolve
 # ipv4-c002-obf001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.21/24,no-resolve
+IP-CIDR,145.253.34.21 [德国]/24,no-resolve
 # ipv4-c001-lej001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.151/24,no-resolve
+IP-CIDR,145.253.34.151 [德国]/24,no-resolve
 # ipv4-c002-lej001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.157/24,no-resolve
+IP-CIDR,145.253.34.157 [德国]/24,no-resolve
 # ipv4-c003-lej001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.153/24,no-resolve
+IP-CIDR,145.253.34.153 [德国]/24,no-resolve
 # ipv4-c004-lej001-vodafonede-isp.1.oca.nflxvideo.net	2020-03-02
-IP-CIDR,145.253.34.155/24,no-resolve
+IP-CIDR,145.253.34.155 [德国]/24,no-resolve
 # ipv4-c001-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.63/24,no-resolve
+IP-CIDR,145.253.34.63 [德国]/24,no-resolve
 # ipv4-c002-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.129/24,no-resolve
+IP-CIDR,145.253.34.129 [德国]/24,no-resolve
 # ipv4-c003-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.141/24,no-resolve
+IP-CIDR,145.253.34.141 [德国]/24,no-resolve
 # ipv4-c004-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.139/24,no-resolve
+IP-CIDR,145.253.34.139 [德国]/24,no-resolve
 # ipv4-c005-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.143/24,no-resolve
+IP-CIDR,145.253.34.143 [德国]/24,no-resolve
 # ipv4-c006-xfw001-vodafonede-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,145.253.34.145/24,no-resolve
+IP-CIDR,145.253.34.145 [德国]/24,no-resolve
 
 # ipv4-c002-bwi001-marylandrande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,131.118.254.106/24,no-resolve
+IP-CIDR,131.118.254.106 [美国 马里兰大学]/24,no-resolve
 
 # ipv4-c004-maf001-grande-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,66.90.138.12/24,no-resolve
+IP-CIDR,66.90.138.12 [美国]/24,no-resolve
 # ipv4-c005-maf001-grande-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,66.90.138.10/24,no-resolve
+IP-CIDR,66.90.138.10 [美国]/24,no-resolve
 # ipv4-c007-maf001-grande-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,66.90.138.15/24,no-resolve
+IP-CIDR,66.90.138.15 [美国]/24,no-resolve
 # ipv4-c003-aus001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.82/24,no-resolve
+IP-CIDR,66.90.138.82 [美国]/24,no-resolve
 # ipv4-c004-aus001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.88/24,no-resolve
+IP-CIDR,66.90.138.88 [美国]/24,no-resolve
 # ipv4-c005-aus001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.139.90/24,no-resolve
+IP-CIDR,66.90.139.90 [美国]/24,no-resolve
 # ipv4-c002-act001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.86/24,no-resolve
+IP-CIDR,66.90.138.86 [美国]/24,no-resolve
 # ipv4-c003-act001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.94/24,no-resolve
+IP-CIDR,66.90.138.94 [美国]/24,no-resolve
 # ipv4-c004-act001-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.17/24,no-resolve
+IP-CIDR,66.90.138.17 [美国]/24,no-resolve
 # ipv4-c003-aus002-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.2/24,no-resolve
+IP-CIDR,66.90.138.2 [美国]/24,no-resolve
 # ipv4-c004-aus002-grande-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.90.138.0/24,no-resolve
+IP-CIDR,66.90.138.0 [美国]/24,no-resolve
 
 # ipv4-c001-alb001-apogee-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,76.78.67.118/24,no-resolve
+IP-CIDR,76.78.67.118 [美国 新泽西州月桂山镇 Comcast 有线通信公司]/24,no-resolve
 # ipv4-c001-dal001-apogee-isp.1.oca.nflxvideo.net	2020-01-27
-IP-CIDR,64.189.192.66/24,no-resolve
+IP-CIDR,64.189.192.66 [美国 加利福尼亚]/24,no-resolve
 # ipv4-c001-aus001-apogee-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,209.166.100.18/24,no-resolve
+IP-CIDR,209.166.100.18 [美国]/24,no-resolve
 # ipv4-c002-aus001-apogee-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,209.166.100.22/24,no-resolve
+IP-CIDR,209.166.100.22 [美国]/24,no-resolve
 
 # ipv4-c010-uio001-netlife-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,181.39.44.182/24,no-resolve
+IP-CIDR,181.39.44.182 [厄瓜多尔]/24,no-resolve
 # ipv4-c001-uio001-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.44.170/24,no-resolve
+IP-CIDR,181.39.44.170 [厄瓜多尔]/24,no-resolve
 # ipv4-c011-uio001-netlife-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,181.39.44.183/24,no-resolve
+IP-CIDR,181.39.44.183 [厄瓜多尔]/24,no-resolve
 # ipv4-c002-uio001-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.44.174/24,no-resolve
+IP-CIDR,181.39.44.174 [厄瓜多尔]/24,no-resolve
 # ipv4-c006-uio001-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.44.178/24,no-resolve
+IP-CIDR,181.39.44.178 [厄瓜多尔]/24,no-resolve
 # ipv4-c007-uio001-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.44.179/24,no-resolve
+IP-CIDR,181.39.44.179 [厄瓜多尔]/24,no-resolve
 # ipv4-c008-uio001-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.44.180/24,no-resolve
+IP-CIDR,181.39.44.180 [厄瓜多尔]/24,no-resolve
 # ipv4-c009-uio001-netlife-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,181.39.44.181/24,no-resolve
+IP-CIDR,181.39.44.181 [厄瓜多尔]/24,no-resolve
 # ipv4-c010-gye002-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.188.18/24,no-resolve
+IP-CIDR,181.39.188.18 [厄瓜多尔]/24,no-resolve
 # ipv4-c001-gye002-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.188.13/24,no-resolve
+IP-CIDR,181.39.188.13 [厄瓜多尔]/24,no-resolve
 # ipv4-c011-gye002-netlife-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,181.39.188.20/24,no-resolve
+IP-CIDR,181.39.188.20 [厄瓜多尔]/24,no-resolve
 # ipv4-c007-gye002-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.188.14/24,no-resolve
+IP-CIDR,181.39.188.14 [厄瓜多尔]/24,no-resolve
 # ipv4-c008-gye002-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.188.10/24,no-resolve
+IP-CIDR,181.39.188.10 [厄瓜多尔]/24,no-resolve
 # ipv4-c009-gye002-netlife-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.39.188.19/24,no-resolve
+IP-CIDR,181.39.188.19 [厄瓜多尔]/24,no-resolve
 
 # ipv4-c001-bjx001-megacable-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,189.194.232.193/24,no-resolve
+IP-CIDR,189.194.232.193 [墨西哥]/24,no-resolve
 # ipv4-c002-bjx001-megacable-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,189.194.232.194/24,no-resolve
+IP-CIDR,189.194.232.194 [墨西哥]/24,no-resolve
 # ipv4-c003-bjx001-megacable-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,189.194.232.195/24,no-resolve
+IP-CIDR,189.194.232.195 [墨西哥]/24,no-resolve
 # ipv4-c004-bjx001-megacable-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,189.194.232.196/24,no-resolve
+IP-CIDR,189.194.232.196 [墨西哥]/24,no-resolve
 
 # ipv4-c003-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.131.237/24,no-resolve
+IP-CIDR,23.228.131.237 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c013-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.77/24,no-resolve
+IP-CIDR,23.228.129.77 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c004-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.131.235/24,no-resolve
+IP-CIDR,23.228.131.235 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c014-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.79/24,no-resolve
+IP-CIDR,23.228.129.79 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c005-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.131.233/24,no-resolve
+IP-CIDR,23.228.131.233 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c015-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.75/24,no-resolve
+IP-CIDR,23.228.129.75 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c006-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.239/24,no-resolve
+IP-CIDR,23.228.129.239 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c016-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.81/24,no-resolve
+IP-CIDR,23.228.129.81 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c007-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.65/24,no-resolve
+IP-CIDR,23.228.129.65 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c017-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.247/24,no-resolve
+IP-CIDR,23.228.129.247 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c008-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.129.67/24,no-resolve
+IP-CIDR,23.228.129.67 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 # ipv4-c018-mci001-google-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,23.228.131.239/24,no-resolve
+IP-CIDR,23.228.131.239 [美国 美国 Google 光纤公司 AS16591 (Google Fiber Inc.)]/24,no-resolve
 
 # ipv4-c001-lga001-t-mobile-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,208.54.37.30/24,no-resolve
+IP-CIDR,208.54.37.30 [美国]/24,no-resolve
 # ipv6-c001-lga001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.37.30/24,no-resolve
+IP-CIDR,208.54.37.30 [美国]/24,no-resolve
 # ipv4-c001-bna001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.70.30/24,no-resolve
+IP-CIDR,208.54.70.30 [美国]/24,no-resolve
 # ipv6-c001-bna001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.70.30/24,no-resolve
+IP-CIDR,208.54.70.30 [美国]/24,no-resolve
 # ipv4-c001-sna001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.66.30/24,no-resolve
+IP-CIDR,208.54.66.30 [美国]/24,no-resolve
 # ipv4-c001-ord001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.80.30/24,no-resolve
+IP-CIDR,208.54.80.30 [美国]/24,no-resolve
 # ipv6-c001-ord001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.80.30/24,no-resolve
+IP-CIDR,208.54.80.30 [美国]/24,no-resolve
 # ipv4-c001-pvd001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.128.126/24,no-resolve
+IP-CIDR,172.56.128.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-pvd001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.128.126/24,no-resolve
+IP-CIDR,172.56.128.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c002-smf001-t-mobile-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,172.56.140.126/24,no-resolve
+IP-CIDR,172.56.140.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c002-smf001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.140.126/24,no-resolve
+IP-CIDR,172.56.140.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c001-iah001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.139.126/24,no-resolve
+IP-CIDR,172.56.139.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-iah001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.139.126/24,no-resolve
+IP-CIDR,172.56.139.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c002-bwi001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.132.126/24,no-resolve
+IP-CIDR,172.56.132.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c002-bwi001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.132.126/24,no-resolve
+IP-CIDR,172.56.132.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-pdk001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.16.65/24,no-resolve
+IP-CIDR,208.54.16.65 [美国]/24,no-resolve
 # ipv6-c002-pdk001-t-mobile-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,208.54.16.65/24,no-resolve
+IP-CIDR,208.54.16.65 [美国]/24,no-resolve
 # ipv4-c001-phl001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.67.30/24,no-resolve
+IP-CIDR,208.54.67.30 [美国]/24,no-resolve
 # ipv6-c001-phl001-t-mobile-isp.1.oca.nflxvideo.net	2019-12-03
-IP-CIDR,208.54.67.30/24,no-resolve
+IP-CIDR,208.54.67.30 [美国]/24,no-resolve
 # ipv4-c001-orl001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.85.30/24,no-resolve
+IP-CIDR,208.54.85.30 [美国]/24,no-resolve
 # ipv6-c001-orl001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.85.30/24,no-resolve
+IP-CIDR,208.54.85.30 [美国]/24,no-resolve
 # ipv4-c001-den001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.2.3/24,no-resolve
+IP-CIDR,208.54.2.3 [美国]/24,no-resolve
 # ipv6-c001-den001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.54.2.3/24,no-resolve
+IP-CIDR,208.54.2.3 [美国]/24,no-resolve
 # ipv4-c001-clt001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.133.126/24,no-resolve
+IP-CIDR,172.56.133.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-clt001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.133.126/24,no-resolve
+IP-CIDR,172.56.133.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c001-riv001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.138.126/24,no-resolve
+IP-CIDR,172.56.138.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-riv001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.138.126/24,no-resolve
+IP-CIDR,172.56.138.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c002-dfw001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.145.66/24,no-resolve
+IP-CIDR,172.56.145.66 [美国 T-Mobile]/24,no-resolve
 # ipv6-c002-dfw001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.145.66/24,no-resolve
+IP-CIDR,172.56.145.66 [美国 T-Mobile]/24,no-resolve
 # ipv4-c001-dtw001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.141.126/24,no-resolve
+IP-CIDR,172.56.141.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-dtw001-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.141.126/24,no-resolve
+IP-CIDR,172.56.141.126 [美国 T-Mobile]/24,no-resolve
 # ipv4-c001-sna002-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.143.126/24,no-resolve
+IP-CIDR,172.56.143.126 [美国 T-Mobile]/24,no-resolve
 # ipv6-c001-sna002-t-mobile-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,172.56.143.126/24,no-resolve
+IP-CIDR,172.56.143.126 [美国 T-Mobile]/24,no-resolve
 
 # ipv4-c001-bgi001-lime-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,162.220.138.2/24,no-resolve
+IP-CIDR,162.220.138.2 [巴巴多斯]/24,no-resolve
 # ipv4-c002-bgi001-lime-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,65.48.147.74/24,no-resolve
+IP-CIDR,65.48.147.74 [巴巴多斯]/24,no-resolve
 
 # ipv4-c006-qkl001-netcologne-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,87.79.22.170/24,no-resolve
+IP-CIDR,87.79.22.170 [德国]/24,no-resolve
 
 # ipv4-c001-pwm001-maine-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,130.111.19.100/24,no-resolve
+IP-CIDR,130.111.19.100 [美国 缅因大学]/24,no-resolve
 # ipv4-c001-bgr001-maine-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,130.111.19.68/24,no-resolve
+IP-CIDR,130.111.19.68 [美国 缅因大学]/24,no-resolve
 # ipv4-c002-bgr001-maine-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,130.111.19.69/24,no-resolve
+IP-CIDR,130.111.19.69 [美国 缅因大学]/24,no-resolve
 
 # ipv4-c010-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.33.66/24,no-resolve
+IP-CIDR,200.114.33.66 [哥伦比亚]/24,no-resolve
 # ipv4-c011-mde001-une-isp.1.oca.nflxvideo.net	2019-10-22
-IP-CIDR,200.114.33.194/24,no-resolve
+IP-CIDR,200.114.33.194 [哥伦比亚]/24,no-resolve
 # ipv4-c003-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.33.130/24,no-resolve
+IP-CIDR,200.114.33.130 [哥伦比亚]/24,no-resolve
 # ipv4-c006-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.32.194/24,no-resolve
+IP-CIDR,200.114.32.194 [哥伦比亚]/24,no-resolve
 # ipv4-c007-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.32.2/24,no-resolve
+IP-CIDR,200.114.32.2 [哥伦比亚]/24,no-resolve
 # ipv4-c008-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.32.66/24,no-resolve
+IP-CIDR,200.114.32.66 [哥伦比亚]/24,no-resolve
 # ipv4-c009-mde001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.32.130/24,no-resolve
+IP-CIDR,200.114.32.130 [哥伦比亚]/24,no-resolve
 # ipv4-c003-bog001-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.60.34/24,no-resolve
+IP-CIDR,200.114.60.34 [哥伦比亚]/24,no-resolve
 # ipv4-c010-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.34.66/24,no-resolve
+IP-CIDR,200.114.34.66 [哥伦比亚]/24,no-resolve
 # ipv4-c011-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.34.2/24,no-resolve
+IP-CIDR,200.114.34.2 [哥伦比亚]/24,no-resolve
 # ipv4-c012-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.35.194/24,no-resolve
+IP-CIDR,200.114.35.194 [哥伦比亚]/24,no-resolve
 # ipv4-c003-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.35.130/24,no-resolve
+IP-CIDR,200.114.35.130 [哥伦比亚]/24,no-resolve
 # ipv4-c004-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.35.66/24,no-resolve
+IP-CIDR,200.114.35.66 [哥伦比亚]/24,no-resolve
 # ipv4-c005-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.35.2/24,no-resolve
+IP-CIDR,200.114.35.2 [哥伦比亚]/24,no-resolve
 # ipv4-c008-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.34.130/24,no-resolve
+IP-CIDR,200.114.34.130 [哥伦比亚]/24,no-resolve
 # ipv4-c009-mde002-une-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.114.34.194/24,no-resolve
+IP-CIDR,200.114.34.194 [哥伦比亚]/24,no-resolve
 
 # ipv4-c001-jan001-cspire-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.235.1.133/24,no-resolve
+IP-CIDR,173.235.1.133 [美国]/24,no-resolve
 
 # ipv4-c001-ams001-xenosite-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,89.184.160.147/24,no-resolve
+IP-CIDR,89.184.160.147 [荷兰]/24,no-resolve
 # ipv4-c002-ams001-xenosite-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,89.184.160.146/24,no-resolve
+IP-CIDR,89.184.160.146 [荷兰]/24,no-resolve
 
 # ipv4-c001-sac001-wave-isp.1.oca.nflxvideo.net	2020-01-06
-IP-CIDR,208.76.186.5/24,no-resolve
+IP-CIDR,208.76.186.5 [美国]/24,no-resolve
 # ipv4-c002-sac001-wave-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,208.76.186.7/24,no-resolve
+IP-CIDR,208.76.186.7 [美国]/24,no-resolve
 # ipv4-c003-sfo001-wave-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.76.186.58/24,no-resolve
+IP-CIDR,208.76.186.58 [美国]/24,no-resolve
 # ipv4-c004-sfo001-wave-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.76.186.62/24,no-resolve
+IP-CIDR,208.76.186.62 [美国]/24,no-resolve
 # ipv4-c001-pwt001-wave-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,74.85.65.115/24,no-resolve
+IP-CIDR,74.85.65.115 [美国 联合航空通信网络 (东南部通用)]/24,no-resolve
 # ipv4-c001-sfo002-wave-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.76.186.50/24,no-resolve
+IP-CIDR,208.76.186.50 [美国]/24,no-resolve
 
 # ipv4-c001-dtw002-buckeye-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,72.240.7.141/24,no-resolve
+IP-CIDR,72.240.7.141 [美国 加利福尼亚州圣弗朗西斯科市]/24,no-resolve
 
 # ipv4-c001-msp001-arvig-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,209.81.114.164/24,no-resolve
+IP-CIDR,209.81.114.164 [美国]/24,no-resolve
 # ipv4-c002-far001-arvig-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,209.81.114.180/24,no-resolve
+IP-CIDR,209.81.114.180 [美国]/24,no-resolve
 
 # ipv4-c010-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,72.23.10.194/24,no-resolve
+IP-CIDR,72.23.10.194 [美国 缅因州 / 新罕布什尔州]/24,no-resolve
 # ipv4-c011-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,24.101.91.15/24,no-resolve
+IP-CIDR,24.101.91.15 [美国]/24,no-resolve
 # ipv4-c012-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,24.101.91.13/24,no-resolve
+IP-CIDR,24.101.91.13 [美国]/24,no-resolve
 # ipv4-c005-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.101.22.50/24,no-resolve
+IP-CIDR,24.101.22.50 [美国]/24,no-resolve
 # ipv4-c006-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.101.22.54/24,no-resolve
+IP-CIDR,24.101.22.54 [美国]/24,no-resolve
 # ipv4-c007-pit001-armstrong-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,72.23.10.198/24,no-resolve
+IP-CIDR,72.23.10.198 [美国 缅因州 / 新罕布什尔州]/24,no-resolve
 
 # ipv4-c001-qpg001-myrepublicsg-isp.1.oca.nflxvideo.net	2020-02-05
-IP-CIDR,101.100.179.242/24,no-resolve
+IP-CIDR,101.100.179.242 [新加坡]/24,no-resolve
 # ipv4-c002-qpg001-myrepublicsg-isp.1.oca.nflxvideo.net	2020-01-22
-IP-CIDR,101.100.179.250/24,no-resolve
+IP-CIDR,101.100.179.250 [新加坡]/24,no-resolve
 
 # ipv4-c001-prg001-o2czech-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,194.228.248.66/24,no-resolve
+IP-CIDR,194.228.248.66 [捷克]/24,no-resolve
 # ipv6-c001-prg001-o2czech-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,194.228.248.66/24,no-resolve
+IP-CIDR,194.228.248.66 [捷克]/24,no-resolve
 
 # ipv4-c001-lcy001-relish-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,81.91.205.193/24,no-resolve
+IP-CIDR,81.91.205.193 [英国]/24,no-resolve
 
 # ipv4-c001-sjo001-kolbi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.91.105.170/24,no-resolve
+IP-CIDR,200.91.105.170 [哥斯达黎加]/24,no-resolve
 # ipv4-c006-sjo001-kolbi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.191.214.68/24,no-resolve
+IP-CIDR,201.191.214.68 [哥斯达黎加]/24,no-resolve
 # ipv4-c001-sjo002-kolbi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.91.105.163/24,no-resolve
+IP-CIDR,200.91.105.163 [哥斯达黎加]/24,no-resolve
 # ipv4-c003-sjo002-kolbi-isp.1.oca.nflxvideo.net	2019-11-27
-IP-CIDR,201.191.214.37/24,no-resolve
+IP-CIDR,201.191.214.37 [哥斯达黎加]/24,no-resolve
 # ipv4-c001-sjo005-kolbi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.191.214.102/24,no-resolve
+IP-CIDR,201.191.214.102 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c010-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.137/24,no-resolve
+IP-CIDR,24.220.183.137 [美国]/24,no-resolve
 # ipv4-c011-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.140/24,no-resolve
+IP-CIDR,24.220.183.140 [美国]/24,no-resolve
 # ipv4-c012-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.141/24,no-resolve
+IP-CIDR,24.220.183.141 [美国]/24,no-resolve
 # ipv4-c013-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.142/24,no-resolve
+IP-CIDR,24.220.183.142 [美国]/24,no-resolve
 # ipv4-c007-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.136/24,no-resolve
+IP-CIDR,24.220.183.136 [美国]/24,no-resolve
 # ipv4-c008-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.139/24,no-resolve
+IP-CIDR,24.220.183.139 [美国]/24,no-resolve
 # ipv4-c009-fsd001-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.138/24,no-resolve
+IP-CIDR,24.220.183.138 [美国]/24,no-resolve
 # ipv4-c010-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.153/24,no-resolve
+IP-CIDR,24.220.183.153 [美国]/24,no-resolve
 # ipv4-c011-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.156/24,no-resolve
+IP-CIDR,24.220.183.156 [美国]/24,no-resolve
 # ipv4-c012-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.157/24,no-resolve
+IP-CIDR,24.220.183.157 [美国]/24,no-resolve
 # ipv4-c013-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.158/24,no-resolve
+IP-CIDR,24.220.183.158 [美国]/24,no-resolve
 # ipv4-c007-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.152/24,no-resolve
+IP-CIDR,24.220.183.152 [美国]/24,no-resolve
 # ipv4-c008-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.155/24,no-resolve
+IP-CIDR,24.220.183.155 [美国]/24,no-resolve
 # ipv4-c009-fsd002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.220.183.154/24,no-resolve
+IP-CIDR,24.220.183.154 [美国]/24,no-resolve
 # ipv4-c003-mci002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.124.7.106/24,no-resolve
+IP-CIDR,24.124.7.106 [美国 堪萨斯州]/24,no-resolve
 # ipv4-c004-mci002-mmi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.124.3.52/24,no-resolve
+IP-CIDR,24.124.3.52 [美国 堪萨斯州]/24,no-resolve
 
 # ipv4-c001-btr001-loni-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,76.165.16.66/24,no-resolve
+IP-CIDR,76.165.16.66 [美国]/24,no-resolve
 
 # ipv4-c005-mty004-tvi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.172.162.1/24,no-resolve
+IP-CIDR,201.172.162.1 [墨西哥]/24,no-resolve
 # ipv4-c008-mty004-tvi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.172.162.7/24,no-resolve
+IP-CIDR,201.172.162.7 [墨西哥]/24,no-resolve
 
 # ipv4-c002-mex001-izzi-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,189.216.4.67/24,no-resolve
+IP-CIDR,189.216.4.67 [墨西哥]/24,no-resolve
 # ipv4-c003-mex001-izzi-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,189.216.4.69/24,no-resolve
+IP-CIDR,189.216.4.69 [墨西哥]/24,no-resolve
 
 # ipv4-c010-ltn001-talktalk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,78.146.119.41/24,no-resolve
+IP-CIDR,78.146.119.41 [英国 伦敦]/24,no-resolve
 # ipv4-c012-ltn001-talktalk-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,78.146.119.39/24,no-resolve
+IP-CIDR,78.146.119.39 [英国 伦敦]/24,no-resolve
 # ipv4-c001-lhr001-talktalk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,78.146.119.7/24,no-resolve
+IP-CIDR,78.146.119.7 [英国 伦敦]/24,no-resolve
 # ipv4-c003-lhr001-talktalk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,78.146.119.11/24,no-resolve
+IP-CIDR,78.146.119.11 [英国 伦敦]/24,no-resolve
 # ipv4-c004-lhr001-talktalk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,78.146.119.47/24,no-resolve
+IP-CIDR,78.146.119.47 [英国 伦敦]/24,no-resolve
 # ipv4-c001-sou001-talktalk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,78.146.119.59/24,no-resolve
+IP-CIDR,78.146.119.59 [英国 伦敦]/24,no-resolve
 # ipv4-c002-sou001-talktalk-isp.1.oca.nflxvideo.net	2018-12-26
-IP-CIDR,78.146.119.61/24,no-resolve
+IP-CIDR,78.146.119.61 [英国 伦敦]/24,no-resolve
 # ipv4-c003-sou001-talktalk-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,78.146.119.63/24,no-resolve
+IP-CIDR,78.146.119.63 [英国 伦敦]/24,no-resolve
 # ipv4-c004-sou001-talktalk-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,78.146.119.43/24,no-resolve
+IP-CIDR,78.146.119.43 [英国 伦敦]/24,no-resolve
 # ipv4-c005-sou001-talktalk-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,78.146.119.65/24,no-resolve
+IP-CIDR,78.146.119.65 [英国 伦敦]/24,no-resolve
 # ipv4-c001-lgw001-talktalk-isp.1.oca.nflxvideo.net	2019-12-23
-IP-CIDR,78.146.119.141/24,no-resolve
+IP-CIDR,78.146.119.141 [英国 伦敦]/24,no-resolve
 # ipv4-c002-lgw001-talktalk-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,78.146.119.143/24,no-resolve
+IP-CIDR,78.146.119.143 [英国 伦敦]/24,no-resolve
 # ipv4-c001-lhr003-talktalk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,78.146.119.207/24,no-resolve
+IP-CIDR,78.146.119.207 [英国 伦敦]/24,no-resolve
 
 # ipv4-c001-rec001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.194/24,no-resolve
+IP-CIDR,201.148.101.194 [巴西]/24,no-resolve
 # ipv4-c002-rec001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.50/24,no-resolve
+IP-CIDR,201.148.101.50 [巴西]/24,no-resolve
 # ipv4-c003-rec001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.103.14/24,no-resolve
+IP-CIDR,201.148.103.14 [巴西]/24,no-resolve
 # ipv4-c001-the001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.122/24,no-resolve
+IP-CIDR,201.148.101.122 [巴西]/24,no-resolve
 # ipv4-c002-the001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.126/24,no-resolve
+IP-CIDR,201.148.101.126 [巴西]/24,no-resolve
 # ipv4-c003-the001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.54/24,no-resolve
+IP-CIDR,201.148.101.54 [巴西]/24,no-resolve
 # ipv4-c001-bel001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.250/24,no-resolve
+IP-CIDR,201.148.101.250 [巴西]/24,no-resolve
 # ipv4-c002-bel001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.101.42/24,no-resolve
+IP-CIDR,201.148.101.42 [巴西]/24,no-resolve
 # ipv4-c003-bel001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.103.10/24,no-resolve
+IP-CIDR,201.148.103.10 [巴西]/24,no-resolve
 # ipv4-c001-for001-wirelink-isp.1.oca.nflxvideo.net	2017-12-02
-IP-CIDR,186.225.62.114/24,no-resolve
+IP-CIDR,186.225.62.114 [巴西]/24,no-resolve
 # ipv4-c002-for001-wirelink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.148.103.62/24,no-resolve
+IP-CIDR,201.148.103.62 [巴西]/24,no-resolve
 # ipv4-c001-slz001-wirelink-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,201.148.101.198/24,no-resolve
+IP-CIDR,201.148.101.198 [巴西]/24,no-resolve
 
 # ipv4-c002-ama001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.132.229/24,no-resolve
+IP-CIDR,173.219.132.229 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c003-ama001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.222.237/24,no-resolve
+IP-CIDR,173.219.222.237 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c004-ama001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,50.27.152.107/24,no-resolve
+IP-CIDR,50.27.152.107 [美国]/24,no-resolve
 # ipv4-c005-ama001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,50.27.152.119/24,no-resolve
+IP-CIDR,50.27.152.119 [美国]/24,no-resolve
 # ipv4-c002-lbb001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.132.226/24,no-resolve
+IP-CIDR,173.219.132.226 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c003-lbb001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.237.165/24,no-resolve
+IP-CIDR,173.219.237.165 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c004-lbb001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.180.185.13/24,no-resolve
+IP-CIDR,208.180.185.13 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c002-iah001-suddenlink-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,173.219.75.17/24,no-resolve
+IP-CIDR,173.219.75.17 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c003-iah001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.194.149/24,no-resolve
+IP-CIDR,173.219.194.149 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c004-iah001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.76.35.241/24,no-resolve
+IP-CIDR,66.76.35.241 [美国 得克萨斯州 Tyler 市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c005-iah001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.75.19/24,no-resolve
+IP-CIDR,173.219.75.19 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c004-pgv001-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.76.204.81/24,no-resolve
+IP-CIDR,66.76.204.81 [美国 得克萨斯州 Tyler 市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c001-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,173.219.194.49/24,no-resolve
+IP-CIDR,173.219.194.49 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c002-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.180.59.229/24,no-resolve
+IP-CIDR,208.180.59.229 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c003-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.180.184.241/24,no-resolve
+IP-CIDR,208.180.184.241 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c004-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.180.184.243/24,no-resolve
+IP-CIDR,208.180.184.243 [美国 得克萨斯州史密斯县泰勒市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c005-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.76.32.17/24,no-resolve
+IP-CIDR,66.76.32.17 [美国 得克萨斯州 Tyler 市 Suddenlink 通信公司]/24,no-resolve
 # ipv4-c006-shv004-suddenlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.76.32.19/24,no-resolve
+IP-CIDR,66.76.32.19 [美国 得克萨斯州 Tyler 市 Suddenlink 通信公司]/24,no-resolve
 
 # ipv4-c009-yhz001-eastlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.215.101.170/24,no-resolve
+IP-CIDR,24.215.101.170 [加拿大]/24,no-resolve
 # ipv4-c010-yhz002-eastlink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.222.87.162/24,no-resolve
+IP-CIDR,24.222.87.162 [加拿大 Andara 用户]/24,no-resolve
 
 # ipv4-c001-dsm001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.225/24,no-resolve
+IP-CIDR,71.33.50.225 [美国]/24,no-resolve
 # ipv4-c010-den001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.43/24,no-resolve
+IP-CIDR,71.33.48.43 [美国]/24,no-resolve
 # ipv4-c003-mco001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.69/24,no-resolve
+IP-CIDR,71.33.50.69 [美国]/24,no-resolve
 # ipv4-c004-mco001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.71/24,no-resolve
+IP-CIDR,71.33.50.71 [美国]/24,no-resolve
 # ipv4-c010-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.3/24,no-resolve
+IP-CIDR,71.33.49.3 [美国]/24,no-resolve
 # ipv4-c001-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.1/24,no-resolve
+IP-CIDR,71.33.49.1 [美国]/24,no-resolve
 # ipv4-c003-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.9/24,no-resolve
+IP-CIDR,71.33.49.9 [美国]/24,no-resolve
 # ipv4-c007-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.17/24,no-resolve
+IP-CIDR,71.33.49.17 [美国]/24,no-resolve
 # ipv4-c008-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.31/24,no-resolve
+IP-CIDR,71.33.49.31 [美国]/24,no-resolve
 # ipv4-c009-msp001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.29/24,no-resolve
+IP-CIDR,71.33.49.29 [美国]/24,no-resolve
 # ipv4-c001-cos001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.129/24,no-resolve
+IP-CIDR,71.33.50.129 [美国]/24,no-resolve
 # ipv4-c002-cos001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.131/24,no-resolve
+IP-CIDR,71.33.50.131 [美国]/24,no-resolve
 # ipv4-c003-cos001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.133/24,no-resolve
+IP-CIDR,71.33.50.133 [美国]/24,no-resolve
 # ipv4-c001-phx001-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.65/24,no-resolve
+IP-CIDR,71.33.48.65 [美国]/24,no-resolve
 # ipv4-c006-dsm002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.241/24,no-resolve
+IP-CIDR,71.33.50.241 [美国]/24,no-resolve
 # ipv4-c010-den002-centurylink-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,71.33.48.39/24,no-resolve
+IP-CIDR,71.33.48.39 [美国]/24,no-resolve
 # ipv4-c011-den002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.37/24,no-resolve
+IP-CIDR,71.33.48.37 [美国]/24,no-resolve
 # ipv4-c002-den002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.7/24,no-resolve
+IP-CIDR,71.33.48.7 [美国]/24,no-resolve
 # ipv4-c003-mco002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.50.85/24,no-resolve
+IP-CIDR,71.33.50.85 [美国]/24,no-resolve
 # ipv4-c004-mco002-centurylink-isp.1.oca.nflxvideo.net	2020-01-17
-IP-CIDR,71.33.50.87/24,no-resolve
+IP-CIDR,71.33.50.87 [美国]/24,no-resolve
 # ipv4-c005-mco002-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.50.89/24,no-resolve
+IP-CIDR,71.33.50.89 [美国]/24,no-resolve
 # ipv4-c001-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.49.5/24,no-resolve
+IP-CIDR,71.33.49.5 [美国]/24,no-resolve
 # ipv4-c002-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.7/24,no-resolve
+IP-CIDR,71.33.49.7 [美国]/24,no-resolve
 # ipv4-c004-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.21/24,no-resolve
+IP-CIDR,71.33.49.21 [美国]/24,no-resolve
 # ipv4-c007-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.27/24,no-resolve
+IP-CIDR,71.33.49.27 [美国]/24,no-resolve
 # ipv4-c008-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.33/24,no-resolve
+IP-CIDR,71.33.49.33 [美国]/24,no-resolve
 # ipv4-c009-msp002-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.49.35/24,no-resolve
+IP-CIDR,71.33.49.35 [美国]/24,no-resolve
 # ipv4-c010-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.48.67/24,no-resolve
+IP-CIDR,71.33.48.67 [美国]/24,no-resolve
 # ipv4-c001-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.69/24,no-resolve
+IP-CIDR,71.33.48.69 [美国]/24,no-resolve
 # ipv4-c002-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.71/24,no-resolve
+IP-CIDR,71.33.48.71 [美国]/24,no-resolve
 # ipv4-c003-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.89/24,no-resolve
+IP-CIDR,71.33.48.89 [美国]/24,no-resolve
 # ipv4-c004-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.91/24,no-resolve
+IP-CIDR,71.33.48.91 [美国]/24,no-resolve
 # ipv4-c005-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.79/24,no-resolve
+IP-CIDR,71.33.48.79 [美国]/24,no-resolve
 # ipv4-c006-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.77/24,no-resolve
+IP-CIDR,71.33.48.77 [美国]/24,no-resolve
 # ipv4-c007-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.75/24,no-resolve
+IP-CIDR,71.33.48.75 [美国]/24,no-resolve
 # ipv4-c008-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.73/24,no-resolve
+IP-CIDR,71.33.48.73 [美国]/24,no-resolve
 # ipv4-c009-phx003-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.48.65/24,no-resolve
+IP-CIDR,71.33.48.65 [美国]/24,no-resolve
 # ipv4-c001-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.121/24,no-resolve
+IP-CIDR,71.33.48.121 [美国]/24,no-resolve
 # ipv4-c002-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.123/24,no-resolve
+IP-CIDR,71.33.48.123 [美国]/24,no-resolve
 # ipv4-c003-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.113/24,no-resolve
+IP-CIDR,71.33.48.113 [美国]/24,no-resolve
 # ipv4-c013-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.48.107/24,no-resolve
+IP-CIDR,71.33.48.107 [美国]/24,no-resolve
 # ipv4-c004-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.115/24,no-resolve
+IP-CIDR,71.33.48.115 [美国]/24,no-resolve
 # ipv4-c014-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,71.33.48.109/24,no-resolve
+IP-CIDR,71.33.48.109 [美国]/24,no-resolve
 # ipv4-c005-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.99/24,no-resolve
+IP-CIDR,71.33.48.99 [美国]/24,no-resolve
 # ipv4-c006-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.97/24,no-resolve
+IP-CIDR,71.33.48.97 [美国]/24,no-resolve
 # ipv4-c007-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.95/24,no-resolve
+IP-CIDR,71.33.48.95 [美国]/24,no-resolve
 # ipv4-c008-phx004-centurylink-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,71.33.48.93/24,no-resolve
+IP-CIDR,71.33.48.93 [美国]/24,no-resolve
 
 # ipv4-c002-bdl001-cteducationnetwork-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.218.93.89/24,no-resolve
+IP-CIDR,67.218.93.89 [美国 弗吉尼亚州]/24,no-resolve
 # ipv4-c003-bdl002-cteducationnetwork-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.218.93.91/24,no-resolve
+IP-CIDR,67.218.93.91 [美国 弗吉尼亚州]/24,no-resolve
 
 # ipv4-c001-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.130/24,no-resolve
+IP-CIDR,90.255.254.130 [英国]/24,no-resolve
 # ipv4-c002-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-01-19
-IP-CIDR,90.255.254.134/24,no-resolve
+IP-CIDR,90.255.254.134 [英国]/24,no-resolve
 # ipv4-c003-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2018-12-21
-IP-CIDR,90.255.254.138/24,no-resolve
+IP-CIDR,90.255.254.138 [英国]/24,no-resolve
 # ipv4-c004-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2018-12-21
-IP-CIDR,90.255.254.142/24,no-resolve
+IP-CIDR,90.255.254.142 [英国]/24,no-resolve
 # ipv4-c005-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.146/24,no-resolve
+IP-CIDR,90.255.254.146 [英国]/24,no-resolve
 # ipv4-c006-man001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.150/24,no-resolve
+IP-CIDR,90.255.254.150 [英国]/24,no-resolve
 # ipv4-c001-lhr001-vodafoneuk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,90.255.254.66/24,no-resolve
+IP-CIDR,90.255.254.66 [英国]/24,no-resolve
 # ipv4-c002-lhr001-vodafoneuk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,90.255.254.70/24,no-resolve
+IP-CIDR,90.255.254.70 [英国]/24,no-resolve
 # ipv4-c001-bbs001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.251.226/24,no-resolve
+IP-CIDR,90.255.251.226 [英国]/24,no-resolve
 # ipv4-c002-bbs001-vodafoneuk-isp.1.oca.nflxvideo.net	2020-01-04
-IP-CIDR,90.255.251.230/24,no-resolve
+IP-CIDR,90.255.251.230 [英国]/24,no-resolve
 # ipv4-c003-bbs001-vodafoneuk-isp.1.oca.nflxvideo.net	2018-12-21
-IP-CIDR,90.255.251.234/24,no-resolve
+IP-CIDR,90.255.251.234 [英国]/24,no-resolve
 # ipv4-c001-bhx001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.194/24,no-resolve
+IP-CIDR,90.255.254.194 [英国]/24,no-resolve
 # ipv4-c003-bhx001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.202/24,no-resolve
+IP-CIDR,90.255.254.202 [英国]/24,no-resolve
 # ipv4-c004-bhx001-vodafoneuk-isp.1.oca.nflxvideo.net	2018-12-21
-IP-CIDR,90.255.254.206/24,no-resolve
+IP-CIDR,90.255.254.206 [英国]/24,no-resolve
 # ipv4-c005-bhx001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.210/24,no-resolve
+IP-CIDR,90.255.254.210 [英国]/24,no-resolve
 # ipv4-c006-bhx001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.214/24,no-resolve
+IP-CIDR,90.255.254.214 [英国]/24,no-resolve
 # ipv4-c001-lcy001-vodafoneuk-isp.1.oca.nflxvideo.net	2018-12-25
-IP-CIDR,90.255.254.2/24,no-resolve
+IP-CIDR,90.255.254.2 [英国]/24,no-resolve
 # ipv4-c002-lcy001-vodafoneuk-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,90.255.254.6/24,no-resolve
+IP-CIDR,90.255.254.6 [英国]/24,no-resolve
 
 # ipv4-c002-grr001-ussignal-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,184.175.190.38/24,no-resolve
+IP-CIDR,184.175.190.38 [美国]/24,no-resolve
 # ipv4-c002-dtw001-ussignal-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,74.204.125.22/24,no-resolve
+IP-CIDR,74.204.125.22 [美国]/24,no-resolve
 
 # ipv4-c001-pls001-digicel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,162.212.12.52/24,no-resolve
+IP-CIDR,162.212.12.52 [特克斯和凯科斯群岛]/24,no-resolve
 
 # ipv4-c001-ykm001-noel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.35.4.54/24,no-resolve
+IP-CIDR,66.35.4.54 [美国]/24,no-resolve
 
 # ipv4-c003-bre001-ewe-tel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,212.6.80.4/24,no-resolve
+IP-CIDR,212.6.80.4 [德国]/24,no-resolve
 # ipv4-c002-bre002-ewe-tel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,212.6.80.20/24,no-resolve
+IP-CIDR,212.6.80.20 [德国]/24,no-resolve
 
 # ipv4-c001-cgk001-moratel-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,45.121.219.34/24,no-resolve
+IP-CIDR,45.121.219.34 [印度尼西亚]/24,no-resolve
 
 # ipv4-c001-fra001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.133/24,no-resolve
+IP-CIDR,89.27.244.133 [德国]/24,no-resolve
 # ipv4-c002-fra001-versatel-isp.1.oca.nflxvideo.net	2019-12-09
-IP-CIDR,89.27.244.135/24,no-resolve
+IP-CIDR,89.27.244.135 [德国]/24,no-resolve
 # ipv4-c005-fra001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.68/24,no-resolve
+IP-CIDR,89.27.129.68 [德国]/24,no-resolve
 # ipv4-c009-fra001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.72/24,no-resolve
+IP-CIDR,89.27.129.72 [德国]/24,no-resolve
 # ipv4-c002-txl001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.131/24,no-resolve
+IP-CIDR,89.27.244.131 [德国]/24,no-resolve
 # ipv4-c001-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.125/24,no-resolve
+IP-CIDR,89.27.244.125 [德国]/24,no-resolve
 # ipv4-c002-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.127/24,no-resolve
+IP-CIDR,89.27.244.127 [德国]/24,no-resolve
 # ipv4-c003-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.90/24,no-resolve
+IP-CIDR,89.27.129.90 [德国]/24,no-resolve
 # ipv4-c004-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.91/24,no-resolve
+IP-CIDR,89.27.129.91 [德国]/24,no-resolve
 # ipv4-c005-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.92/24,no-resolve
+IP-CIDR,89.27.129.92 [德国]/24,no-resolve
 # ipv4-c006-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.93/24,no-resolve
+IP-CIDR,89.27.129.93 [德国]/24,no-resolve
 # ipv4-c007-ham001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.94/24,no-resolve
+IP-CIDR,89.27.129.94 [德国]/24,no-resolve
 # ipv4-c001-dtm001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.121/24,no-resolve
+IP-CIDR,89.27.244.121 [德国]/24,no-resolve
 # ipv4-c002-dtm001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.244.123/24,no-resolve
+IP-CIDR,89.27.244.123 [德国]/24,no-resolve
 # ipv4-c009-dtm001-versatel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,89.27.129.56/24,no-resolve
+IP-CIDR,89.27.129.56 [德国]/24,no-resolve
 
 # ipv4-c001-gye001-nedetel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,170.238.0.202/24,no-resolve
+IP-CIDR,170.238.0.202 [厄瓜多尔]/24,no-resolve
 # ipv4-c002-gye001-nedetel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,170.238.0.198/24,no-resolve
+IP-CIDR,170.238.0.198 [厄瓜多尔]/24,no-resolve
 # ipv4-c003-gye001-nedetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,170.238.0.206/24,no-resolve
+IP-CIDR,170.238.0.206 [厄瓜多尔]/24,no-resolve
 # ipv4-c001-gye002-nedetel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.107.255.198/24,no-resolve
+IP-CIDR,200.107.255.198 [厄瓜多尔]/24,no-resolve
 # ipv4-c002-gye002-nedetel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.107.255.202/24,no-resolve
+IP-CIDR,200.107.255.202 [厄瓜多尔]/24,no-resolve
 # ipv4-c003-gye002-nedetel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,200.107.255.206/24,no-resolve
+IP-CIDR,200.107.255.206 [厄瓜多尔]/24,no-resolve
 
 # ipv4-c001-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.146/24,no-resolve
+IP-CIDR,190.167.231.146 [多米尼加]/24,no-resolve
 # ipv4-c002-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.147/24,no-resolve
+IP-CIDR,190.167.231.147 [多米尼加]/24,no-resolve
 # ipv4-c003-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.148/24,no-resolve
+IP-CIDR,190.167.231.148 [多米尼加]/24,no-resolve
 # ipv4-c004-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.149/24,no-resolve
+IP-CIDR,190.167.231.149 [多米尼加]/24,no-resolve
 # ipv4-c005-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.150/24,no-resolve
+IP-CIDR,190.167.231.150 [多米尼加]/24,no-resolve
 # ipv4-c006-sti001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.231.151/24,no-resolve
+IP-CIDR,190.167.231.151 [多米尼加]/24,no-resolve
 # ipv4-c010-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.170/24,no-resolve
+IP-CIDR,190.167.204.170 [多米尼加]/24,no-resolve
 # ipv4-c001-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,190.167.204.162/24,no-resolve
+IP-CIDR,190.167.204.162 [多米尼加]/24,no-resolve
 # ipv4-c011-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.169/24,no-resolve
+IP-CIDR,190.167.204.169 [多米尼加]/24,no-resolve
 # ipv4-c002-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.163/24,no-resolve
+IP-CIDR,190.167.204.163 [多米尼加]/24,no-resolve
 # ipv4-c004-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.165/24,no-resolve
+IP-CIDR,190.167.204.165 [多米尼加]/24,no-resolve
 # ipv4-c005-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.166/24,no-resolve
+IP-CIDR,190.167.204.166 [多米尼加]/24,no-resolve
 # ipv4-c006-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.167/24,no-resolve
+IP-CIDR,190.167.204.167 [多米尼加]/24,no-resolve
 # ipv4-c008-sdq001-claro-codetel-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,190.167.204.168/24,no-resolve
+IP-CIDR,190.167.204.168 [多米尼加]/24,no-resolve
 
 # ipv4-c001-maa001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.223.246/24,no-resolve
+IP-CIDR,182.79.223.246 [印度]/24,no-resolve
 # ipv4-c002-maa001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.223.250/24,no-resolve
+IP-CIDR,182.79.223.250 [印度]/24,no-resolve
 # ipv4-c001-ixc001-bhartiairtel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,182.79.164.142/24,no-resolve
+IP-CIDR,182.79.164.142 [印度]/24,no-resolve
 # ipv4-c002-ixc001-bhartiairtel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,182.79.164.144/24,no-resolve
+IP-CIDR,182.79.164.144 [印度]/24,no-resolve
 # ipv4-c001-del001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.223.238/24,no-resolve
+IP-CIDR,182.79.223.238 [印度]/24,no-resolve
 # ipv4-c002-del001-bhartiairtel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,182.79.223.242/24,no-resolve
+IP-CIDR,182.79.223.242 [印度]/24,no-resolve
 # ipv4-c001-bom001-bhartiairtel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,182.79.223.230/24,no-resolve
+IP-CIDR,182.79.223.230 [印度]/24,no-resolve
 # ipv4-c002-bom001-bhartiairtel-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,182.79.223.234/24,no-resolve
+IP-CIDR,182.79.223.234 [印度]/24,no-resolve
 # ipv4-c001-bpm001-bhartiairtel-isp.1.oca.nflxvideo.net	2019-03-12
-IP-CIDR,182.79.164.138/24,no-resolve
+IP-CIDR,182.79.164.138 [印度]/24,no-resolve
 # ipv4-c002-bpm001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.164.140/24,no-resolve
+IP-CIDR,182.79.164.140 [印度]/24,no-resolve
 # ipv4-c002-pnq001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-06
-IP-CIDR,182.79.164.136/24,no-resolve
+IP-CIDR,182.79.164.136 [印度]/24,no-resolve
 # ipv4-c001-blr001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.164.10/24,no-resolve
+IP-CIDR,182.79.164.10 [印度]/24,no-resolve
 # ipv4-c002-blr001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.164.14/24,no-resolve
+IP-CIDR,182.79.164.14 [印度]/24,no-resolve
 # ipv4-c001-ccu001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.164.2/24,no-resolve
+IP-CIDR,182.79.164.2 [印度]/24,no-resolve
 # ipv4-c002-ccu001-bhartiairtel-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,182.79.164.6/24,no-resolve
+IP-CIDR,182.79.164.6 [印度]/24,no-resolve
 
 # ipv4-c001-bkk001-jastel-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,182.50.85.118/24,no-resolve
+IP-CIDR,182.50.85.118 [泰国]/24,no-resolve
 # ipv4-c003-bkk001-jastel-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,182.50.85.102/24,no-resolve
+IP-CIDR,182.50.85.102 [泰国]/24,no-resolve
 # ipv4-c005-bkk001-jastel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,182.50.85.117/24,no-resolve
+IP-CIDR,182.50.85.117 [泰国]/24,no-resolve
 # ipv4-c007-bkk001-jastel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,182.50.85.116/24,no-resolve
+IP-CIDR,182.50.85.116 [泰国]/24,no-resolve
 # ipv4-c002-bkk002-jastel-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,182.50.85.126/24,no-resolve
+IP-CIDR,182.50.85.126 [泰国]/24,no-resolve
 # ipv4-c004-bkk002-jastel-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,182.50.85.110/24,no-resolve
+IP-CIDR,182.50.85.110 [泰国]/24,no-resolve
 # ipv4-c006-bkk002-jastel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,182.50.85.101/24,no-resolve
+IP-CIDR,182.50.85.101 [泰国]/24,no-resolve
 # ipv4-c008-bkk002-jastel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,182.50.85.100/24,no-resolve
+IP-CIDR,182.50.85.100 [泰国]/24,no-resolve
 
 # ipv4-c001-gdl001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,187.177.98.30/24,no-resolve
+IP-CIDR,187.177.98.30 [墨西哥]/24,no-resolve
 # ipv4-c002-gdl001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.158.223.190/24,no-resolve
+IP-CIDR,201.158.223.190 [墨西哥]/24,no-resolve
 # ipv4-c001-mex001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,187.177.98.6/24,no-resolve
+IP-CIDR,187.177.98.6 [墨西哥]/24,no-resolve
 # ipv4-c002-mex001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.158.223.166/24,no-resolve
+IP-CIDR,201.158.223.166 [墨西哥]/24,no-resolve
 # ipv4-c001-mty001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.156.180.78/24,no-resolve
+IP-CIDR,201.156.180.78 [墨西哥]/24,no-resolve
 # ipv4-c002-mty001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.156.180.74/24,no-resolve
+IP-CIDR,201.156.180.74 [墨西哥]/24,no-resolve
 # ipv4-c003-mty001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,189.209.17.102/24,no-resolve
+IP-CIDR,189.209.17.102 [墨西哥]/24,no-resolve
 # ipv4-c004-mty001-axtel-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,189.209.17.106/24,no-resolve
+IP-CIDR,189.209.17.106 [墨西哥]/24,no-resolve
 # ipv4-c001-mex002-axtel-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,187.177.98.170/24,no-resolve
+IP-CIDR,187.177.98.170 [墨西哥]/24,no-resolve
 # ipv4-c002-mex002-axtel-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,187.177.98.174/24,no-resolve
+IP-CIDR,187.177.98.174 [墨西哥]/24,no-resolve
 
 # ipv4-c003-mad001-masmovil-isp.1.oca.nflxvideo.net	2019-11-03
-IP-CIDR,212.230.122.34/24,no-resolve
+IP-CIDR,212.230.122.34 [西班牙]/24,no-resolve
 
 # ipv4-c003-cvg001-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.10.50/24,no-resolve
+IP-CIDR,216.68.10.50 [美国]/24,no-resolve
 # ipv4-c004-cvg001-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.10.62/24,no-resolve
+IP-CIDR,216.68.10.62 [美国]/24,no-resolve
 # ipv4-c003-cvg002-cinbell-isp.1.oca.nflxvideo.net	2019-11-26
-IP-CIDR,216.68.248.182/24,no-resolve
+IP-CIDR,216.68.248.182 [美国]/24,no-resolve
 # ipv4-c004-cvg002-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.248.190/24,no-resolve
+IP-CIDR,216.68.248.190 [美国]/24,no-resolve
 # ipv4-c001-cvg003-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.10.54/24,no-resolve
+IP-CIDR,216.68.10.54 [美国]/24,no-resolve
 # ipv4-c001-cvg004-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.248.178/24,no-resolve
+IP-CIDR,216.68.248.178 [美国]/24,no-resolve
 # ipv4-c001-cvg005-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.10.46/24,no-resolve
+IP-CIDR,216.68.10.46 [美国]/24,no-resolve
 # ipv4-c001-cvg006-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.248.174/24,no-resolve
+IP-CIDR,216.68.248.174 [美国]/24,no-resolve
 # ipv4-c001-cvg007-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.248.170/24,no-resolve
+IP-CIDR,216.68.248.170 [美国]/24,no-resolve
 # ipv4-c001-cvg008-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.10.42/24,no-resolve
+IP-CIDR,216.68.10.42 [美国]/24,no-resolve
 # ipv4-c001-cvg009-cinbell-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.68.248.166/24,no-resolve
+IP-CIDR,216.68.248.166 [美国]/24,no-resolve
 
 # ipv4-c003-waw001-orangepl-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,188.47.194.235/24,no-resolve
+IP-CIDR,188.47.194.235 [波兰]/24,no-resolve
 # ipv4-c004-waw001-orangepl-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,188.47.194.243/24,no-resolve
+IP-CIDR,188.47.194.243 [波兰]/24,no-resolve
 # ipv4-c005-waw001-orangepl-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,188.47.194.244/24,no-resolve
+IP-CIDR,188.47.194.244 [波兰]/24,no-resolve
 # ipv4-c006-waw001-orangepl-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,188.47.194.245/24,no-resolve
+IP-CIDR,188.47.194.245 [波兰]/24,no-resolve
 # ipv4-c001-ktw001-orangepl-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,188.47.208.242/24,no-resolve
+IP-CIDR,188.47.208.242 [波兰]/24,no-resolve
 # ipv6-c001-ktw001-orangepl-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,188.47.208.242/24,no-resolve
+IP-CIDR,188.47.208.242 [波兰]/24,no-resolve
 # ipv4-c001-waw002-orangepl-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,188.47.194.250/24,no-resolve
+IP-CIDR,188.47.194.250 [波兰]/24,no-resolve
 # ipv4-c002-waw002-orangepl-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,188.47.196.252/24,no-resolve
+IP-CIDR,188.47.196.252 [波兰]/24,no-resolve
 # ipv4-c003-waw002-orangepl-isp.1.oca.nflxvideo.net	2020-01-05
-IP-CIDR,188.47.196.253/24,no-resolve
+IP-CIDR,188.47.196.253 [波兰]/24,no-resolve
 # ipv4-c007-waw002-orangepl-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,188.47.196.228/24,no-resolve
+IP-CIDR,188.47.196.228 [波兰]/24,no-resolve
 # ipv4-c008-waw002-orangepl-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,188.47.194.253/24,no-resolve
+IP-CIDR,188.47.194.253 [波兰]/24,no-resolve
 
 # ipv4-c001-cle001-windstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,40.129.34.173/24,no-resolve
+IP-CIDR,40.129.34.173 [美国]/24,no-resolve
 # ipv4-c002-cle001-windstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,40.129.34.175/24,no-resolve
+IP-CIDR,40.129.34.175 [美国]/24,no-resolve
 # ipv4-c003-cle001-windstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,40.129.34.177/24,no-resolve
+IP-CIDR,40.129.34.177 [美国]/24,no-resolve
 # ipv4-c002-lit001-windstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,40.133.138.47/24,no-resolve
+IP-CIDR,40.133.138.47 [美国]/24,no-resolve
 # ipv4-c003-lit001-windstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,40.133.138.57/24,no-resolve
+IP-CIDR,40.133.138.57 [美国]/24,no-resolve
 
 # ipv4-c008-lse001-airstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,69.147.194.190/24,no-resolve
+IP-CIDR,69.147.194.190 [美国]/24,no-resolve
 # ipv4-c009-lse001-airstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.33.157.254/24,no-resolve
+IP-CIDR,64.33.157.254 [美国 加州]/24,no-resolve
 # ipv4-c005-msp001-airstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,68.65.44.186/24,no-resolve
+IP-CIDR,68.65.44.186 [美国]/24,no-resolve
 # ipv4-c006-msp001-airstream-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,68.65.44.190/24,no-resolve
+IP-CIDR,68.65.44.190 [美国]/24,no-resolve
 
 # ipv4-c001-bda001-onecomm-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.228.148.78/24,no-resolve
+IP-CIDR,207.228.148.78 [百慕大]/24,no-resolve
 
 # ipv4-c001-boi001-directcomm-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,205.185.100.38/24,no-resolve
+IP-CIDR,205.185.100.38 [美国]/24,no-resolve
 
 # ipv4-c001-pos001-massycomm-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,186.96.222.38/24,no-resolve
+IP-CIDR,186.96.222.38 [特立尼达和多巴哥]/24,no-resolve
 
 # ipv4-c001-lej001-hlkomm-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,80.64.176.144/24,no-resolve
+IP-CIDR,80.64.176.144 [德国]/24,no-resolve
 # ipv4-c002-lej001-hlkomm-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,80.64.176.146/24,no-resolve
+IP-CIDR,80.64.176.146 [德国]/24,no-resolve
 # ipv4-c003-lej001-hlkomm-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,80.64.176.148/24,no-resolve
+IP-CIDR,80.64.176.148 [德国]/24,no-resolve
 
 # ipv4-c002-far001-702com-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.239.1.102/24,no-resolve
+IP-CIDR,216.239.1.102 [美国 明尼苏达州克莱县穆尔黑德市 702 通信公司]/24,no-resolve
 
 # ipv4-c001-mnl001-globetelecom-isp.1.oca.nflxvideo.net	2018-12-29
-IP-CIDR,203.177.54.2/24,no-resolve
+IP-CIDR,203.177.54.2 [菲律宾 Globe 通讯]/24,no-resolve
 # ipv4-c001-cgy001-globetelecom-isp.1.oca.nflxvideo.net	2019-10-09
-IP-CIDR,1.37.35.6/24,no-resolve
+IP-CIDR,1.37.35.6 [菲律宾 Globe 电讯]/24,no-resolve
 # ipv4-c002-mnl002-globetelecom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,112.198.26.2/24,no-resolve
+IP-CIDR,112.198.26.2 [菲律宾]/24,no-resolve
 
 # ipv4-c002-azo001-ctstelecom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.136.255.34/24,no-resolve
+IP-CIDR,64.136.255.34 [美国 密歇根州 CTS 电信]/24,no-resolve
 
 # ipv4-c001-dmk001-cattelecom-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,122.155.238.138/24,no-resolve
+IP-CIDR,122.155.238.138 [泰国]/24,no-resolve
 # ipv4-c002-dmk001-cattelecom-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,122.155.238.142/24,no-resolve
+IP-CIDR,122.155.238.142 [泰国]/24,no-resolve
 # ipv4-c001-dmk002-cattelecom-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,122.155.238.146/24,no-resolve
+IP-CIDR,122.155.238.146 [泰国]/24,no-resolve
 # ipv4-c002-dmk002-cattelecom-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,122.155.238.150/24,no-resolve
+IP-CIDR,122.155.238.150 [泰国]/24,no-resolve
 
 # ipv4-c005-zrh001-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.38/24,no-resolve
+IP-CIDR,193.247.193.38 [瑞士]/24,no-resolve
 # ipv4-c001-gva002-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.72/24,no-resolve
+IP-CIDR,193.247.193.72 [瑞士]/24,no-resolve
 # ipv4-c003-gva002-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.74/24,no-resolve
+IP-CIDR,193.247.193.74 [瑞士]/24,no-resolve
 # ipv6-c003-gva002-swisscom-isp.1.oca.nflxvideo.net	2019-10-22
-IP-CIDR,193.247.193.74/24,no-resolve
+IP-CIDR,193.247.193.74 [瑞士]/24,no-resolve
 # ipv4-c002-zrh002-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.99/24,no-resolve
+IP-CIDR,193.247.193.99 [瑞士]/24,no-resolve
 # ipv6-c002-zrh002-swisscom-isp.1.oca.nflxvideo.net	2020-01-17
-IP-CIDR,193.247.193.99/24,no-resolve
+IP-CIDR,193.247.193.99 [瑞士]/24,no-resolve
 # ipv4-c003-zrh002-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.100/24,no-resolve
+IP-CIDR,193.247.193.100 [瑞士]/24,no-resolve
 # ipv6-c003-zrh002-swisscom-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.247.193.100/24,no-resolve
+IP-CIDR,193.247.193.100 [瑞士]/24,no-resolve
 
 # ipv4-c005-cae001-spiritcom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.53.14.71/24,no-resolve
+IP-CIDR,64.53.14.71 [美国 加州]/24,no-resolve
 # ipv4-c006-cae001-spiritcom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.53.14.70/24,no-resolve
+IP-CIDR,64.53.14.70 [美国 加州]/24,no-resolve
 # ipv4-c007-clt002-spiritcom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.53.14.5/24,no-resolve
+IP-CIDR,64.53.14.5 [美国 加州]/24,no-resolve
 # ipv4-c008-clt002-spiritcom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.53.14.6/24,no-resolve
+IP-CIDR,64.53.14.6 [美国 加州]/24,no-resolve
 # ipv4-c009-clt002-spiritcom-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.53.14.7/24,no-resolve
+IP-CIDR,64.53.14.7 [美国 加州]/24,no-resolve
 
 # ipv4-c002-szb001-timedotcom-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,211.25.221.90/24,no-resolve
+IP-CIDR,211.25.221.90 [马来西亚]/24,no-resolve
 # ipv4-c002-szb002-timedotcom-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,211.25.221.94/24,no-resolve
+IP-CIDR,211.25.221.94 [马来西亚]/24,no-resolve
 
 # ipv4-c001-clt002-comporium-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,208.104.243.122/24,no-resolve
+IP-CIDR,208.104.243.122 [美国]/24,no-resolve
 # ipv4-c002-clt002-comporium-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,208.104.243.134/24,no-resolve
+IP-CIDR,208.104.243.134 [美国]/24,no-resolve
 # ipv4-c003-clt002-comporium-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,208.104.1.158/24,no-resolve
+IP-CIDR,208.104.1.158 [美国]/24,no-resolve
 
 # ipv4-c001-pvd001-oshean-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.7.237.132/24,no-resolve
+IP-CIDR,198.7.237.132 [美国]/24,no-resolve
 # ipv4-c003-pvd001-oshean-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.7.237.134/24,no-resolve
+IP-CIDR,198.7.237.134 [美国]/24,no-resolve
 
 # ipv4-c002-hkg001-hkbn-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,14.136.137.68/24,no-resolve
+IP-CIDR,14.136.137.68 [香港 城市电讯有限公司]/24,no-resolve
 # ipv4-c003-hkg001-hkbn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,14.136.139.164/24,no-resolve
+IP-CIDR,14.136.139.164 [香港 城市电讯有限公司]/24,no-resolve
 # ipv4-c001-hkg002-hkbn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,14.136.135.196/24,no-resolve
+IP-CIDR,14.136.135.196 [香港 城市电讯有限公司]/24,no-resolve
 # ipv4-c002-hkg002-hkbn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,14.136.135.180/24,no-resolve
+IP-CIDR,14.136.135.180 [香港 城市电讯有限公司]/24,no-resolve
 
 # ipv4-c010-nyc001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.71.231.34/24,no-resolve
+IP-CIDR,206.71.231.34 [美国]/24,no-resolve
 # ipv4-c003-nyc001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.71.231.38/24,no-resolve
+IP-CIDR,206.71.231.38 [美国]/24,no-resolve
 # ipv4-c004-nyc001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.71.231.50/24,no-resolve
+IP-CIDR,206.71.231.50 [美国]/24,no-resolve
 # ipv4-c005-nyc001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.71.231.46/24,no-resolve
+IP-CIDR,206.71.231.46 [美国]/24,no-resolve
 # ipv4-c009-nyc001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.237.69.34/24,no-resolve
+IP-CIDR,207.237.69.34 [美国]/24,no-resolve
 # ipv4-c003-iad001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.44.84.134/24,no-resolve
+IP-CIDR,66.44.84.134 [美国]/24,no-resolve
 # ipv4-c004-iad001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.44.84.178/24,no-resolve
+IP-CIDR,66.44.84.178 [美国]/24,no-resolve
 # ipv4-c005-iad001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.44.84.130/24,no-resolve
+IP-CIDR,66.44.84.130 [美国]/24,no-resolve
 # ipv4-c006-iad001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.44.84.182/24,no-resolve
+IP-CIDR,66.44.84.182 [美国]/24,no-resolve
 # ipv4-c007-iad001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,66.44.84.186/24,no-resolve
+IP-CIDR,66.44.84.186 [美国]/24,no-resolve
 # ipv4-c003-ord001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.181.192.198/24,no-resolve
+IP-CIDR,207.181.192.198 [美国]/24,no-resolve
 # ipv4-c004-ord001-rcn-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,207.181.192.205/24,no-resolve
+IP-CIDR,207.181.192.205 [美国]/24,no-resolve
 # ipv4-c005-ord001-rcn-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,207.181.192.210/24,no-resolve
+IP-CIDR,207.181.192.210 [美国]/24,no-resolve
 # ipv4-c008-ord001-rcn-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,207.181.192.194/24,no-resolve
+IP-CIDR,207.181.192.194 [美国]/24,no-resolve
 # ipv4-c010-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.69.206/24,no-resolve
+IP-CIDR,207.172.69.206 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c011-phl001-rcn-isp.1.oca.nflxvideo.net	2020-02-09
-IP-CIDR,207.172.69.202/24,no-resolve
+IP-CIDR,207.172.69.202 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c002-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.195.190/24,no-resolve
+IP-CIDR,207.172.195.190 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c005-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.195.50/24,no-resolve
+IP-CIDR,207.172.195.50 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c006-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.61.142/24,no-resolve
+IP-CIDR,207.172.61.142 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c007-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.61.146/24,no-resolve
+IP-CIDR,207.172.61.146 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c008-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.195.178/24,no-resolve
+IP-CIDR,207.172.195.178 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c009-phl001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,207.172.195.182/24,no-resolve
+IP-CIDR,207.172.195.182 [美国 新泽西州 RCN Corporation]/24,no-resolve
 # ipv4-c004-bos001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.115.2.234/24,no-resolve
+IP-CIDR,146.115.2.234 [美国]/24,no-resolve
 # ipv4-c005-bos001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.115.2.238/24,no-resolve
+IP-CIDR,146.115.2.238 [美国]/24,no-resolve
 # ipv4-c006-bos001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.115.2.50/24,no-resolve
+IP-CIDR,146.115.2.50 [美国]/24,no-resolve
 # ipv4-c007-bos001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.115.2.62/24,no-resolve
+IP-CIDR,146.115.2.62 [美国]/24,no-resolve
 # ipv4-c008-bos001-rcn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.115.2.226/24,no-resolve
+IP-CIDR,146.115.2.226 [美国]/24,no-resolve
 
 # ipv4-c002-int001-ncren-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,204.85.30.254/24,no-resolve
+IP-CIDR,204.85.30.254 [美国 北卡罗来纳州三角研究园北卡罗来纳州科研和教育网]/24,no-resolve
 # ipv4-c002-rdu001-ncren-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,204.85.30.250/24,no-resolve
+IP-CIDR,204.85.30.250 [美国 北卡罗来纳州三角研究园北卡罗来纳州科研和教育网]/24,no-resolve
 
 # ipv4-c002-slc001-uen-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,140.197.247.84/24,no-resolve
+IP-CIDR,140.197.247.84 [美国 犹他州教育网]/24,no-resolve
 
 # ipv4-c001-lcy001-zen-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,51.148.80.10/24,no-resolve
+IP-CIDR,51.148.80.10 [英国 社会保险安全部]/24,no-resolve
 # ipv4-c002-lcy001-zen-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,51.148.80.22/24,no-resolve
+IP-CIDR,51.148.80.22 [英国 社会保险安全部]/24,no-resolve
 # ipv4-c001-lcy002-zen-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,51.148.80.6/24,no-resolve
+IP-CIDR,51.148.80.6 [英国 社会保险安全部]/24,no-resolve
 # ipv4-c002-lcy002-zen-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,51.148.80.18/24,no-resolve
+IP-CIDR,51.148.80.18 [英国 社会保险安全部]/24,no-resolve
 
 # ipv4-c002-ind002-ifn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,69.160.211.50/24,no-resolve
+IP-CIDR,69.160.211.50 [美国]/24,no-resolve
 
 # ipv4-c002-msp001-uminn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,146.57.248.178/24,no-resolve
+IP-CIDR,146.57.248.178 [美国 明尼苏达大学]/24,no-resolve
 # ipv4-c003-msp001-uminn-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,146.57.248.177/24,no-resolve
+IP-CIDR,146.57.248.177 [美国 明尼苏达大学]/24,no-resolve
 
 # ipv4-c001-gtf002-vision-isp.1.oca.nflxvideo.net	2019-05-16
-IP-CIDR,70.33.57.75/24,no-resolve
+IP-CIDR,70.33.57.75 [美国]/24,no-resolve
 
 # ipv4-c010-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.21.0.74/24,no-resolve
+IP-CIDR,96.21.0.74 [加拿大]/24,no-resolve
 # ipv4-c001-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.20.0.66/24,no-resolve
+IP-CIDR,96.20.0.66 [加拿大]/24,no-resolve
 # ipv4-c011-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.21.0.70/24,no-resolve
+IP-CIDR,96.21.0.70 [加拿大]/24,no-resolve
 # ipv4-c002-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.20.0.70/24,no-resolve
+IP-CIDR,96.20.0.70 [加拿大]/24,no-resolve
 # ipv4-c012-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.21.0.78/24,no-resolve
+IP-CIDR,96.21.0.78 [加拿大]/24,no-resolve
 # ipv4-c003-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.20.0.74/24,no-resolve
+IP-CIDR,96.20.0.74 [加拿大]/24,no-resolve
 # ipv4-c004-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.20.0.78/24,no-resolve
+IP-CIDR,96.20.0.78 [加拿大]/24,no-resolve
 # ipv4-c005-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.20.0.82/24,no-resolve
+IP-CIDR,96.20.0.82 [加拿大]/24,no-resolve
 # ipv4-c006-yul001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.21.0.66/24,no-resolve
+IP-CIDR,96.21.0.66 [加拿大]/24,no-resolve
 # ipv4-c002-yhu001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.200.239.86/24,no-resolve
+IP-CIDR,24.200.239.86 [加拿大]/24,no-resolve
 # ipv4-c004-yhu001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.200.239.66/24,no-resolve
+IP-CIDR,24.200.239.66 [加拿大]/24,no-resolve
 # ipv4-c005-yhu001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.200.239.70/24,no-resolve
+IP-CIDR,24.200.239.70 [加拿大]/24,no-resolve
 # ipv4-c006-yhu001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.200.239.74/24,no-resolve
+IP-CIDR,24.200.239.74 [加拿大]/24,no-resolve
 # ipv4-c007-yhu001-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,24.200.239.78/24,no-resolve
+IP-CIDR,24.200.239.78 [加拿大]/24,no-resolve
 # ipv4-c010-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.23.20.66/24,no-resolve
+IP-CIDR,96.23.20.66 [加拿大]/24,no-resolve
 # ipv4-c001-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.23.20.78/24,no-resolve
+IP-CIDR,96.23.20.78 [加拿大]/24,no-resolve
 # ipv4-c011-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.23.20.70/24,no-resolve
+IP-CIDR,96.23.20.70 [加拿大]/24,no-resolve
 # ipv4-c002-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.23.20.74/24,no-resolve
+IP-CIDR,96.23.20.74 [加拿大]/24,no-resolve
 # ipv4-c012-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.22.15.66/24,no-resolve
+IP-CIDR,96.22.15.66 [加拿大]/24,no-resolve
 # ipv4-c013-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.22.15.74/24,no-resolve
+IP-CIDR,96.22.15.74 [加拿大]/24,no-resolve
 # ipv4-c014-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.22.15.78/24,no-resolve
+IP-CIDR,96.22.15.78 [加拿大]/24,no-resolve
 # ipv4-c015-yul002-videotron-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,96.22.15.70/24,no-resolve
+IP-CIDR,96.22.15.70 [加拿大]/24,no-resolve
 
 # ipv4-c001-cou001-gpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,164.113.254.234/24,no-resolve
+IP-CIDR,164.113.254.234 [美国 堪萨斯州恩波利亚州立大学]/24,no-resolve
 # ipv4-c003-okc002-gpn-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,156.110.3.247/24,no-resolve
+IP-CIDR,156.110.3.247 [美国 俄克拉荷马大学]/24,no-resolve
 # ipv4-c004-okc002-gpn-isp.1.oca.nflxvideo.net	2018-12-27
-IP-CIDR,156.110.3.254/24,no-resolve
+IP-CIDR,156.110.3.254 [美国 俄克拉荷马大学]/24,no-resolve
 
 # ipv4-c001-rtm001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.235/24,no-resolve
+IP-CIDR,195.121.126.235 [荷兰]/24,no-resolve
 # ipv4-c002-rtm001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.202/24,no-resolve
+IP-CIDR,195.121.126.202 [荷兰]/24,no-resolve
 # ipv4-c015-rtm001-kpn-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,195.121.126.197/24,no-resolve
+IP-CIDR,195.121.126.197 [荷兰]/24,no-resolve
 # ipv4-c008-rtm001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.228/24,no-resolve
+IP-CIDR,195.121.126.228 [荷兰]/24,no-resolve
 # ipv4-c001-ams001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.132/24,no-resolve
+IP-CIDR,195.121.126.132 [荷兰]/24,no-resolve
 # ipv4-c033-ams001-kpn-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,195.121.126.175/24,no-resolve
+IP-CIDR,195.121.126.175 [荷兰]/24,no-resolve
 # ipv4-c025-ams001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.139/24,no-resolve
+IP-CIDR,195.121.126.139 [荷兰]/24,no-resolve
 # ipv4-c017-ams001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.164/24,no-resolve
+IP-CIDR,195.121.126.164 [荷兰]/24,no-resolve
 # ipv4-c037-ams001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.177/24,no-resolve
+IP-CIDR,195.121.126.177 [荷兰]/24,no-resolve
 # ipv4-c038-ams001-kpn-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.121.126.144/24,no-resolve
+IP-CIDR,195.121.126.144 [荷兰]/24,no-resolve
 
 # ipv4-c001-led001-retn-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,139.45.234.1/24,no-resolve
+IP-CIDR,139.45.234.1 [荷兰]/24,no-resolve
 # ipv4-c001-bud001-retn-isp.1.oca.nflxvideo.net	2019-11-04
-IP-CIDR,139.45.192.1/24,no-resolve
+IP-CIDR,139.45.192.1 [荷兰]/24,no-resolve
 # ipv4-c001-iev001-retn-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,149.255.128.1/24,no-resolve
+IP-CIDR,149.255.128.1 [乌克兰]/24,no-resolve
 # ipv4-c002-waw001-retn-isp.1.oca.nflxvideo.net	2020-01-17
-IP-CIDR,193.109.100.131/24,no-resolve
+IP-CIDR,193.109.100.131 [波兰]/24,no-resolve
 # ipv4-c001-rix001-retn-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,139.45.206.1/24,no-resolve
+IP-CIDR,139.45.206.1 [荷兰]/24,no-resolve
 
 # ipv4-c002-elp001-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.249.34/24,no-resolve
+IP-CIDR,201.174.249.34 [墨西哥]/24,no-resolve
 # ipv4-c005-elp001-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.249.18/24,no-resolve
+IP-CIDR,201.174.249.18 [墨西哥]/24,no-resolve
 # ipv4-c007-elp001-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.48.130/24,no-resolve
+IP-CIDR,201.174.48.130 [墨西哥]/24,no-resolve
 # ipv4-c003-mex001-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.146.142/24,no-resolve
+IP-CIDR,201.174.146.142 [墨西哥]/24,no-resolve
 # ipv4-c001-mex002-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.146.18/24,no-resolve
+IP-CIDR,201.174.146.18 [墨西哥]/24,no-resolve
 # ipv4-c002-mex002-transtelco-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,201.174.112.54/24,no-resolve
+IP-CIDR,201.174.112.54 [墨西哥]/24,no-resolve
 
 # ipv4-c001-jbq001-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.234/24,no-resolve
+IP-CIDR,181.36.10.234 [多米尼加]/24,no-resolve
 # ipv4-c002-jbq001-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.238/24,no-resolve
+IP-CIDR,181.36.10.238 [多米尼加]/24,no-resolve
 # ipv4-c001-sdq001-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.4/24,no-resolve
+IP-CIDR,181.36.10.4 [多米尼加]/24,no-resolve
 # ipv4-c002-sdq001-orange-do-isp.1.oca.nflxvideo.net	2020-03-14
-IP-CIDR,181.36.10.194/24,no-resolve
+IP-CIDR,181.36.10.194 [多米尼加]/24,no-resolve
 # ipv4-c003-sdq001-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.198/24,no-resolve
+IP-CIDR,181.36.10.198 [多米尼加]/24,no-resolve
 # ipv4-c004-sdq001-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.202/24,no-resolve
+IP-CIDR,181.36.10.202 [多米尼加]/24,no-resolve
 # ipv4-c001-sdq002-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.38/24,no-resolve
+IP-CIDR,181.36.10.38 [多米尼加]/24,no-resolve
 # ipv4-c002-sdq002-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.42/24,no-resolve
+IP-CIDR,181.36.10.42 [多米尼加]/24,no-resolve
 # ipv4-c003-sdq002-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.206/24,no-resolve
+IP-CIDR,181.36.10.206 [多米尼加]/24,no-resolve
 # ipv4-c004-sdq002-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.210/24,no-resolve
+IP-CIDR,181.36.10.210 [多米尼加]/24,no-resolve
 # ipv4-c005-sdq002-orange-do-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,181.36.10.214/24,no-resolve
+IP-CIDR,181.36.10.214 [多米尼加]/24,no-resolve
 # ipv4-c001-sdq003-orange-do-isp.1.oca.nflxvideo.net	2019-11-29
-IP-CIDR,181.36.10.242/24,no-resolve
+IP-CIDR,181.36.10.242 [多米尼加]/24,no-resolve
 # ipv4-c002-sdq003-orange-do-isp.1.oca.nflxvideo.net	2020-03-22
-IP-CIDR,181.36.10.246/24,no-resolve
+IP-CIDR,181.36.10.246 [多米尼加]/24,no-resolve
 
 # ipv4-c002-opo001-meo-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.8.12.198/24,no-resolve
+IP-CIDR,195.8.12.198 [葡萄牙]/24,no-resolve
 # ipv4-c003-opo001-meo-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.8.12.194/24,no-resolve
+IP-CIDR,195.8.12.194 [葡萄牙]/24,no-resolve
 # ipv4-c004-opo001-meo-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.8.12.227/24,no-resolve
+IP-CIDR,195.8.12.227 [葡萄牙]/24,no-resolve
 # ipv4-c001-lis001-meo-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.8.12.202/24,no-resolve
+IP-CIDR,195.8.12.202 [葡萄牙]/24,no-resolve
 # ipv4-c002-lis001-meo-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,195.8.12.206/24,no-resolve
+IP-CIDR,195.8.12.206 [葡萄牙]/24,no-resolve
 # ipv4-c003-lis001-meo-isp.1.oca.nflxvideo.net	2019-12-14
-IP-CIDR,195.8.12.225/24,no-resolve
+IP-CIDR,195.8.12.225 [葡萄牙]/24,no-resolve
 
 # ipv4-c002-ind001-iugigapop-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,149.165.180.134/24,no-resolve
+IP-CIDR,149.165.180.134 [美国 印第安纳大学]/24,no-resolve
 # ipv4-c003-ind001-iugigapop-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,149.165.180.133/24,no-resolve
+IP-CIDR,149.165.180.133 [美国 印第安纳大学]/24,no-resolve
 
 # ipv4-c001-dca001-maxgigapop-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,206.196.177.135/24,no-resolve
+IP-CIDR,206.196.177.135 [美国]/24,no-resolve
 
 # ipv4-c001-hou001-txgigapop-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,198.32.232.82/24,no-resolve
+IP-CIDR,198.32.232.82 [美国]/24,no-resolve
 
 # ipv4-c007-sdv001-bezeq-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,192.117.126.222/24,no-resolve
+IP-CIDR,192.117.126.222 [以色列]/24,no-resolve
 
 # ipv4-c003-cmh001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.2/24,no-resolve
+IP-CIDR,192.148.237.2 [美国]/24,no-resolve
 # ipv4-c004-cmh001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.10/24,no-resolve
+IP-CIDR,192.148.237.10 [美国]/24,no-resolve
 # ipv4-c005-cmh001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.18/24,no-resolve
+IP-CIDR,192.148.237.18 [美国]/24,no-resolve
 # ipv4-c001-bkl001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.130/24,no-resolve
+IP-CIDR,192.148.237.130 [美国]/24,no-resolve
 # ipv4-c002-bkl001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.138/24,no-resolve
+IP-CIDR,192.148.237.138 [美国]/24,no-resolve
 # ipv4-c003-bkl001-oar-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,192.148.237.146/24,no-resolve
+IP-CIDR,192.148.237.146 [美国]/24,no-resolve
 
 # ipv4-c001-sjo001-tigo-cr-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,186.177.100.2/24,no-resolve
+IP-CIDR,186.177.100.2 [哥斯达黎加]/24,no-resolve
 # ipv4-c002-sjo001-tigo-cr-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,186.177.66.50/24,no-resolve
+IP-CIDR,186.177.66.50 [哥斯达黎加]/24,no-resolve
 # ipv4-c002-sjo002-tigo-cr-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,186.176.224.18/24,no-resolve
+IP-CIDR,186.176.224.18 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c001-syq002-ufinet-cr-isp.1.oca.nflxvideo.net	2020-03-25
-IP-CIDR,186.179.71.154/24,no-resolve
+IP-CIDR,186.179.71.154 [哥斯达黎加]/24,no-resolve
 
 # ipv4-c001-bfm001-slfiber-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,170.249.179.114/24,no-resolve
+IP-CIDR,170.249.179.114 [美国]/24,no-resolve
 # ipv4-c001-nip001-slfiber-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,170.249.156.82/24,no-resolve
+IP-CIDR,170.249.156.82 [美国]/24,no-resolve
 
 # ipv4-c001-pit001-kinber-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,162.223.18.131/24,no-resolve
+IP-CIDR,162.223.18.131 [美国]/24,no-resolve
 
 # ipv4-c005-sea001-frontier-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,50.125.239.30/24,no-resolve
+IP-CIDR,50.125.239.30 [美国]/24,no-resolve
 # ipv4-c006-sea001-frontier-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,50.125.68.250/24,no-resolve
+IP-CIDR,50.125.68.250 [美国]/24,no-resolve
 # ipv4-c002-sea002-frontier-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,70.101.237.146/24,no-resolve
+IP-CIDR,70.101.237.146 [美国]/24,no-resolve
 # ipv4-c004-sea002-frontier-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,70.101.237.142/24,no-resolve
+IP-CIDR,70.101.237.142 [美国]/24,no-resolve
 
 # ipv4-c001-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.34/24,no-resolve
+IP-CIDR,62.127.102.34 [瑞典]/24,no-resolve
 # ipv4-c002-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.38/24,no-resolve
+IP-CIDR,62.127.102.38 [瑞典]/24,no-resolve
 # ipv4-c003-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.42/24,no-resolve
+IP-CIDR,62.127.102.42 [瑞典]/24,no-resolve
 # ipv4-c004-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.46/24,no-resolve
+IP-CIDR,62.127.102.46 [瑞典]/24,no-resolve
 # ipv4-c006-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.54/24,no-resolve
+IP-CIDR,62.127.102.54 [瑞典]/24,no-resolve
 # ipv4-c007-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.58/24,no-resolve
+IP-CIDR,62.127.102.58 [瑞典]/24,no-resolve
 # ipv4-c008-bma001-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.62/24,no-resolve
+IP-CIDR,62.127.102.62 [瑞典]/24,no-resolve
 # ipv4-c001-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.2/24,no-resolve
+IP-CIDR,62.127.102.2 [瑞典]/24,no-resolve
 # ipv4-c002-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.6/24,no-resolve
+IP-CIDR,62.127.102.6 [瑞典]/24,no-resolve
 # ipv4-c003-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.10/24,no-resolve
+IP-CIDR,62.127.102.10 [瑞典]/24,no-resolve
 # ipv4-c004-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.14/24,no-resolve
+IP-CIDR,62.127.102.14 [瑞典]/24,no-resolve
 # ipv4-c005-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.18/24,no-resolve
+IP-CIDR,62.127.102.18 [瑞典]/24,no-resolve
 # ipv4-c006-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.22/24,no-resolve
+IP-CIDR,62.127.102.22 [瑞典]/24,no-resolve
 # ipv4-c007-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.26/24,no-resolve
+IP-CIDR,62.127.102.26 [瑞典]/24,no-resolve
 # ipv4-c008-bma002-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.127.102.30/24,no-resolve
+IP-CIDR,62.127.102.30 [瑞典]/24,no-resolve
 # ipv4-c001-osl002-telenor-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.212.179.130/24,no-resolve
+IP-CIDR,193.212.179.130 [挪威]/24,no-resolve
 # ipv4-c021-osl002-telenor-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,193.212.179.146/24,no-resolve
+IP-CIDR,193.212.179.146 [挪威]/24,no-resolve
 # ipv4-c010-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.110/24,no-resolve
+IP-CIDR,193.212.179.110 [挪威]/24,no-resolve
 # ipv4-c011-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.102/24,no-resolve
+IP-CIDR,193.212.179.102 [挪威]/24,no-resolve
 # ipv4-c012-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.98/24,no-resolve
+IP-CIDR,193.212.179.98 [挪威]/24,no-resolve
 # ipv4-c013-osl004-telenor-isp.1.oca.nflxvideo.net	2020-02-14
-IP-CIDR,193.212.179.106/24,no-resolve
+IP-CIDR,193.212.179.106 [挪威]/24,no-resolve
 # ipv4-c014-osl004-telenor-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,193.212.179.82/24,no-resolve
+IP-CIDR,193.212.179.82 [挪威]/24,no-resolve
 # ipv4-c005-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.118/24,no-resolve
+IP-CIDR,193.212.179.118 [挪威]/24,no-resolve
 # ipv4-c006-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.126/24,no-resolve
+IP-CIDR,193.212.179.126 [挪威]/24,no-resolve
 # ipv4-c007-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.114/24,no-resolve
+IP-CIDR,193.212.179.114 [挪威]/24,no-resolve
 # ipv4-c008-osl004-telenor-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,193.212.179.122/24,no-resolve
+IP-CIDR,193.212.179.122 [挪威]/24,no-resolve
 
 # ipv4-c001-ams001-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.86.34/24,no-resolve
+IP-CIDR,37.143.86.34 [荷兰]/24,no-resolve
 # ipv4-c002-ams001-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.86.50/24,no-resolve
+IP-CIDR,37.143.86.50 [荷兰]/24,no-resolve
 # ipv4-c003-ams001-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.80.10/24,no-resolve
+IP-CIDR,37.143.80.10 [荷兰]/24,no-resolve
 # ipv4-c004-ams001-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.80.14/24,no-resolve
+IP-CIDR,37.143.80.14 [荷兰]/24,no-resolve
 # ipv4-c001-ams002-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.86.66/24,no-resolve
+IP-CIDR,37.143.86.66 [荷兰]/24,no-resolve
 # ipv4-c002-ams002-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.86.82/24,no-resolve
+IP-CIDR,37.143.86.82 [荷兰]/24,no-resolve
 # ipv4-c003-ams002-glasoperator-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,37.143.80.6/24,no-resolve
+IP-CIDR,37.143.80.6 [荷兰]/24,no-resolve
 
 # ipv4-c001-nas001-cablebahamas-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,65.75.64.210/24,no-resolve
+IP-CIDR,65.75.64.210 [巴哈马]/24,no-resolve
 # ipv4-c002-nas001-cablebahamas-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,65.75.64.211/24,no-resolve
+IP-CIDR,65.75.64.211 [巴哈马]/24,no-resolve
 
 # ipv4-c002-bna001-tds-isp.1.oca.nflxvideo.net	2019-05-17
-IP-CIDR,64.50.224.130/24,no-resolve
+IP-CIDR,64.50.224.130 [美国 加州]/24,no-resolve
 # ipv4-c001-msn001-tds-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.50.228.250/24,no-resolve
+IP-CIDR,64.50.228.250 [美国 加州]/24,no-resolve
 # ipv4-c003-msn001-tds-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,64.50.228.254/24,no-resolve
+IP-CIDR,64.50.228.254 [美国 加州]/24,no-resolve
 
 # ipv4-c010-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.10/24,no-resolve
+IP-CIDR,81.45.152.10 [西班牙]/24,no-resolve
 # ipv4-c001-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.62/24,no-resolve
+IP-CIDR,81.45.152.62 [西班牙]/24,no-resolve
 # ipv4-c011-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,81.45.152.20/24,no-resolve
+IP-CIDR,81.45.152.20 [西班牙]/24,no-resolve
 # ipv4-c002-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.60/24,no-resolve
+IP-CIDR,81.45.152.60 [西班牙]/24,no-resolve
 # ipv4-c012-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.18/24,no-resolve
+IP-CIDR,81.45.152.18 [西班牙]/24,no-resolve
 # ipv4-c003-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.58/24,no-resolve
+IP-CIDR,81.45.152.58 [西班牙]/24,no-resolve
 # ipv4-c013-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-19
-IP-CIDR,81.45.152.8/24,no-resolve
+IP-CIDR,81.45.152.8 [西班牙]/24,no-resolve
 # ipv4-c004-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.0/24,no-resolve
+IP-CIDR,81.45.152.0 [西班牙]/24,no-resolve
 # ipv4-c014-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.6/24,no-resolve
+IP-CIDR,81.45.152.6 [西班牙]/24,no-resolve
 # ipv4-c005-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.2/24,no-resolve
+IP-CIDR,81.45.152.2 [西班牙]/24,no-resolve
 # ipv4-c015-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.16/24,no-resolve
+IP-CIDR,81.45.152.16 [西班牙]/24,no-resolve
 # ipv4-c006-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.4/24,no-resolve
+IP-CIDR,81.45.152.4 [西班牙]/24,no-resolve
 # ipv4-c007-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.12/24,no-resolve
+IP-CIDR,81.45.152.12 [西班牙]/24,no-resolve
 # ipv4-c008-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.14/24,no-resolve
+IP-CIDR,81.45.152.14 [西班牙]/24,no-resolve
 # ipv4-c009-mad001-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.22/24,no-resolve
+IP-CIDR,81.45.152.22 [西班牙]/24,no-resolve
 # ipv4-c010-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.86/24,no-resolve
+IP-CIDR,81.45.152.86 [西班牙]/24,no-resolve
 # ipv4-c001-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.126/24,no-resolve
+IP-CIDR,81.45.152.126 [西班牙]/24,no-resolve
 # ipv4-c011-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.72/24,no-resolve
+IP-CIDR,81.45.152.72 [西班牙]/24,no-resolve
 # ipv4-c002-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.124/24,no-resolve
+IP-CIDR,81.45.152.124 [西班牙]/24,no-resolve
 # ipv4-c012-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.84/24,no-resolve
+IP-CIDR,81.45.152.84 [西班牙]/24,no-resolve
 # ipv4-c003-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.122/24,no-resolve
+IP-CIDR,81.45.152.122 [西班牙]/24,no-resolve
 # ipv4-c013-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.78/24,no-resolve
+IP-CIDR,81.45.152.78 [西班牙]/24,no-resolve
 # ipv4-c004-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.64/24,no-resolve
+IP-CIDR,81.45.152.64 [西班牙]/24,no-resolve
 # ipv4-c014-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.70/24,no-resolve
+IP-CIDR,81.45.152.70 [西班牙]/24,no-resolve
 # ipv4-c005-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-15
-IP-CIDR,81.45.152.66/24,no-resolve
+IP-CIDR,81.45.152.66 [西班牙]/24,no-resolve
 # ipv4-c015-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.80/24,no-resolve
+IP-CIDR,81.45.152.80 [西班牙]/24,no-resolve
 # ipv4-c006-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.68/24,no-resolve
+IP-CIDR,81.45.152.68 [西班牙]/24,no-resolve
 # ipv4-c007-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.76/24,no-resolve
+IP-CIDR,81.45.152.76 [西班牙]/24,no-resolve
 # ipv4-c008-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-21
-IP-CIDR,81.45.152.82/24,no-resolve
+IP-CIDR,81.45.152.82 [西班牙]/24,no-resolve
 # ipv4-c009-mad002-telefonicaes-isp.1.oca.nflxvideo.net	2020-01-10
-IP-CIDR,81.45.152.74/24,no-resolve
+IP-CIDR,81.45.152.74 [西班牙]/24,no-resolve
 
 # ipv4-c001-lad001-angolacables-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,197.149.149.194/24,no-resolve
+IP-CIDR,197.149.149.194 [安哥拉]/24,no-resolve
 
 # ipv4-c001-bog001-aztecacomunicaciones-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,147.75.112.66/24,no-resolve
+IP-CIDR,147.75.112.66 [哥伦比亚]/24,no-resolve
 # ipv4-c002-bog001-aztecacomunicaciones-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,147.75.112.67/24,no-resolve
+IP-CIDR,147.75.112.67 [哥伦比亚]/24,no-resolve
 
 # ipv4-c003-bkk001-ais-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,49.231.121.6/24,no-resolve
+IP-CIDR,49.231.121.6 [泰国]/24,no-resolve
 # ipv4-c003-bkk002-ais-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,49.231.114.6/24,no-resolve
+IP-CIDR,49.231.114.6 [泰国]/24,no-resolve
 
 # ipv4-c001-msp002-enventis-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.70.1.54/24,no-resolve
+IP-CIDR,216.70.1.54 [美国]/24,no-resolve
 
 # ipv4-c002-szb001-maxis-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,202.151.252.54/24,no-resolve
+IP-CIDR,202.151.252.54 [马来西亚]/24,no-resolve
 # ipv4-c003-szb002-maxis-isp.1.oca.nflxvideo.net	2019-07-10
-IP-CIDR,202.151.252.42/24,no-resolve
+IP-CIDR,202.151.252.42 [马来西亚]/24,no-resolve
 # ipv4-c004-szb003-maxis-isp.1.oca.nflxvideo.net	2019-07-12
-IP-CIDR,202.151.252.38/24,no-resolve
+IP-CIDR,202.151.252.38 [马来西亚]/24,no-resolve
 
 # ipv4-c003-dsm001-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,167.142.208.146/24,no-resolve
+IP-CIDR,167.142.208.146 [美国]/24,no-resolve
 # ipv4-c004-dsm001-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.248.75.150/24,no-resolve
+IP-CIDR,216.248.75.150 [美国]/24,no-resolve
 # ipv4-c005-dsm001-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,216.248.75.146/24,no-resolve
+IP-CIDR,216.248.75.146 [美国]/24,no-resolve
 # ipv4-c003-dsm002-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,167.142.253.242/24,no-resolve
+IP-CIDR,167.142.253.242 [美国]/24,no-resolve
 # ipv4-c004-dsm002-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,67.55.180.34/24,no-resolve
+IP-CIDR,67.55.180.34 [美国]/24,no-resolve
 # ipv4-c005-dsm002-netins-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,167.142.113.214/24,no-resolve
+IP-CIDR,167.142.113.214 [美国]/24,no-resolve
 
 # ipv4-c001-mfe001-vtxcommunications-isp.1.oca.nflxvideo.net	2019-12-08
-IP-CIDR,216.183.33.177/24,no-resolve
+IP-CIDR,216.183.33.177 [美国]/24,no-resolve
 # ipv4-c002-mfe001-vtxcommunications-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,216.183.33.189/24,no-resolve
+IP-CIDR,216.183.33.189 [美国]/24,no-resolve
 
 # ipv4-c001-lyh001-lumos-isp.1.oca.nflxvideo.net	2020-01-27
-IP-CIDR,216.24.109.5/24,no-resolve
+IP-CIDR,216.24.109.5 [美国 加州]/24,no-resolve
 
 # ipv4-c002-opo001-nos-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,212.113.160.242/24,no-resolve
+IP-CIDR,212.113.160.242 [葡萄牙]/24,no-resolve
 
 # ipv4-c001-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.91.115/24,no-resolve
+IP-CIDR,64.4.91.115 [加拿大]/24,no-resolve
 # ipv4-c002-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.91.113/24,no-resolve
+IP-CIDR,64.4.91.113 [加拿大]/24,no-resolve
 # ipv4-c003-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.239/24,no-resolve
+IP-CIDR,64.4.89.239 [加拿大]/24,no-resolve
 # ipv4-c004-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.237/24,no-resolve
+IP-CIDR,64.4.89.237 [加拿大]/24,no-resolve
 # ipv4-c005-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.235/24,no-resolve
+IP-CIDR,64.4.89.235 [加拿大]/24,no-resolve
 # ipv4-c006-ywg004-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.91.118/24,no-resolve
+IP-CIDR,64.4.91.118 [加拿大]/24,no-resolve
 # ipv4-c001-ywg005-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.233/24,no-resolve
+IP-CIDR,64.4.89.233 [加拿大]/24,no-resolve
 # ipv4-c002-ywg005-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.231/24,no-resolve
+IP-CIDR,64.4.89.231 [加拿大]/24,no-resolve
 # ipv4-c003-ywg005-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.229/24,no-resolve
+IP-CIDR,64.4.89.229 [加拿大]/24,no-resolve
 # ipv4-c004-ywg005-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.227/24,no-resolve
+IP-CIDR,64.4.89.227 [加拿大]/24,no-resolve
 # ipv4-c005-ywg005-mts-isp.1.oca.nflxvideo.net	2019-12-22
-IP-CIDR,64.4.89.225/24,no-resolve
+IP-CIDR,64.4.89.225 [加拿大]/24,no-resolve
 # ipv4-c006-ywg005-mts-isp.1.oca.nflxvideo.net	2020-03-17
-IP-CIDR,64.4.91.116/24,no-resolve
+IP-CIDR,64.4.91.116 [加拿大]/24,no-resolve
 
 # ipv4-c001-pac001-telxius-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,213.140.51.111/24,no-resolve
+IP-CIDR,213.140.51.111 [西班牙]/24,no-resolve
 # ipv4-c011-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,185.43.181.246/24,no-resolve
+IP-CIDR,185.43.181.246 [西班牙]/24,no-resolve
 # ipv4-c012-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,185.43.181.240/24,no-resolve
+IP-CIDR,185.43.181.240 [西班牙]/24,no-resolve
 # ipv6-c012-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-02
-IP-CIDR,185.43.181.240/24,no-resolve
+IP-CIDR,185.43.181.240 [西班牙]/24,no-resolve
 # ipv4-c005-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,185.43.181.236/24,no-resolve
+IP-CIDR,185.43.181.236 [西班牙]/24,no-resolve
 # ipv4-c006-ham001-telxius-isp.1.oca.nflxvideo.net	2019-08-29
-IP-CIDR,185.43.181.232/24,no-resolve
+IP-CIDR,185.43.181.232 [西班牙]/24,no-resolve
 # ipv6-c006-ham001-telxius-isp.1.oca.nflxvideo.net	2019-08-29
-IP-CIDR,185.43.181.232/24,no-resolve
+IP-CIDR,185.43.181.232 [西班牙]/24,no-resolve
 # ipv4-c007-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,185.43.181.234/24,no-resolve
+IP-CIDR,185.43.181.234 [西班牙]/24,no-resolve
 # ipv4-c008-ham001-telxius-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,185.43.181.238/24,no-resolve
+IP-CIDR,185.43.181.238 [西班牙]/24,no-resolve
 # ipv4-c001-lim001-telxius-isp.1.oca.nflxvideo.net	2019-09-28
-IP-CIDR,190.98.134.132/24,no-resolve
+IP-CIDR,190.98.134.132 [阿根廷]/24,no-resolve
 # ipv4-c002-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.130/24,no-resolve
+IP-CIDR,190.98.134.130 [阿根廷]/24,no-resolve
 # ipv4-c003-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.128/24,no-resolve
+IP-CIDR,190.98.134.128 [阿根廷]/24,no-resolve
 # ipv4-c004-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.134/24,no-resolve
+IP-CIDR,190.98.134.134 [阿根廷]/24,no-resolve
 # ipv4-c005-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.136/24,no-resolve
+IP-CIDR,190.98.134.136 [阿根廷]/24,no-resolve
 # ipv4-c007-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.138/24,no-resolve
+IP-CIDR,190.98.134.138 [阿根廷]/24,no-resolve
 # ipv4-c008-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.140/24,no-resolve
+IP-CIDR,190.98.134.140 [阿根廷]/24,no-resolve
 # ipv4-c009-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.144/24,no-resolve
+IP-CIDR,190.98.134.144 [阿根廷]/24,no-resolve
 # ipv4-c010-lim001-telxius-isp.1.oca.nflxvideo.net	2020-4-5
-IP-CIDR,190.98.134.146/24,no-resolve
+IP-CIDR,190.98.134.146 [阿根廷]/24,no-resolve
 # ipv4-c021-aep001-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.149/24,no-resolve
+IP-CIDR,190.98.156.149 [阿根廷]/24,no-resolve
 # ipv6-c021-aep001-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.149/24,no-resolve
+IP-CIDR,190.98.156.149 [阿根廷]/24,no-resolve
 # ipv4-c017-aep001-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.141/24,no-resolve
+IP-CIDR,190.98.156.141 [阿根廷]/24,no-resolve
 # ipv6-c017-aep001-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.141/24,no-resolve
+IP-CIDR,190.98.156.141 [阿根廷]/24,no-resolve
 # ipv4-c012-aep002-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.183/24,no-resolve
+IP-CIDR,190.98.156.183 [阿根廷]/24,no-resolve
 # ipv6-c012-aep002-telxius-isp.1.oca.nflxvideo.net	2020-03-09
-IP-CIDR,190.98.156.183/24,no-resolve
+IP-CIDR,190.98.156.183 [阿根廷]/24,no-resolve
 
 # ipv4-c001-vie001-kabelplus-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,195.202.131.98/24,no-resolve
+IP-CIDR,195.202.131.98 [奥地利]/24,no-resolve
 # ipv4-c001-vie002-kabelplus-isp.1.oca.nflxvideo.net	2020-01-03
-IP-CIDR,82.149.120.162/24,no-resolve
+IP-CIDR,82.149.120.162 [奥地利]/24,no-resolve
 
 # ipv4-c010-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.143/24,no-resolve
+IP-CIDR,62.4.253.143 [比利时]/24,no-resolve
 # ipv4-c020-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,81.244.254.129/24,no-resolve
+IP-CIDR,81.244.254.129 [比利时]/24,no-resolve
 # ipv4-c001-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.129/24,no-resolve
+IP-CIDR,62.4.253.129 [比利时]/24,no-resolve
 # ipv4-c011-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.145/24,no-resolve
+IP-CIDR,62.4.253.145 [比利时]/24,no-resolve
 # ipv4-c021-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,81.244.254.131/24,no-resolve
+IP-CIDR,81.244.254.131 [比利时]/24,no-resolve
 # ipv4-c002-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.131/24,no-resolve
+IP-CIDR,62.4.253.131 [比利时]/24,no-resolve
 # ipv4-c012-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.147/24,no-resolve
+IP-CIDR,62.4.253.147 [比利时]/24,no-resolve
 # ipv4-c014-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.151/24,no-resolve
+IP-CIDR,62.4.253.151 [比利时]/24,no-resolve
 # ipv4-c005-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.137/24,no-resolve
+IP-CIDR,62.4.253.137 [比利时]/24,no-resolve
 # ipv4-c015-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.149/24,no-resolve
+IP-CIDR,62.4.253.149 [比利时]/24,no-resolve
 # ipv4-c006-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.135/24,no-resolve
+IP-CIDR,62.4.253.135 [比利时]/24,no-resolve
 # ipv4-c016-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.153/24,no-resolve
+IP-CIDR,62.4.253.153 [比利时]/24,no-resolve
 # ipv4-c007-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.133/24,no-resolve
+IP-CIDR,62.4.253.133 [比利时]/24,no-resolve
 # ipv4-c017-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.155/24,no-resolve
+IP-CIDR,62.4.253.155 [比利时]/24,no-resolve
 # ipv4-c008-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.139/24,no-resolve
+IP-CIDR,62.4.253.139 [比利时]/24,no-resolve
 # ipv4-c018-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.157/24,no-resolve
+IP-CIDR,62.4.253.157 [比利时]/24,no-resolve
 # ipv4-c009-bru001-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.141/24,no-resolve
+IP-CIDR,62.4.253.141 [比利时]/24,no-resolve
 # ipv4-c019-bru001-proximus-isp.1.oca.nflxvideo.net	2019-11-23
-IP-CIDR,62.4.253.159/24,no-resolve
+IP-CIDR,62.4.253.159 [比利时]/24,no-resolve
 # ipv4-c010-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.179/24,no-resolve
+IP-CIDR,62.4.253.179 [比利时]/24,no-resolve
 # ipv4-c020-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.171/24,no-resolve
+IP-CIDR,62.4.253.171 [比利时]/24,no-resolve
 # ipv4-c001-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.161/24,no-resolve
+IP-CIDR,62.4.253.161 [比利时]/24,no-resolve
 # ipv4-c011-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.181/24,no-resolve
+IP-CIDR,62.4.253.181 [比利时]/24,no-resolve
 # ipv4-c021-bru002-proximus-isp.1.oca.nflxvideo.net	2019-08-25
-IP-CIDR,62.4.253.163/24,no-resolve
+IP-CIDR,62.4.253.163 [比利时]/24,no-resolve
 # ipv4-c012-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.183/24,no-resolve
+IP-CIDR,62.4.253.183 [比利时]/24,no-resolve
 # ipv4-c022-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.177/24,no-resolve
+IP-CIDR,62.4.253.177 [比利时]/24,no-resolve
 # ipv4-c003-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.165/24,no-resolve
+IP-CIDR,62.4.253.165 [比利时]/24,no-resolve
 # ipv4-c013-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.175/24,no-resolve
+IP-CIDR,62.4.253.175 [比利时]/24,no-resolve
 # ipv4-c004-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.167/24,no-resolve
+IP-CIDR,62.4.253.167 [比利时]/24,no-resolve
 # ipv4-c014-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.185/24,no-resolve
+IP-CIDR,62.4.253.185 [比利时]/24,no-resolve
 # ipv4-c005-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.169/24,no-resolve
+IP-CIDR,62.4.253.169 [比利时]/24,no-resolve
 # ipv4-c015-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.187/24,no-resolve
+IP-CIDR,62.4.253.187 [比利时]/24,no-resolve
 # ipv4-c016-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.189/24,no-resolve
+IP-CIDR,62.4.253.189 [比利时]/24,no-resolve
 # ipv4-c007-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.173/24,no-resolve
+IP-CIDR,62.4.253.173 [比利时]/24,no-resolve
 # ipv4-c017-bru002-proximus-isp.1.oca.nflxvideo.net	2019-10-03
-IP-CIDR,62.4.253.191/24,no-resolve
+IP-CIDR,62.4.253.191 [比利时]/24,no-resolve
