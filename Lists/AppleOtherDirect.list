@@ -36,3 +36,5 @@ USER-AGENT,passd*
 USER-AGENT,Wallet*
 # Main Entry Software Update server
 DOMAIN,mesu.apple.com
+# Certificates Checks PROCESS
+PROCESS-NAME,trustd

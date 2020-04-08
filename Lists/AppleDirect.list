@@ -16,4 +16,3 @@ USER-AGENT,fmflocatord*
 USER-AGENT,geod*
 USER-AGENT,locationd*
 USER-AGENT,Maps*
-PROCESS-NAME,trustd
