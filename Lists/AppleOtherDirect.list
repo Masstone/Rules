@@ -34,3 +34,5 @@ DOMAIN-KEYWORD,smp-device
 USER-AGENT,passd*
 # Apple Pay
 USER-AGENT,Wallet*
+# Main Entry Software Update server
+DOMAIN,mesu.apple.com
