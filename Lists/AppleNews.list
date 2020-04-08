@@ -1,21 +1,15 @@
 # Apple News
-#
+PROCESS-NAME,News
 USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+#USER-AGENT,News*
+
 DOMAIN-SUFFIX,apple.news
 DOMAIN,news-events.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,apple.comscoreresearch.com
 
-# Apple News
+DOMAIN,news-client.apple.com
+DOMAIN,webproxy.advp.apple.com
 # DOMAIN,gspe1-ssl.ls.apple.com
-# PROCESS-NAME,News
-## USER-AGENT,AppleNews*
-# USER-AGENT,com.apple.news*
-# #USER-AGENT,News*
 # DOMAIN,gateway.icloud.com
-# DOMAIN-SUFFIX,apple.news
-# DOMAIN,apple.comscoreresearch.com
-# DOMAIN,news-events.apple.com
-# DOMAIN,news-client.apple.com
-# DOMAIN,news-edge.apple.com
-# DOMAIN,webproxy.advp.apple.com
