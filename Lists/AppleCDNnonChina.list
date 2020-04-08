@@ -1,3 +1,4 @@
+# Apple Non-China CDN 无中国节点，优先代理
 # Trailer
 DOMAIN-SUFFIX,hls.itunes.apple.com
 # Movie Stream
@@ -8,6 +9,9 @@ DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN,cdn.apple-cloudkit.com
 # Developer
 DOMAIN,devimages-cdn.apple.com
-# Developer
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,js-cdn.music.apple.com
+DOMAIN,docs-assets.developer.apple.com
+# TV Stream
+DOMAIN-KEYWORD,vod-ap-
+DOMAIN,hls-svod-aoc.itunes.apple.com

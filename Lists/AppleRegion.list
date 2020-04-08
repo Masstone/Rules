@@ -1,0 +1,14 @@
+# Apple 地区定位
+
+# Maps
+USER-AGENT,%E5%9C%B0%E5%9B%BE*
+# Settings
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,Maps*
+# locationd
+DOMAIN,gs-loc.apple.com
+# GeoServices.framework
+DOMAIN-SUFFIX,ls.apple.com

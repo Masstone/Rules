@@ -1,3 +1,5 @@
+# Apple Global CDN 优先直连
+
 # iOS App Store
 DOMAIN,iosapps.itunes.apple.com
 # Mac App Store
@@ -16,6 +18,3 @@ DOMAIN-SUFFIX,mzstatic.com
 PROCESS-NAME,storedownloadd
 # iOS App Store
 USER-AGENT,com.apple.appstored*
-# Apple TV
-DOMAIN-KEYWORD,vod-ap-
-DOMAIN,hls-svod-aoc.itunes.apple.com
