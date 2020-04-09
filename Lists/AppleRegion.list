@@ -1,4 +1,4 @@
-# Apple 地区定位
+# Apple 区域限制
 
 # Maps
 USER-AGENT,%E5%9C%B0%E5%9B%BE*
@@ -14,3 +14,5 @@ DOMAIN,gs-loc.apple.com
 DOMAIN-SUFFIX,ls.apple.com
 # DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,gateway.icloud.com
+# Apple Store Preview
+DOMAIN,apps.apple.com
