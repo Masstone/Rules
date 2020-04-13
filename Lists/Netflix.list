@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN,netflix.com.edgesuite.net
 #ConnersHua
 DOMAIN-SUFFIX,netflixdnstest0.com
 DOMAIN-SUFFIX,netflixdnstest1.com
@@ -38,80 +39,10 @@ IP-CIDR,185.2.220.0/22,no-resolve
 IP-CIDR,185.9.188.0/22,no-resolve
 IP-CIDR,207.45.72.0/22,no-resolve
 IP-CIDR,208.75.76.0/22,no-resolve
-# HK-ISP [香港 城市电讯有限公司]
-# ipv4-c002-hkg001-hkbn-isp.1.oca.nflxvideo.net
-IP-CIDR,14.136.137.68/24,no-resolve
-# ipv4-c003-hkg001-hkbn-isp.1.oca.nflxvideo.net
-IP-CIDR,14.136.139.164/24,no-resolve
-# ipv4-c001-hkg002-hkbn-isp.1.oca.nflxvideo.net
-IP-CIDR,14.136.135.196/24,no-resolve
-# ipv4-c002-hkg002-hkbn-isp.1.oca.nflxvideo.net
-IP-CIDR,14.136.135.180/24,no-resolve
-# SG-ISP [新加坡]
-# ipv4-c001-xsp001-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.1/24,no-resolve 
-# ipv6-c001-xsp001-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.1/24,no-resolve 
-# ipv4-c002-xsp001-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.9/24,no-resolve 
-# ipv6-c002-xsp001-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.9/24,no-resolve 
-# ipv4-c003-xsp001-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.13/24,no-resolve 
-# ipv4-c001-xsp002-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.129/24,no-resolve 
-# ipv4-c002-xsp002-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.11/24,no-resolve 
-# ipv6-c002-xsp002-m1-isp.1.oca.nflxvideo.net
-IP-CIDR,43.245.105.11/24,no-resolve 
-# SG-ISP [新加坡 星和电信 (Starhub) 骨干网]
-# ipv4-c001-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.130/24,no-resolve
-# ipv4-c002-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.131/24,no-resolve 
-# ipv4-c003-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.134/24,no-resolve 
-# ipv6-c003-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.134/24,no-resolve 
-# ipv4-c004-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.135/24,no-resolve 
-# ipv4-c005-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.136/24,no-resolve 
-# ipv6-c005-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.136/24,no-resolve 
-# ipv4-c006-sin001-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.200.137/24,no-resolve 
-# ipv4-c001-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.132/24,no-resolve 
-# ipv4-c003-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.133/24,no-resolve 
-# ipv6-c003-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.133/24,no-resolve 
-# ipv4-c004-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.135/24,no-resolve 
-# ipv4-c005-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.134/24,no-resolve 
-# ipv4-c006-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.137/24,no-resolve 
-# ipv4-c007-xsp002-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.136/24,no-resolve 
-# ipv4-c002-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.196/24,no-resolve 
-# ipv6-c002-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.196/24,no-resolve 
-# ipv4-c004-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.197/24,no-resolve 
-# ipv4-c005-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.199/24,no-resolve 
-# ipv6-c005-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.199/24,no-resolve 
-# ipv4-c006-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.198/24,no-resolve 
-# ipv6-c006-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.198/24,no-resolve 
-# ipv4-c007-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.201/24,no-resolve 
-# ipv4-c008-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.200/24,no-resolve 
-# ipv6-c008-xsp003-starhub-isp.1.oca.nflxvideo.net
-IP-CIDR,203.116.210.200/24,no-resolve 
+IP-CIDR,203.75.84.0/24,no-resolve
+IP-CIDR,203.198.13.0/24,no-resolve
+IP-CIDR,203.198.80.0/24,no-resolve
+IP-CIDR,210.0.153.0/24,no-resolve
+IP-CIDR,52.24.178.0/24,no-resolve
+IP-CIDR,52.35.140.0/24,no-resolve
+IP-CIDR,54.213.167.0/24,no-resolve
