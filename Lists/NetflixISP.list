@@ -1,6 +1,5 @@
 # Netflix ISP
-DOMAIN-SUFFIX,nflxvideo.net
-# Global ISP IP (webvtt.nflxvideo.net's subdomains)
+# Global ISP IP (1.oca.nflxvideo.net's subdomains)
 # ipv4-c001-xsp001-m1-isp.1.oca.nflxvideo.net [新加坡]
 IP-CIDR,43.245.105.1/32,no-resolve
 # ipv6-c001-xsp001-m1-isp.1.oca.nflxvideo.net [新加坡]
