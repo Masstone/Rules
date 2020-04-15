@@ -4,23 +4,23 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '.pool.ntp.org'
+    - '.srv.nintendo.net'
+    - '.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '.xboxlive.com'
   nameserver:
     - 119.29.29.29
     - tls://118.89.110.78:853
-
-
-
-
-  # fake-ip-filter:
-  # - '*.lan'
-  # - localhost.ptlogin2.qq.com
-  # nameserver:
-  #   - 114.114.114.114
-  #   - tls://dns.rubyfish.cn:853 # dns over tls
-  #   - https://1.1.1.1/dns-query # dns over https
-  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-  #   - tcp://1.1.1.1
-  # fallback-filter:
-  #   geoip: true # default
-  #   ipcidr: # ips in these subnets will be considered polluted
-  #     - 240.0.0.0/4
+  # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+  fallback:
+    - tls://dns.rubyfish.cn:853
+    - tcp://1.1.1.1
+  # ips in these subnets will be considered polluted
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
