@@ -7,11 +7,14 @@ dns:
   fake-ip-filter:
   - '*.lan'
   - localhost.ptlogin2.qq.com
+  - '.pool.ntp.org'
+  - '.mioffice.cn'
+  - pan.mioffice.cn
   - speedtest.desktop.b2c.srv
+  - api.desktop.mioffice.cn
+  - tac.desktop.mioffice.cn
   - api.miren.mi.com
   - mail.xiaomi.com
-  - '.mioffice.cn'
-  - '.pool.ntp.org'
   nameserver:
     - 119.29.29.29
     - tls://118.89.110.78:853
