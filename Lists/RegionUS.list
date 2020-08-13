@@ -24,3 +24,9 @@ DOMAIN-SUFFIX,ebay.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,pureapk.com
+
+# Aptoide
+DOMAIN-SUFFIX,aptoide.com
+
+# APKMirror
+DOMAIN-SUFFIX,apkmirror.com
