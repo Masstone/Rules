@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,mzstatic.com
 # Mac App Store
 PROCESS-NAME,storedownloadd
 # iOS App Store
-USER-AGENT,com.apple.appstored*USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.appstored*
 # Apple Music Streaming
 DOMAIN,aod.itunes.apple.com
 DOMAIN,mvod.itunes.apple.com
