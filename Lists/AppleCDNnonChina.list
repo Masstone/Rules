@@ -12,7 +12,11 @@ DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,docs-assets.developer.apple.com
+# Other
 DOMAIN-SUFFIX,apple-dns.net
+# OCSP
+DOMAIN-SUFFIX,ocsp.apple.com
+USER-AGENT,com.apple.trustd*
 # TV Stream
 DOMAIN-KEYWORD,vod-ap-
 DOMAIN,hls-svod-aoc.itunes.apple.com

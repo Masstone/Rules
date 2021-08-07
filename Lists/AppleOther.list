@@ -1,4 +1,12 @@
 # Apple 其他可选 跟随appleid区域
+# iMessage
+DOMAIN-SUFFIX,ess.apple.com
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,sonos-music.apple.com
+# Configuration
+DOMAIN,configuration.apple.com
+# Others
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,itunes.com

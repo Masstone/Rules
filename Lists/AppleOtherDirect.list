@@ -1,40 +1,33 @@
 # Apple 其他直连
 #
+# Spotlight
 DOMAIN,api.smoot.apple.com
+DOMAIN,api.smoot.apple.cn
+# Hotspot captive
 DOMAIN,captive.apple.com
-DOMAIN,configuration.apple.com
-DOMAIN,guzzoni.apple.com
 # Apple Pay
 DOMAIN,smp-device-content.apple.com
-# Apple Music Streaming
-DOMAIN,aod.itunes.apple.com
-DOMAIN,api.smoot.apple.cn
+DOMAIN-KEYWORD,smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
 # locationd
 DOMAIN,gs-loc.apple.com
-# Apple Music Streaming
-DOMAIN,mvod.itunes.apple.com
-# Apple Music Streaming
-DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX,ls.apple.com.akadns.net
+DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
 # Reserve
 DOMAIN,reserve-prime.apple.com
-DOMAIN-SUFFIX,ess.apple.com
-DOMAIN-SUFFIX,push-apple.com.akadns.net
+# Push
+DOMAIN-KEYWORD,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com.akadns.net
 DOMAIN-SUFFIX,push.apple.com
-# Apple Music
-DOMAIN-SUFFIX,music.apple.com
 # GeoServices.framework
 DOMAIN-SUFFIX,ls.apple.com
 # Asset Cache Locator Service
 DOMAIN-SUFFIX,lcdn-locator.apple.com
 # Caching Server Registration
 DOMAIN-SUFFIX,lcdn-registration.apple.com
-# Apple Pay
-DOMAIN-KEYWORD,smp-device
-# Apple Pay
-USER-AGENT,passd*
-# Apple Pay
-USER-AGENT,Wallet*
+
 # Main Entry Software Update server
-DOMAIN,mesu.apple.com
+# DOMAIN,mesu.apple.com
 # Certificates Checks PROCESS
-PROCESS-NAME,trustd
+# PROCESS-NAME,trustd
